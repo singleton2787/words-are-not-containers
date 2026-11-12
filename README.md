@@ -36,7 +36,7 @@ flowchart LR
 **Relational Meaning Geometry (RMG)** measures how a predicate (*love, fear, care, hate, own, eat*) reorganizes the model's representation of an object, compared with a neutral predicate (*see*). That difference is the predicate's **fingerprint**:
 
 $$
-F_V(c_i, c_j) = \big[D_V(c_i, c_j) - D_{\text{see}}(c_i, c_j)\big] - \operatorname{mean}_{(a,b)}\big[D_V(c_a, c_b) - D_{\text{see}}(c_a, c_b)\big]
+F_V(c_i, c_j) = \big[D_V(c_i, c_j) - D_{\text{see}}(c_i, c_j)\big] - \mathrm{mean}_{(a,b)}\big[D_V(c_a, c_b) - D_{\text{see}}(c_a, c_b)\big]
 $$
 
 The **geometry margin** says how much nearer the prompt's hidden state $x_o$ sits to the class it should express than to the nearest wrong one, with class centroids computed leaving the object out:

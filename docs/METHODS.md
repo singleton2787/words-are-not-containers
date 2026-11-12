@@ -30,13 +30,13 @@ That's block 26 of 28 for Qwen2-7B and Gemma-7B, and block 30 of 32 for Mistral-
 Mean distance between objects drawn from classes $c_i$ and $c_j$, taken over distinct object pairs:
 
 $$
-D_V(c_i, c_j) \;=\; \operatorname*{mean}_{\substack{o \in O_{c_i},\; o' \in O_{c_j} \\ o \neq o'}} \big\lVert v_V(o) - v_V(o') \big\rVert
+D_V(c_i, c_j) \;=\; \mathrm{mean}_{\substack{o \in O_{c_i},\; o' \in O_{c_j} \\ o \neq o'}} \big\lVert v_V(o) - v_V(o') \big\rVert
 $$
 
 **Clustering ratio.** Mean between-class distance over mean within-class distance:
 
 $$
-R_V \;=\; \frac{\operatorname{mean}\{\, \lVert v_V(o) - v_V(o') \rVert : \operatorname{class}(o) \neq \operatorname{class}(o') \,\}}{\operatorname{mean}\{\, \lVert v_V(o) - v_V(o') \rVert : \operatorname{class}(o) = \operatorname{class}(o') \,\}}
+R_V \;=\; \frac{\mathrm{mean}\{\, \lVert v_V(o) - v_V(o') \rVert : \mathrm{class}(o) \neq \mathrm{class}(o') \,\}}{\mathrm{mean}\{\, \lVert v_V(o) - v_V(o') \rVert : \mathrm{class}(o) = \mathrm{class}(o') \,\}}
 $$
 
 $R_V > 1$ means same-class objects sit closer together. Significance comes from a label-permutation test with 1,000 random reassignments of objects to classes, so the smallest reportable p is about 0.001. The effect size is Cohen's $d$ between the two distance sets.
@@ -48,7 +48,7 @@ $R_V > 1$ means same-class objects sit closer together. Significance comes from 
 Objects cluster under any predicate, *see* included, so clustering alone says nothing about the predicate. The fingerprint subtracts the neutral predicate and then removes the overall expansion or compression, leaving only how $V$ *reshapes* object space:
 
 $$
-F_V(c_i, c_j) \;=\; \big[D_V(c_i, c_j) - D_{\text{see}}(c_i, c_j)\big] \;-\; \operatorname*{mean}_{(a,b)} \big[D_V(c_a, c_b) - D_{\text{see}}(c_a, c_b)\big]
+F_V(c_i, c_j) \;=\; \big[D_V(c_i, c_j) - D_{\text{see}}(c_i, c_j)\big] \;-\; \mathrm{mean}_{(a,b)} \big[D_V(c_a, c_b) - D_{\text{see}}(c_a, c_b)\big]
 $$
 
 $F_V < 0$ means the predicate **pulls** that class pair together; $F_V > 0$ means it **pushes** the pair apart.
@@ -69,7 +69,7 @@ The cross-model claim that *fear*'s strongest pull (companion/hedonic) is the sa
 
 ## 4. Geometry margin
 
-For the prompt "I love $o$ because", take the final-token state at layer $\ell = \operatorname{round}(0.35\,L)$, which is layer 10 for Qwen and Gemma and 11 for Mistral:
+For the prompt "I love $o$ because", take the final-token state at layer $\ell = \mathrm{round}(0.35\,L)$, which is layer 10 for Qwen and Gemma and 11 for Mistral:
 
 $$
 x_o = h_{\ell}(\text{"I love } o \text{ because"})
@@ -78,7 +78,7 @@ $$
 Class centroids are computed **leaving the target object out**, so an object never votes for its own class:
 
 $$
-\mu_c^{(-o)} \;=\; \operatorname*{mean}_{o' \in O_c,\; o' \neq o} x_{o'}
+\mu_c^{(-o)} \;=\; \mathrm{mean}_{o' \in O_c,\; o' \neq o} x_{o'}
 $$
 
 The margin is how much nearer the expected class $c^\*$ is than the nearest wrong class:
@@ -114,7 +114,7 @@ d_{\cos}(a, b) \;=\; 1 - \frac{a \cdot b}{\lVert a \rVert \lVert b \rVert}
 $$
 
 $$
-\Delta \;=\; \operatorname{mean}\, d_{\cos}(\text{idiomatic}, \text{literal}) \;-\; \operatorname{mean}\, d_{\cos}(\text{same reading})
+\Delta \;=\; \mathrm{mean}\, d_{\cos}(\text{idiomatic}, \text{literal}) \;-\; \mathrm{mean}\, d_{\cos}(\text{same reading})
 $$
 
 $\Delta > 0$ means identical words sit in different places depending on what they mean. Significance comes from a permutation test that shuffles the within/between labels 5,000 times, so the smallest reportable p is about 0.0002.
@@ -126,10 +126,10 @@ $\Delta > 0$ means identical words sit in different places depending on what the
 Keep only the **ranks** of the activations: the bitmap marks the $K$ largest coordinates of a hidden state,
 
 $$
-B_K(h) \;=\; \mathbb{1}\big[\, i \in \operatorname{top}_K(h) \,\big] \in \{0,1\}^{D}, \qquad \operatorname{overlap}(q, d) = \lvert B_K(q) \cap B_K(d) \rvert
+B_K(h) \;=\; \mathbb{1}\big[\, i \in \mathrm{top}_K(h) \,\big] \in \{0,1\}^{D}, \qquad \mathrm{overlap}(q, d) = \lvert B_K(q) \cap B_K(d) \rvert
 $$
 
-Under a uniform null, the overlap of two random $K$-subsets of $D$ coordinates is hypergeometric, $\operatorname{Hypergeom}(D, K, K)$. The test asks whether class labels assigned from bitmap overlap alone agree with those from the full vectors. If they do, the relational signal lives in the ordering of activations rather than their magnitudes. The formal framework, including the hypergeometric null and quotient compatibility, is Nelson Spence's OrdVec/RankQuant work.
+Under a uniform null, the overlap of two random $K$-subsets of $D$ coordinates is hypergeometric, $\mathrm{Hypergeom}(D, K, K)$. The test asks whether class labels assigned from bitmap overlap alone agree with those from the full vectors. If they do, the relational signal lives in the ordering of activations rather than their magnitudes. The formal framework, including the hypergeometric null and quotient compatibility, is Nelson Spence's OrdVec/RankQuant work.
 
 <sub>Scripts: `scripts/hsg_ordvec_fiber_test_v2.py`, `hsg_ordvec_ablations.py`, `hsg_ordvec_layer_role_test_2.py`</sub>
 
@@ -138,7 +138,7 @@ Under a uniform null, the overlap of two random $K$-subsets of $D$ coordinates i
 Wikipedia windows of ±10 tokens around *love*, *care* and *like* are compared with category baseline fields by Jensen–Shannon divergence:
 
 $$
-\operatorname{JS}(P \,\Vert\, Q) = \tfrac12 \operatorname{KL}(P \,\Vert\, M) + \tfrac12 \operatorname{KL}(Q \,\Vert\, M), \qquad M = \tfrac12 (P + Q)
+\mathrm{JS}(P \,\Vert\, Q) = \tfrac12 \mathrm{KL}(P \,\Vert\, M) + \tfrac12 \mathrm{KL}(Q \,\Vert\, M), \qquad M = \tfrac12 (P + Q)
 $$
 
 $\delta$ = mean relation-window JS minus mean baseline-category JS, tested against matched control words with 5,000 permutations.
