@@ -58,3 +58,6 @@ annotation/*.zip
 .aiflight/
 # Model trained by hsg_wiki_train.py
 results/wiki_model/
+
+# Generated annotation sheet (export with: python3 run_suite.py --component annotation)
+annotation/annotation_form_items.csv
