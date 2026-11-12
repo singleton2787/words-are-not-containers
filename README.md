@@ -19,7 +19,7 @@ Most people treat a word like a box with the meaning packed inside. *Love* means
 
 It doesn't work that way. **"I love pizza," "I love my wife,"** and **"I love my enemy"** use the same word for three different relationships. The meaning isn't in the word. It's in the relation between the words.
 
-This project tests whether a language model knows that, and whether you can measure it in the model's hidden states **before it generates anything**. If you can, you get something an engineer can use: a check that runs inside the system and flags when the model has lost the relation the prompt expressed, before the output goes anywhere.
+A language model knows it, and you can measure it in the model's hidden states **before it generates anything**. Across three model families, the geometry predicts whether the output will keep the relation the prompt expressed (AUC 0.67–0.78). That gives an engineer something to build on: a check that runs inside the system and flags the prompts where the model is likely to lose the relation, before the output goes anywhere.
 
 ## How RMG works
 
