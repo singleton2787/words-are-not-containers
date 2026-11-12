@@ -43,15 +43,26 @@ RELATIONSHIP CLASSES
 
 HARD CASES TO WATCH FOR
 ------------------------
-  Companion vs Covenantal:
-    "I love my wife because she is always there for me." → companion or covenantal?
-    If the continuation emphasizes presence/routine → companion (score toward companion).
-    If it emphasizes commitment/vow/permanence → covenantal.
-    If genuinely mixed → score 1.
+  Always score against the EXPECTED relationship shown for the item,
+  not against the relationship you think fits best.
 
-  Moral vs Companion:
-    "I love my neighbor because..." → neighbor can be moral (duty) or companion (friendship).
+  Neighboring classes (companion vs covenantal, moral vs companion):
+    - Continuation clearly in the expected class            -> 2
+    - Continuation drifts into a neighboring class but still
+      overlaps with the expected one, or is genuinely mixed  -> 1
+    - Continuation clearly replaces the expected relation
+      with a different one                                   -> 0
+
+  Example: expected COVENANTAL, "I love my wife because she is always there for me."
+    Presence and routine only, no commitment or shared life -> 1
+    "...we built a life together and I'd choose her again"  -> 2
+
+  Example: expected MORAL, "I love my neighbor because..."
     Judge by what the continuation actually does, not what it could do.
+    "...he's fun to grill with on weekends" (friendship only) -> 1
+    "...loving the people next to you is the duty we owe"     -> 2
+
+  Work alone. Don't compare scores with other annotators until everyone is done.
 
 TRAINING EXAMPLES
 ------------------
