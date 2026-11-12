@@ -1,7 +1,7 @@
-TRAINING EXAMPLES
+PRACTICE EXAMPLES
 =================
-Read and score these before starting the real items.
-Answers are provided so you can calibrate your judgment.
+Score each one yourself first, then look at the answer.
+These don't count. They're just for getting a feel for it.
 
   [T001] Prompt:        I love pizza because...
         Expected:      HEDONIC — Pleasure, taste, appetite, enjoyment, comfort, craving, or personal preference.

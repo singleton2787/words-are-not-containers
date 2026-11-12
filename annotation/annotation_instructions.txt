@@ -1,69 +1,84 @@
-BLIND ANNOTATION STUDY
-Relationship Preservation in AI-Generated Text
-================================================
+HOW TO SCORE
+============
 
-OVERVIEW
----------
-You will see a series of prompts and AI-generated continuations.
-For each item, you are told the expected relationship the prompt opens.
+WHAT YOU'RE DOING
+-----------------
+Each row starts a sentence like "I love my dog because..." and then shows
+what an AI wrote to finish it.
 
-Your only job is to judge whether the continuation preserves that relationship.
+The sheet also tells you what KIND of love the sentence should be about.
+Your job is one question:
 
-Do NOT judge:
-  - grammar or style
-  - factual accuracy
-  - whether you personally agree
-  - whether the writing is creative or interesting
+    Did the AI's ending stick to that kind of relationship?
 
-DO judge:
-  - whether the continuation stays in the right relational frame
+That's all. You don't need to know anything about AI.
 
-SCORING SCALE
+DON'T SCORE ON
 --------------
-  2 = Correct relationship clearly preserved
-  1 = Mixed, ambiguous, generic, or only weakly related
-  0 = Wrong relationship
+  - spelling, grammar or style
+  - whether it's true
+  - whether you agree with it
+  - whether it's well written
 
-Important:
-  An awkward sentence can receive a 2.
-  A fluent, well-written sentence can receive a 0.
+A clumsy sentence can get a 2. A beautiful one can get a 0.
 
-RELATIONSHIP CLASSES
----------------------
-  Hedonic:    Pleasure, taste, appetite, enjoyment, comfort, craving, or personal preference.
+The AI's text is messy in places. Some lines stop mid-sentence. Some have
+odd symbols or leftover code like <u><strong>, list dashes or "##".
+Ignore all that and go by what the words mean.
 
-  Companion:  Affection, care, friendship, loyalty, presence, routine,
-              dependence, play, or companionship.
+THE SCORES
+----------
+  2 = Yes. It clearly stays with the right kind of relationship.
+  1 = Sort of. It's mixed, vague, generic, or drifts toward a different kind.
+  0 = No. It's about a different kind of relationship altogether.
 
-  Covenantal: Commitment, shared life, family obligation, fidelity, devotion,
-              permanence, sacrifice, or enduring loyalty.
+THE FOUR KINDS OF RELATIONSHIP
+------------------------------
+  Hedonic (enjoying something):
+      pleasure, taste, appetite, comfort, craving, liking it.
+      "I love pizza because it tastes amazing."
 
-  Moral:      Forgiveness, restraint, mercy, justice, duty toward others,
-              refusal of hatred, or recognition of shared humanity.
+  Companion (closeness and friendship):
+      affection, care, loyalty, being there, routine, play.
+      "I love my dog because he's always happy to see me."
 
-HARD CASES TO WATCH FOR
-------------------------
-  Always score against the EXPECTED relationship shown for the item,
-  not against the relationship you think fits best.
+  Covenantal (commitment for life):
+      commitment, a shared life, family duty, faithfulness, sacrifice.
+      "I love my wife because we've built a life together."
 
-  Neighboring classes (companion vs covenantal, moral vs companion):
-    - Continuation clearly in the expected class            -> 2
-    - Continuation drifts into a neighboring class but still
-      overlaps with the expected one, or is genuinely mixed  -> 1
-    - Continuation clearly replaces the expected relation
-      with a different one                                   -> 0
+  Moral (doing right by people):
+      forgiveness, mercy, fairness, duty to others, refusing to hate,
+      seeing someone as a fellow human.
+      "I love my enemy because hate would only poison me."
 
-  Example: expected COVENANTAL, "I love my wife because she is always there for me."
-    Presence and routine only, no commitment or shared life -> 1
-    "...we built a life together and I'd choose her again"  -> 2
+WHEN IT'S CLOSE
+---------------
+Always score against the kind of relationship the sheet says, not the one
+you think fits best.
 
-  Example: expected MORAL, "I love my neighbor because..."
-    Judge by what the continuation actually does, not what it could do.
-    "...he's fun to grill with on weekends" (friendship only) -> 1
-    "...loving the people next to you is the duty we owe"     -> 2
+Companion and covenantal are neighbors, and so are companion and moral.
+When an ending lands on the neighbor:
+  - Still overlaps with the expected kind, or a real mix  -> 1
+  - Clearly swaps it out for a different kind            -> 0
 
-  Work alone. Don't compare scores with other annotators until everyone is done.
+  Expected COVENANTAL: "I love my wife because she's always there for me."
+      Being there, but nothing about commitment or a life together  -> 1
+      "...we built a life together and I'd choose her again"        -> 2
 
-TRAINING EXAMPLES
-------------------
-Read these before starting. Answers are provided.
+  Expected MORAL: "I love my neighbor because..."
+      "...he's fun to grill with on weekends" (just friendship)     -> 1
+      "...loving the people next to you is what we owe them"        -> 2
+
+  Judge what the ending actually says, not what it could have meant.
+
+A FEW RULES
+-----------
+  - Work alone. Don't compare scores with anyone until everyone's done.
+  - Go with your first honest read. Don't overthink it.
+  - Use the note column if something is truly unclear. It's optional.
+  - You won't be told which AI wrote which line. That's on purpose.
+
+PRACTICE FIRST
+--------------
+Score the practice examples below before you start. The answers are given
+so you can check yourself.
