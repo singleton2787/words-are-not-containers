@@ -64,6 +64,8 @@ Give the form, instructions and examples to two or three annotators. Then:
 python3 scripts/analyze_human_annotations.py --responses R01.csv R02.csv R03.csv
 ```
 
+Report the **per-model** AUCs from its output. Qwen's margins run about 10× the others', so the pooled AUC mixes scales and isn't meaningful on its own.
+
 It reports Krippendorff's alpha (ordinal) as the main agreement metric, pairwise Cohen's kappa, class-level agreement, and a per-model breakdown. Thresholds: `median` (default), `strict` or `lenient`. It also suggests paper sentences for each outcome.
 
 ## Before you push
