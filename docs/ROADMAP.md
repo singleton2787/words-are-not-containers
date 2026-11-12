@@ -14,6 +14,9 @@ Status as of November 2026. Open items are listed honestly so anyone replicating
 
 ## Known issues in working paper v0.9.3
 
+- §4.2 defines the residual fingerprint against *see* only. The cross-model fear result uses an extra step that also subtracts the mean over predicates ([METHODS.md §3](METHODS.md)); the paper should say so.
+- Fingerprint permutation tests use 1,000 permutations, so report p < 0.001 there, not p < 0.0002.
+
 - The Qwen semiotic Mann-Whitney p is reported as "~0.0002". Recomputed from the recovered rows, it's 4.2e-8.
 - The §8.3 layer table's Gen AUC column and the "three processing regimes" paragraph rest on the layer-role score above. Don't rely on them yet.
 - The OrdVec K-sweep text and table disagree at K = 256 and K = 180.

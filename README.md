@@ -25,15 +25,27 @@ This project tests whether a language model knows that, and whether you can meas
 
 ```mermaid
 flowchart LR
-    A["Prompt<br/><i>I love my enemy because</i>"] --> B["Hidden states<br/>(mid-network layer)"]
-    N["Neutral baseline<br/><i>I see my enemy</i>"] --> B
-    B --> C["Residual fingerprint<br/>predicate minus baseline"]
-    C --> D{"Geometry margin<br/>expected relation vs.<br/>nearest wrong one"}
+    A["Prompt<br/><i>I love my enemy because</i>"] --> B["Final-token hidden state<br/>(mid-network layer)"]
+    B --> D{"Geometry margin<br/>expected relation vs.<br/>nearest wrong one"}
+    N["Neutral baseline<br/><i>I see my enemy.</i>"] --> C["Residual fingerprint<br/>what the predicate reshapes"]
+    B --> C
     D -->|"margin high"| E["Relation likely kept"]
     D -->|"margin low"| F["Flag before generation"]
 ```
 
-**Relational Meaning Geometry (RMG)** measures how a predicate (*love, fear, care, hate, own, eat*) reorganizes the model's representation of an object, compared with a neutral predicate (*see*). That difference is the predicate's **fingerprint**. The **geometry margin** says how much closer the prompt sits to the relation it should express than to the nearest wrong one.
+**Relational Meaning Geometry (RMG)** measures how a predicate (*love, fear, care, hate, own, eat*) reorganizes the model's representation of an object, compared with a neutral predicate (*see*). That difference is the predicate's **fingerprint**:
+
+$$
+F_V(c_i, c_j) = \big[D_V(c_i, c_j) - D_{\text{see}}(c_i, c_j)\big] - \operatorname{mean}_{(a,b)}\big[D_V(c_a, c_b) - D_{\text{see}}(c_a, c_b)\big]
+$$
+
+The **geometry margin** says how much nearer the prompt's hidden state $x_o$ sits to the class it should express than to the nearest wrong one, with class centroids computed leaving the object out:
+
+$$
+m(o) = \min_{c \neq c^\*} \lVert x_o - \mu_c^{(-o)} \rVert - \lVert x_o - \mu_{c^\*}^{(-o)} \rVert
+$$
+
+The math is deliberately plain (distances, centroids, permutation tests) so every step can be checked. Full definitions, matched line for line to the scripts: **[docs/METHODS.md](docs/METHODS.md)**.
 
 ## What the evidence says
 
@@ -41,8 +53,8 @@ Tested on three model families: Qwen2-7B, Mistral-7B and Gemma-7B.
 
 | Finding | Models | Result |
 |:--|:--:|:--|
-| Predicates reorganize object geometry beyond chance | 3 of 3 | all 9 verbs, permutation p < 0.0002, d = 0.77–1.41 |
-| *Fear* fingerprint survives subtracting the neutral baseline | 3 of 3 | replicates in every model (*care* partial, *love* model-specific) |
+| Predicates reorganize object geometry beyond chance | 3 of 3 | all 9 verbs, permutation p < 0.001, d = 0.77–1.41 |
+| *Fear*'s predicate-specific fingerprint has the same strongest pull | 3 of 3 | companion/hedonic in every model (*care* partial, *love* model-specific) |
 | **Geometry predicts whether the output keeps the relation** | 3 of 3 | **AUC 0.778 · 0.700 · 0.668** |
 | Idiom vs. literal readings of identical words separate | 3 of 3 | Δ = +0.141 · +0.182 · +0.157, p < 0.0002 |
 | Margin direction predicts relation preservation (pilot) | Qwen | 39% vs 14% kept, same model for geometry and output |
@@ -99,6 +111,7 @@ Details: [docs/SUITE.md](docs/SUITE.md)
 ├── release/              evidence cards (model, dataset, claim-support matrix, risk gaps)
 ├── legacy/               original and superseded scripts, kept for the record
 └── docs/
+    ├── METHODS.md        formal definitions of every measurement
     ├── RESULTS.md        every result, number and caveat
     ├── HISTORY.md        from a failed theory to this one
     ├── SUITE.md          how to run and annotate

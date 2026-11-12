@@ -22,7 +22,7 @@ The validation suite was built on an EC2 instance (Ubuntu, A10G GPU):
 4. Context distance / affordance capture: done (p = 0.037)
 5. Idiom vs. literal: run later
 
-Around June 4–5: cross-model replication on Mistral-7B and Gemma-7B. Fingerprints held in all three. Fear survived the neutral-baseline subtraction in all three. Semiotic accuracy replicated on Mistral (0.700) and Gemma (0.668). The relation-vs-control corpus ablation came in at p = 0.0002 for all three relation words.
+Around June 4–5: cross-model replication on Mistral-7B and Gemma-7B. Fingerprints held in all three. Fear's predicate-specific fingerprint had the same strongest pull in all three. Semiotic accuracy replicated on Mistral (0.700) and Gemma (0.668). The relation-vs-control corpus ablation came in at p = 0.0002 for all three relation words.
 
 ## RMG and the reproducibility suite (June 8, 2026)
 

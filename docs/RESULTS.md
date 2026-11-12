@@ -4,7 +4,7 @@ Everything recorded across the project's working sessions (June–November 2026)
 
 Models: Qwen2-7B (`Qwen/Qwen2-7B`), Mistral-7B (`mistralai/Mistral-7B-v0.1`), Gemma-7B (`google/gemma-7b`). Embedding instrument: all-MiniLM-L6-v2.
 
-p-values written "< 0.0002" are permutation floors: no shuffled run beat the real one. Earlier drafts wrote these as "p = 0.0000"; that was corrected throughout.
+Permutation p-values written as "< 0.001" (1,000 permutations; fingerprints) or "< 0.0002" (5,000; idiom and corpus tests) are floors: no shuffled run beat the real one. Earlier drafts wrote these as "p = 0.0000".
 
 ---
 
@@ -35,15 +35,34 @@ Verified against `results/fingerprint_*/fingerprint_results.json`. All 9 verbs (
 
 Qwen-derived *predictions* about specific fingerprint structure failed 4 of 8 on Mistral. The geometry exists across model families, but its exact shape is model-specific.
 
-## 2. Residual fingerprints against the neutral "see" baseline
+## 2. Residual fingerprints
 
-This answers the objection that the effect is just object semantics.
+Definitions are in [METHODS.md §3](METHODS.md). Two stages:
 
-- **Fear** replicates across all three models. Qwen and Mistral match exactly on both pull (companion/hedonic) and push (covenantal/covenantal); Gemma matches on pull.
-- **Care** partially replicates. Qwen and Gemma pull moral/moral and push covenantal/hedonic; Mistral pulls companion/hedonic instead.
-- **Love** is model-dependent. Qwen and Gemma pull companion/companion; Mistral pulls moral/moral.
+- $F_V$ subtracts the neutral *see* baseline and the overall expansion or compression.
+- $\tilde F_V$ also subtracts the mean fingerprint of all eight predicates, leaving what is specific to $V$. Against *see* alone, Mistral shows nearly the same pattern for every predicate (pull companion/hedonic, push companion/moral), so this second step is what separates one predicate from another.
 
-Mistral is the usual outlier when the three disagree. Qwen's residual magnitudes run roughly 10× Mistral's and Gemma's. That's a scaling artifact from how the original Qwen script stored values. Compare directions across models, not magnitudes.
+Strongest pull / push, recomputed from `results/fingerprint_*/fingerprint_results.json`:
+
+| Predicate | Model | $F_V$ (vs. *see*) | $\tilde F_V$ (predicate-specific) |
+|:--|:--|:--|:--|
+| fear | Qwen | companion/companion · moral/moral | **companion/hedonic** · covenantal/covenantal |
+| fear | Mistral | companion/hedonic · companion/moral | **companion/hedonic** · covenantal/covenantal |
+| fear | Gemma | companion/hedonic · companion/moral | **companion/hedonic** · companion/companion |
+| care | Qwen | companion/companion · hedonic/hedonic | moral/moral · covenantal/hedonic |
+| care | Mistral | companion/hedonic · companion/moral | companion/hedonic · companion/companion |
+| care | Gemma | hedonic/moral · companion/hedonic | moral/moral · covenantal/hedonic |
+| love | Qwen | companion/companion · hedonic/moral | companion/companion · hedonic/moral |
+| love | Mistral | companion/hedonic · companion/moral | moral/moral · covenantal/moral |
+| love | Gemma | companion/companion · companion/moral | companion/companion · companion/moral |
+
+- **Fear:** on $\tilde F$, the strongest pull is companion/hedonic in all three models, and Qwen and Mistral also share the strongest push. On $F$ alone, Mistral and Gemma match exactly and Qwen differs.
+- **Care:** Qwen and Gemma match exactly on $\tilde F$; Mistral differs.
+- **Love:** Qwen and Gemma pull companion/companion; Mistral differs.
+
+Earlier write-ups described this as "subtracting the neutral *see* baseline". The cross-model comparison actually uses $\tilde F$, which also removes the mean over predicates. The paper's §4.2 defines $F$ only, so it should add the second step.
+
+Qwen's raw distances run about 10× larger than Mistral's and Gemma's (a scaling artifact in how the Qwen values were stored). Compare directions across models, not magnitudes.
 
 ## 3. Predicate-licensed affordance fields (Experiment B), Qwen2-7B
 
