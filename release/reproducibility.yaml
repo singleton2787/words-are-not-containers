@@ -1,0 +1,12 @@
+generated_at: 2026-06-26 11:47 UTC
+run_count: 0
+git_states: []
+uncommitted_runs: []
+environments: []
+scan_summary:
+  prompts_found: 0
+  datasets_found: 15
+  evals_found: 2
+  unclassified: 90
+gaps:
+- 90 file(s) in the project were not classified by scan - manual review recommended.

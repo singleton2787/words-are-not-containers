@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Words Are Not Containers: Relational Meaning Geometry in Language Models"
+authors:
+  - family-names: Singleton
+    given-names: Mike
+type: software
+license: MIT
+version: "0.9.3"
+date-released: "2026-11-12"
+repository-code: "https://github.com/singleton2787/words-are-not-containers"
+abstract: >-
+  Relational Meaning Geometry (RMG) measures, inside an open-weight language
+  model and before it generates, whether the model has encoded the relation a
+  prompt expresses. Includes the reproducibility suite, results, and working paper.
+keywords:
+  - interpretability
+  - relational meaning geometry
+  - hidden states
+  - language models
+  - pre-generation assurance

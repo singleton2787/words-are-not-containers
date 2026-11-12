@@ -1,0 +1,49 @@
+{
+  "corpus_path": "/home/ubuntu/hsg/wiki_corpus/corpus.jsonl",
+  "corpus_name": "corpus",
+  "target_word": "love",
+  "compare_words": [
+    "wife",
+    "dog",
+    "pizza",
+    "enemy",
+    "god",
+    "country"
+  ],
+  "distances": {
+    "wife/dog": 12.151135444641113,
+    "wife/pizza": 17.335390090942383,
+    "wife/enemy": 9.51262378692627,
+    "wife/god": 12.398126602172852,
+    "wife/country": 8.497286796569824,
+    "dog/pizza": 16.500715255737305,
+    "dog/enemy": 12.796564102172852,
+    "dog/god": 14.490519523620605,
+    "dog/country": 9.897066116333008,
+    "pizza/enemy": 19.73066520690918,
+    "pizza/god": 18.24640464782715,
+    "pizza/country": 15.701336860656738,
+    "enemy/god": 12.6092529296875,
+    "enemy/country": 11.633437156677246,
+    "god/country": 13.880064010620117
+  },
+  "cosines": {
+    "wife/dog": 0.8883446455001831,
+    "wife/pizza": 0.7647270560264587,
+    "wife/enemy": 0.9326758980751038,
+    "wife/god": 0.8812711238861084,
+    "wife/country": 0.9493474960327148,
+    "dog/pizza": 0.7798014879226685,
+    "dog/enemy": 0.875013530254364,
+    "dog/god": 0.8315090537071228,
+    "dog/country": 0.9305103421211243,
+    "pizza/enemy": 0.6917160749435425,
+    "pizza/god": 0.7207446098327637,
+    "pizza/country": 0.8178898692131042,
+    "enemy/god": 0.8757653832435608,
+    "enemy/country": 0.9040197134017944,
+    "god/country": 0.8592851161956787
+  },
+  "n_layers": 6,
+  "model_dir": "/home/ubuntu/hsg/audit_results/model"
+}

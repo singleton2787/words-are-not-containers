@@ -1,0 +1,90 @@
+{
+  "eat": {
+    "ratio": 1.08764276599722,
+    "p": 0.101,
+    "d": 0.22920598424981672,
+    "within_dists": {
+      "staple": 109.4212547302246,
+      "indulgence": 89.84106979370117,
+      "preference": 62.38743362426758
+    },
+    "pair_dists": {
+      "staple/indulgence": 102.7915705871582,
+      "staple/preference": 97.62249267578125,
+      "indulgence/preference": 84.16740341186524
+    },
+    "prediction": "staple/staple and indulgence/indulgence should cluster; staple/indulgence should be more distant"
+  },
+  "fear": {
+    "ratio": 1.1082101263462016,
+    "p": 0.0,
+    "d": 0.6342276431364918,
+    "within_dists": {
+      "physical": 91.93546295166016,
+      "existential": 113.1016860961914,
+      "ambient": 118.09629287719727
+    },
+    "pair_dists": {
+      "physical/existential": 111.4191098022461,
+      "physical/ambient": 112.99979187011719,
+      "existential/ambient": 133.68085083007813
+    },
+    "prediction": "physical threats cluster together; existential threats cluster; ambient fears cluster"
+  },
+  "own": {
+    "ratio": 1.2381719199575763,
+    "p": 0.0,
+    "d": 0.6899900052114778,
+    "within_dists": {
+      "property": 98.91813049316406,
+      "vehicle": 66.55005912780761,
+      "living": 87.53868980407715,
+      "asset": 130.2213562011719
+    },
+    "pair_dists": {
+      "property/vehicle": 100.54101013183593,
+      "property/living": 114.6389663696289,
+      "property/asset": 123.68398864746094,
+      "vehicle/living": 91.90763626098632,
+      "vehicle/asset": 136.80716522216798,
+      "living/asset": 144.17489379882812
+    },
+    "prediction": "property clusters with property; living things cluster together"
+  },
+  "care": {
+    "ratio": 1.2230919248070424,
+    "p": 0.017,
+    "d": 0.5691778703316601,
+    "within_dists": {
+      "dependent": 78.17498779296875,
+      "companion": 108.1702392578125,
+      "family": 86.39588356018066
+    },
+    "pair_dists": {
+      "dependent/companion": 98.81384826660157,
+      "dependent/family": 115.79400604248048,
+      "companion/family": 118.97959564208985
+    },
+    "prediction": "dependent care clusters (child/baby/elder); companion care clusters (dog/friend)"
+  },
+  "love": {
+    "ratio": 1.220267330900789,
+    "p": 0.0,
+    "d": 0.9528931317403471,
+    "within_dists": {
+      "hedonic": 116.23467712402343,
+      "companion": 88.14064140319825,
+      "covenantal": 107.80112686157227,
+      "moral": 107.32910690307617
+    },
+    "pair_dists": {
+      "hedonic/companion": 143.58958953857422,
+      "hedonic/covenantal": 139.09616943359376,
+      "hedonic/moral": 150.87273010253907,
+      "companion/covenantal": 103.56808853149414,
+      "companion/moral": 116.81257659912109,
+      "covenantal/moral": 113.92422668457031
+    },
+    "prediction": "hedonic clusters; covenantal clusters; hedonic most distant from moral"
+  }
+}

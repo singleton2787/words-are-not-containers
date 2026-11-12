@@ -1,0 +1,302 @@
+{
+  "model": "google/gemma-7b",
+  "layer_idx": 10,
+  "n_layers": 28,
+  "n_generations_per_prompt": 12,
+  "summary": {
+    "n_scored": 137,
+    "accuracy": 0.6715328467153284,
+    "mean_margin_correct": 0.9406838844651761,
+    "mean_margin_wrong": 0.3972929120063782,
+    "mannwhitney_p": 0.00069924741145174,
+    "auc": 0.6682367149758454,
+    "spearman_rho": 0.27416250510676987,
+    "spearman_p": 0.0005998800239952009,
+    "logistic_coef": 1.0622507005271307,
+    "logistic_intercept": 0.02842035846879623
+  },
+  "probes": [
+    {
+      "obj": "pizza",
+      "expected_class": "hedonic"
+    },
+    {
+      "obj": "chocolate",
+      "expected_class": "hedonic"
+    },
+    {
+      "obj": "coffee",
+      "expected_class": "hedonic"
+    },
+    {
+      "obj": "cake",
+      "expected_class": "hedonic"
+    },
+    {
+      "obj": "ice cream",
+      "expected_class": "hedonic"
+    },
+    {
+      "obj": "my dog",
+      "expected_class": "companion"
+    },
+    {
+      "obj": "my cat",
+      "expected_class": "companion"
+    },
+    {
+      "obj": "my horse",
+      "expected_class": "companion"
+    },
+    {
+      "obj": "my friend",
+      "expected_class": "companion"
+    },
+    {
+      "obj": "my child",
+      "expected_class": "companion"
+    },
+    {
+      "obj": "my wife",
+      "expected_class": "covenantal"
+    },
+    {
+      "obj": "my husband",
+      "expected_class": "covenantal"
+    },
+    {
+      "obj": "my family",
+      "expected_class": "covenantal"
+    },
+    {
+      "obj": "my country",
+      "expected_class": "covenantal"
+    },
+    {
+      "obj": "God",
+      "expected_class": "covenantal"
+    },
+    {
+      "obj": "my enemy",
+      "expected_class": "moral"
+    },
+    {
+      "obj": "my rival",
+      "expected_class": "moral"
+    },
+    {
+      "obj": "a stranger",
+      "expected_class": "moral"
+    },
+    {
+      "obj": "my neighbor",
+      "expected_class": "moral"
+    },
+    {
+      "obj": "the other",
+      "expected_class": "moral"
+    }
+  ],
+  "margin_info": {
+    "pizza": {
+      "expected_class": "hedonic",
+      "margin": 1.912798285484314,
+      "distances": {
+        "companion": 3.2469894886016846,
+        "covenantal": 2.9445204734802246,
+        "hedonic": 1.0317221879959106,
+        "moral": 3.1956372261047363
+      }
+    },
+    "chocolate": {
+      "expected_class": "hedonic",
+      "margin": 1.8648276329040527,
+      "distances": {
+        "companion": 3.159485101699829,
+        "covenantal": 2.837935447692871,
+        "hedonic": 0.9731078147888184,
+        "moral": 3.089770793914795
+      }
+    },
+    "coffee": {
+      "expected_class": "hedonic",
+      "margin": 1.3946237564086914,
+      "distances": {
+        "companion": 3.0646719932556152,
+        "covenantal": 2.694035530090332,
+        "hedonic": 1.2994117736816406,
+        "moral": 3.0269205570220947
+      }
+    },
+    "cake": {
+      "expected_class": "hedonic",
+      "margin": 1.7818326950073242,
+      "distances": {
+        "companion": 3.3928382396698,
+        "covenantal": 3.1147992610931396,
+        "hedonic": 1.3329665660858154,
+        "moral": 3.215118169784546
+      }
+    },
+    "ice cream": {
+      "expected_class": "hedonic",
+      "margin": 2.0489919781684875,
+      "distances": {
+        "companion": 3.2426936626434326,
+        "covenantal": 2.946336269378662,
+        "hedonic": 0.8973442912101746,
+        "moral": 3.163064479827881
+      }
+    },
+    "my dog": {
+      "expected_class": "companion",
+      "margin": 0.7299438714981079,
+      "distances": {
+        "companion": 0.973581075668335,
+        "covenantal": 1.7035249471664429,
+        "hedonic": 3.12685227394104,
+        "moral": 2.4982757568359375
+      }
+    },
+    "my cat": {
+      "expected_class": "companion",
+      "margin": 0.7270358800888062,
+      "distances": {
+        "companion": 1.1412506103515625,
+        "covenantal": 1.8682864904403687,
+        "hedonic": 3.176440715789795,
+        "moral": 2.6110339164733887
+      }
+    },
+    "my horse": {
+      "expected_class": "companion",
+      "margin": 0.5566757917404175,
+      "distances": {
+        "companion": 1.44062340259552,
+        "covenantal": 1.9972991943359375,
+        "hedonic": 3.2112338542938232,
+        "moral": 2.6178247928619385
+      }
+    },
+    "my friend": {
+      "expected_class": "companion",
+      "margin": -0.024964570999145508,
+      "distances": {
+        "companion": 1.8529077768325806,
+        "covenantal": 1.827943205833435,
+        "hedonic": 3.4693830013275146,
+        "moral": 2.028441905975342
+      }
+    },
+    "my child": {
+      "expected_class": "companion",
+      "margin": 0.0242612361907959,
+      "distances": {
+        "companion": 1.7668018341064453,
+        "covenantal": 1.7910630702972412,
+        "hedonic": 3.559696912765503,
+        "moral": 2.3072333335876465
+      }
+    },
+    "my wife": {
+      "expected_class": "covenantal",
+      "margin": 0.1448427438735962,
+      "distances": {
+        "companion": 1.7760509252548218,
+        "covenantal": 1.6312081813812256,
+        "hedonic": 3.234450578689575,
+        "moral": 2.213338613510132
+      }
+    },
+    "my husband": {
+      "expected_class": "covenantal",
+      "margin": 0.1734764575958252,
+      "distances": {
+        "companion": 1.7405574321746826,
+        "covenantal": 1.5670809745788574,
+        "hedonic": 3.0671637058258057,
+        "moral": 2.349942922592163
+      }
+    },
+    "my family": {
+      "expected_class": "covenantal",
+      "margin": -0.06383073329925537,
+      "distances": {
+        "companion": 1.5572723150253296,
+        "covenantal": 1.621103048324585,
+        "hedonic": 3.1115970611572266,
+        "moral": 2.448683738708496
+      }
+    },
+    "my country": {
+      "expected_class": "covenantal",
+      "margin": 0.1623549461364746,
+      "distances": {
+        "companion": 2.6374611854553223,
+        "covenantal": 2.4751062393188477,
+        "hedonic": 3.33697247505188,
+        "moral": 2.8625683784484863
+      }
+    },
+    "God": {
+      "expected_class": "covenantal",
+      "margin": 0.24682974815368652,
+      "distances": {
+        "companion": 2.569861650466919,
+        "covenantal": 2.279224395751953,
+        "hedonic": 3.140023946762085,
+        "moral": 2.5260541439056396
+      }
+    },
+    "my enemy": {
+      "expected_class": "moral",
+      "margin": 0.3327469825744629,
+      "distances": {
+        "companion": 2.841214656829834,
+        "covenantal": 2.605217456817627,
+        "hedonic": 3.839324951171875,
+        "moral": 2.272470474243164
+      }
+    },
+    "my rival": {
+      "expected_class": "moral",
+      "margin": 0.1259617805480957,
+      "distances": {
+        "companion": 2.73102068901062,
+        "covenantal": 2.7463533878326416,
+        "hedonic": 3.2092554569244385,
+        "moral": 2.6050589084625244
+      }
+    },
+    "a stranger": {
+      "expected_class": "moral",
+      "margin": 0.2565891742706299,
+      "distances": {
+        "companion": 2.689000129699707,
+        "covenantal": 2.463895320892334,
+        "hedonic": 3.478487968444824,
+        "moral": 2.207306146621704
+      }
+    },
+    "my neighbor": {
+      "expected_class": "moral",
+      "margin": -0.016643524169921875,
+      "distances": {
+        "companion": 2.758246421813965,
+        "covenantal": 2.5536043643951416,
+        "hedonic": 3.754239559173584,
+        "moral": 2.5702478885650635
+      }
+    },
+    "the other": {
+      "expected_class": "moral",
+      "margin": 0.4899134635925293,
+      "distances": {
+        "companion": 3.6493916511535645,
+        "covenantal": 3.629131555557251,
+        "hedonic": 3.9128122329711914,
+        "moral": 3.1392180919647217
+      }
+    }
+  }
+}

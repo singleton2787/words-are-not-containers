@@ -1,0 +1,229 @@
+{
+  "model": "Qwen/Qwen2-7B",
+  "mode": "add",
+  "n_layers": 28,
+  "layer_idx": 10,
+  "layer_fraction": 0.35,
+  "n_generations": 6,
+  "alphas": [
+    0.0,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "results": [
+    {
+      "case": {
+        "name": "enemy_moral_to_hedonic",
+        "prompt": "I love my enemy because",
+        "source_class": "moral",
+        "target_class": "hedonic",
+        "expected_baseline": "moral",
+        "description": "Can moral love be pushed toward hedonic/preference register?"
+      },
+      "mode": "add",
+      "summary_by_alpha": {
+        "0.0": {
+          "n": 6,
+          "target_register_rate": 0.16666666666666666,
+          "source_register_rate": 0.16666666666666666,
+          "mean_target_score": 0.5,
+          "mean_source_score": 1.0,
+          "mean_expected_score": 1.0
+        },
+        "0.5": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.16666666666666666,
+          "mean_target_score": 0.16666666666666666,
+          "mean_source_score": 0.8333333333333334,
+          "mean_expected_score": 0.8333333333333334
+        },
+        "1.0": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.3333333333333333,
+          "mean_target_score": 0.16666666666666666,
+          "mean_source_score": 1.8333333333333333,
+          "mean_expected_score": 1.8333333333333333
+        },
+        "2.0": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.16666666666666666,
+          "mean_target_score": 0.3333333333333333,
+          "mean_source_score": 1.0,
+          "mean_expected_score": 1.0
+        },
+        "4.0": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.3333333333333333,
+          "mean_target_score": 0.3333333333333333,
+          "mean_source_score": 0.6666666666666666,
+          "mean_expected_score": 0.6666666666666666
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "pizza_hedonic_to_moral",
+        "prompt": "I love pizza because",
+        "source_class": "hedonic",
+        "target_class": "moral",
+        "expected_baseline": "hedonic",
+        "description": "Can hedonic love be pushed toward moral/obligation register?"
+      },
+      "mode": "add",
+      "summary_by_alpha": {
+        "0.0": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.3333333333333333,
+          "mean_target_score": 0.0,
+          "mean_source_score": 1.8333333333333333,
+          "mean_expected_score": 1.8333333333333333
+        },
+        "0.5": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.5,
+          "mean_target_score": 0.0,
+          "mean_source_score": 2.6666666666666665,
+          "mean_expected_score": 2.6666666666666665
+        },
+        "1.0": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.5,
+          "mean_target_score": 0.0,
+          "mean_source_score": 1.6666666666666667,
+          "mean_expected_score": 1.6666666666666667
+        },
+        "2.0": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.8333333333333334,
+          "mean_target_score": 0.16666666666666666,
+          "mean_source_score": 2.8333333333333335,
+          "mean_expected_score": 2.8333333333333335
+        },
+        "4.0": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.16666666666666666,
+          "mean_target_score": 0.0,
+          "mean_source_score": 1.3333333333333333,
+          "mean_expected_score": 1.3333333333333333
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "wife_covenantal_to_hedonic",
+        "prompt": "I love my wife because",
+        "source_class": "covenantal",
+        "target_class": "hedonic",
+        "expected_baseline": "covenantal",
+        "description": "Can covenantal love be pushed toward hedonic/preference register?"
+      },
+      "mode": "add",
+      "summary_by_alpha": {
+        "0.0": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.3333333333333333,
+          "mean_target_score": 0.8333333333333334,
+          "mean_source_score": 1.0,
+          "mean_expected_score": 1.0
+        },
+        "0.5": {
+          "n": 6,
+          "target_register_rate": 0.16666666666666666,
+          "source_register_rate": 0.16666666666666666,
+          "mean_target_score": 1.0,
+          "mean_source_score": 1.1666666666666667,
+          "mean_expected_score": 1.1666666666666667
+        },
+        "1.0": {
+          "n": 6,
+          "target_register_rate": 0.16666666666666666,
+          "source_register_rate": 0.16666666666666666,
+          "mean_target_score": 0.6666666666666666,
+          "mean_source_score": 0.6666666666666666,
+          "mean_expected_score": 0.6666666666666666
+        },
+        "2.0": {
+          "n": 6,
+          "target_register_rate": 0.16666666666666666,
+          "source_register_rate": 0.5,
+          "mean_target_score": 0.5,
+          "mean_source_score": 1.1666666666666667,
+          "mean_expected_score": 1.1666666666666667
+        },
+        "4.0": {
+          "n": 6,
+          "target_register_rate": 0.3333333333333333,
+          "source_register_rate": 0.6666666666666666,
+          "mean_target_score": 1.3333333333333333,
+          "mean_source_score": 1.6666666666666667,
+          "mean_expected_score": 1.6666666666666667
+        }
+      }
+    },
+    {
+      "case": {
+        "name": "dog_companion_to_moral",
+        "prompt": "I love my dog because",
+        "source_class": "companion",
+        "target_class": "moral",
+        "expected_baseline": "companion",
+        "description": "Can companionate love be pushed toward moral register?"
+      },
+      "mode": "add",
+      "summary_by_alpha": {
+        "0.0": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.6666666666666666,
+          "mean_target_score": 0.0,
+          "mean_source_score": 2.0,
+          "mean_expected_score": 2.0
+        },
+        "0.5": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.5,
+          "mean_target_score": 0.0,
+          "mean_source_score": 2.0,
+          "mean_expected_score": 2.0
+        },
+        "1.0": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.5,
+          "mean_target_score": 0.0,
+          "mean_source_score": 2.1666666666666665,
+          "mean_expected_score": 2.1666666666666665
+        },
+        "2.0": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.16666666666666666,
+          "mean_target_score": 0.16666666666666666,
+          "mean_source_score": 1.6666666666666667,
+          "mean_expected_score": 1.6666666666666667
+        },
+        "4.0": {
+          "n": 6,
+          "target_register_rate": 0.0,
+          "source_register_rate": 0.5,
+          "mean_target_score": 0.0,
+          "mean_source_score": 1.5,
+          "mean_expected_score": 1.5
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1378 @@
+{
+  "target_word": "love",
+  "classes": {
+    "hedonic": [
+      "pizza",
+      "chocolate",
+      "coffee",
+      "music",
+      "wine"
+    ],
+    "companion": [
+      "my dog",
+      "my cat",
+      "my child",
+      "my friend",
+      "my horse"
+    ],
+    "covenantal": [
+      "my wife",
+      "my husband",
+      "my country",
+      "God",
+      "my family"
+    ],
+    "moral": [
+      "my enemy",
+      "a stranger",
+      "my neighbor",
+      "the other",
+      "my rival"
+    ]
+  },
+  "within_mean": 23.027209329605103,
+  "between_mean": 24.845529390970867,
+  "ratio": 1.0789639784543075,
+  "permutation_p": 0.0,
+  "cohens_d": 0.7832723755177283,
+  "centroid_distances": {
+    "hedonic/companion": 15.308510780334473,
+    "hedonic/covenantal": 16.258554458618164,
+    "hedonic/moral": 16.908605575561523,
+    "companion/covenantal": 12.470744132995605,
+    "companion/moral": 12.81550121307373,
+    "covenantal/moral": 9.127610206604004
+  },
+  "distances": {
+    "pizza/chocolate": {
+      "dist": 23.179471969604492,
+      "cos": 0.8315935134887695,
+      "class1": "hedonic",
+      "class2": "hedonic",
+      "same_class": true
+    },
+    "pizza/coffee": {
+      "dist": 21.796852111816406,
+      "cos": 0.8506017327308655,
+      "class1": "hedonic",
+      "class2": "hedonic",
+      "same_class": true
+    },
+    "pizza/music": {
+      "dist": 22.416606903076172,
+      "cos": 0.8341687917709351,
+      "class1": "hedonic",
+      "class2": "hedonic",
+      "same_class": true
+    },
+    "pizza/wine": {
+      "dist": 23.368677139282227,
+      "cos": 0.8251582980155945,
+      "class1": "hedonic",
+      "class2": "hedonic",
+      "same_class": true
+    },
+    "pizza/my dog": {
+      "dist": 26.171281814575195,
+      "cos": 0.7803918123245239,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "pizza/my cat": {
+      "dist": 25.899187088012695,
+      "cos": 0.7747912406921387,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "pizza/my child": {
+      "dist": 26.76053237915039,
+      "cos": 0.7886733412742615,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "pizza/my friend": {
+      "dist": 27.80457878112793,
+      "cos": 0.7523778676986694,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "pizza/my horse": {
+      "dist": 27.685819625854492,
+      "cos": 0.7598125338554382,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "pizza/my wife": {
+      "dist": 26.798603057861328,
+      "cos": 0.7867136001586914,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "pizza/my husband": {
+      "dist": 30.6649227142334,
+      "cos": 0.7044693231582642,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "pizza/my country": {
+      "dist": 26.502296447753906,
+      "cos": 0.7776891589164734,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "pizza/God": {
+      "dist": 25.42295265197754,
+      "cos": 0.8120945692062378,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "pizza/my family": {
+      "dist": 27.46049690246582,
+      "cos": 0.7650949954986572,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "pizza/my enemy": {
+      "dist": 31.08085823059082,
+      "cos": 0.7171328067779541,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "pizza/a stranger": {
+      "dist": 24.850942611694336,
+      "cos": 0.8007873892784119,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "pizza/my neighbor": {
+      "dist": 28.916898727416992,
+      "cos": 0.7285386323928833,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "pizza/the other": {
+      "dist": 25.761898040771484,
+      "cos": 0.8038887977600098,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "pizza/my rival": {
+      "dist": 26.695459365844727,
+      "cos": 0.7677680253982544,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "chocolate/coffee": {
+      "dist": 22.007200241088867,
+      "cos": 0.8457898497581482,
+      "class1": "hedonic",
+      "class2": "hedonic",
+      "same_class": true
+    },
+    "chocolate/music": {
+      "dist": 24.421947479248047,
+      "cos": 0.7992234826087952,
+      "class1": "hedonic",
+      "class2": "hedonic",
+      "same_class": true
+    },
+    "chocolate/wine": {
+      "dist": 23.246492385864258,
+      "cos": 0.8245790004730225,
+      "class1": "hedonic",
+      "class2": "hedonic",
+      "same_class": true
+    },
+    "chocolate/my dog": {
+      "dist": 24.922739028930664,
+      "cos": 0.7981822490692139,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "chocolate/my cat": {
+      "dist": 25.449514389038086,
+      "cos": 0.7789477705955505,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "chocolate/my child": {
+      "dist": 21.82925796508789,
+      "cos": 0.858630895614624,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "chocolate/my friend": {
+      "dist": 25.186351776123047,
+      "cos": 0.7941755056381226,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "chocolate/my horse": {
+      "dist": 23.152006149291992,
+      "cos": 0.8300076127052307,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "chocolate/my wife": {
+      "dist": 24.39219856262207,
+      "cos": 0.8218611478805542,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "chocolate/my husband": {
+      "dist": 25.339387893676758,
+      "cos": 0.7957528829574585,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "chocolate/my country": {
+      "dist": 22.743331909179688,
+      "cos": 0.834216833114624,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "chocolate/God": {
+      "dist": 24.626529693603516,
+      "cos": 0.8224016427993774,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "chocolate/my family": {
+      "dist": 23.453353881835938,
+      "cos": 0.8266363143920898,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "chocolate/my enemy": {
+      "dist": 27.990564346313477,
+      "cos": 0.7687974572181702,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "chocolate/a stranger": {
+      "dist": 22.793970108032227,
+      "cos": 0.8301112055778503,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "chocolate/my neighbor": {
+      "dist": 25.49692726135254,
+      "cos": 0.7862063050270081,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "chocolate/the other": {
+      "dist": 23.850656509399414,
+      "cos": 0.8306179046630859,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "chocolate/my rival": {
+      "dist": 24.793054580688477,
+      "cos": 0.7969262599945068,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "coffee/music": {
+      "dist": 23.613479614257812,
+      "cos": 0.8115219473838806,
+      "class1": "hedonic",
+      "class2": "hedonic",
+      "same_class": true
+    },
+    "coffee/wine": {
+      "dist": 22.69659996032715,
+      "cos": 0.8321043848991394,
+      "class1": "hedonic",
+      "class2": "hedonic",
+      "same_class": true
+    },
+    "coffee/my dog": {
+      "dist": 27.81694984436035,
+      "cos": 0.7475099563598633,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "coffee/my cat": {
+      "dist": 28.178007125854492,
+      "cos": 0.7267239093780518,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "coffee/my child": {
+      "dist": 25.370838165283203,
+      "cos": 0.807996392250061,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "coffee/my friend": {
+      "dist": 24.320524215698242,
+      "cos": 0.8073261976242065,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "coffee/my horse": {
+      "dist": 28.04366111755371,
+      "cos": 0.7496892213821411,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "coffee/my wife": {
+      "dist": 24.660247802734375,
+      "cos": 0.8174214959144592,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "coffee/my husband": {
+      "dist": 28.94355010986328,
+      "cos": 0.7325481176376343,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "coffee/my country": {
+      "dist": 24.850191116333008,
+      "cos": 0.8013193607330322,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "coffee/God": {
+      "dist": 22.269908905029297,
+      "cos": 0.8548973202705383,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "coffee/my family": {
+      "dist": 26.1677188873291,
+      "cos": 0.7834283113479614,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "coffee/my enemy": {
+      "dist": 27.24558448791504,
+      "cos": 0.7804834842681885,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "coffee/a stranger": {
+      "dist": 22.88654327392578,
+      "cos": 0.8279865384101868,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "coffee/my neighbor": {
+      "dist": 25.393999099731445,
+      "cos": 0.7870269417762756,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "coffee/the other": {
+      "dist": 25.61908721923828,
+      "cos": 0.8038284182548523,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "coffee/my rival": {
+      "dist": 26.168405532836914,
+      "cos": 0.7726701498031616,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "music/wine": {
+      "dist": 23.85796356201172,
+      "cos": 0.8022016882896423,
+      "class1": "hedonic",
+      "class2": "hedonic",
+      "same_class": true
+    },
+    "music/my dog": {
+      "dist": 24.661964416503906,
+      "cos": 0.788361132144928,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "music/my cat": {
+      "dist": 25.248857498168945,
+      "cos": 0.7618745565414429,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "music/my child": {
+      "dist": 25.210500717163086,
+      "cos": 0.8033190369606018,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "music/my friend": {
+      "dist": 26.963890075683594,
+      "cos": 0.7472806572914124,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "music/my horse": {
+      "dist": 26.70879364013672,
+      "cos": 0.7594812512397766,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "music/my wife": {
+      "dist": 24.859172821044922,
+      "cos": 0.8072608709335327,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "music/my husband": {
+      "dist": 29.14976692199707,
+      "cos": 0.7119102478027344,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "music/my country": {
+      "dist": 24.78231430053711,
+      "cos": 0.7902733087539673,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "music/God": {
+      "dist": 26.582338333129883,
+      "cos": 0.7845032215118408,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "music/my family": {
+      "dist": 27.18855857849121,
+      "cos": 0.752662718296051,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "music/my enemy": {
+      "dist": 30.20368194580078,
+      "cos": 0.7173607349395752,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "music/a stranger": {
+      "dist": 22.805400848388672,
+      "cos": 0.817373514175415,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "music/my neighbor": {
+      "dist": 29.4306640625,
+      "cos": 0.6932632327079773,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "music/the other": {
+      "dist": 27.427173614501953,
+      "cos": 0.7651863694190979,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "music/my rival": {
+      "dist": 26.655014038085938,
+      "cos": 0.7467969059944153,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "wine/my dog": {
+      "dist": 27.284521102905273,
+      "cos": 0.7516987919807434,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "wine/my cat": {
+      "dist": 27.069002151489258,
+      "cos": 0.7410526871681213,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "wine/my child": {
+      "dist": 26.235462188720703,
+      "cos": 0.7916427254676819,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "wine/my friend": {
+      "dist": 27.540685653686523,
+      "cos": 0.7474207282066345,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "wine/my horse": {
+      "dist": 26.435476303100586,
+      "cos": 0.7731632590293884,
+      "class1": "hedonic",
+      "class2": "companion",
+      "same_class": false
+    },
+    "wine/my wife": {
+      "dist": 27.11402702331543,
+      "cos": 0.7756140828132629,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "wine/my husband": {
+      "dist": 28.921127319335938,
+      "cos": 0.7275404334068298,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "wine/my country": {
+      "dist": 25.916982650756836,
+      "cos": 0.7793858647346497,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "wine/God": {
+      "dist": 23.776756286621094,
+      "cos": 0.8323877453804016,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "wine/my family": {
+      "dist": 26.481182098388672,
+      "cos": 0.7739357352256775,
+      "class1": "hedonic",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "wine/my enemy": {
+      "dist": 29.25380516052246,
+      "cos": 0.7427965402603149,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "wine/a stranger": {
+      "dist": 24.69196128845215,
+      "cos": 0.7950417995452881,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "wine/my neighbor": {
+      "dist": 27.955947875976562,
+      "cos": 0.7357254028320312,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "wine/the other": {
+      "dist": 26.26873207092285,
+      "cos": 0.7906990051269531,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "wine/my rival": {
+      "dist": 26.587358474731445,
+      "cos": 0.7596492171287537,
+      "class1": "hedonic",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my dog/my cat": {
+      "dist": 23.056503295898438,
+      "cos": 0.8125499486923218,
+      "class1": "companion",
+      "class2": "companion",
+      "same_class": true
+    },
+    "my dog/my child": {
+      "dist": 22.321847915649414,
+      "cos": 0.8500100374221802,
+      "class1": "companion",
+      "class2": "companion",
+      "same_class": true
+    },
+    "my dog/my friend": {
+      "dist": 24.527379989624023,
+      "cos": 0.7995091676712036,
+      "class1": "companion",
+      "class2": "companion",
+      "same_class": true
+    },
+    "my dog/my horse": {
+      "dist": 25.19748306274414,
+      "cos": 0.7937958836555481,
+      "class1": "companion",
+      "class2": "companion",
+      "same_class": true
+    },
+    "my dog/my wife": {
+      "dist": 22.619430541992188,
+      "cos": 0.8446376919746399,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my dog/my husband": {
+      "dist": 24.695707321166992,
+      "cos": 0.8012627959251404,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my dog/my country": {
+      "dist": 21.568706512451172,
+      "cos": 0.8471240997314453,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my dog/God": {
+      "dist": 27.17304039001465,
+      "cos": 0.7796823978424072,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my dog/my family": {
+      "dist": 23.07485008239746,
+      "cos": 0.828357994556427,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my dog/my enemy": {
+      "dist": 26.56329345703125,
+      "cos": 0.7885153889656067,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my dog/a stranger": {
+      "dist": 23.135257720947266,
+      "cos": 0.8199247717857361,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my dog/my neighbor": {
+      "dist": 26.49112892150879,
+      "cos": 0.7625048756599426,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my dog/the other": {
+      "dist": 25.7889404296875,
+      "cos": 0.7982890605926514,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my dog/my rival": {
+      "dist": 22.650697708129883,
+      "cos": 0.8254594802856445,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my cat/my child": {
+      "dist": 24.8360595703125,
+      "cos": 0.8081220388412476,
+      "class1": "companion",
+      "class2": "companion",
+      "same_class": true
+    },
+    "my cat/my friend": {
+      "dist": 26.82520294189453,
+      "cos": 0.745999276638031,
+      "class1": "companion",
+      "class2": "companion",
+      "same_class": true
+    },
+    "my cat/my horse": {
+      "dist": 23.71858024597168,
+      "cos": 0.8086684942245483,
+      "class1": "companion",
+      "class2": "companion",
+      "same_class": true
+    },
+    "my cat/my wife": {
+      "dist": 25.97096061706543,
+      "cos": 0.7872029542922974,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my cat/my husband": {
+      "dist": 25.910415649414062,
+      "cos": 0.7698608636856079,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my cat/my country": {
+      "dist": 25.370235443115234,
+      "cos": 0.7770843505859375,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my cat/God": {
+      "dist": 28.702850341796875,
+      "cos": 0.7448434233665466,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my cat/my family": {
+      "dist": 25.68076515197754,
+      "cos": 0.7769455313682556,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my cat/my enemy": {
+      "dist": 28.89688491821289,
+      "cos": 0.7396143674850464,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my cat/a stranger": {
+      "dist": 24.21672821044922,
+      "cos": 0.7907901406288147,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my cat/my neighbor": {
+      "dist": 27.575925827026367,
+      "cos": 0.7262002825737,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my cat/the other": {
+      "dist": 26.547740936279297,
+      "cos": 0.7786688804626465,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my cat/my rival": {
+      "dist": 23.537954330444336,
+      "cos": 0.7993878126144409,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my child/my friend": {
+      "dist": 21.769092559814453,
+      "cos": 0.8576133251190186,
+      "class1": "companion",
+      "class2": "companion",
+      "same_class": true
+    },
+    "my child/my horse": {
+      "dist": 23.002077102661133,
+      "cos": 0.8429007530212402,
+      "class1": "companion",
+      "class2": "companion",
+      "same_class": true
+    },
+    "my child/my wife": {
+      "dist": 19.73056983947754,
+      "cos": 0.8890159726142883,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my child/my husband": {
+      "dist": 22.20606231689453,
+      "cos": 0.8534152507781982,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my child/my country": {
+      "dist": 19.423734664916992,
+      "cos": 0.8878498673439026,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my child/God": {
+      "dist": 25.147478103637695,
+      "cos": 0.8227296471595764,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my child/my family": {
+      "dist": 18.488216400146484,
+      "cos": 0.8993593454360962,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my child/my enemy": {
+      "dist": 24.558387756347656,
+      "cos": 0.8302773237228394,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my child/a stranger": {
+      "dist": 19.1693172454834,
+      "cos": 0.8900319933891296,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my child/my neighbor": {
+      "dist": 23.7559814453125,
+      "cos": 0.8284578919410706,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my child/the other": {
+      "dist": 22.51182746887207,
+      "cos": 0.856069803237915,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my child/my rival": {
+      "dist": 20.509292602539062,
+      "cos": 0.8731104135513306,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my friend/my horse": {
+      "dist": 26.64280891418457,
+      "cos": 0.7697529792785645,
+      "class1": "companion",
+      "class2": "companion",
+      "same_class": true
+    },
+    "my friend/my wife": {
+      "dist": 21.8117618560791,
+      "cos": 0.855853259563446,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my friend/my husband": {
+      "dist": 25.357044219970703,
+      "cos": 0.7907635569572449,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my friend/my country": {
+      "dist": 18.886581420898438,
+      "cos": 0.8829728960990906,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my friend/God": {
+      "dist": 25.07422637939453,
+      "cos": 0.8132013082504272,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my friend/my family": {
+      "dist": 19.491313934326172,
+      "cos": 0.8778235912322998,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my friend/my enemy": {
+      "dist": 22.33282470703125,
+      "cos": 0.8517802953720093,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my friend/a stranger": {
+      "dist": 21.10964584350586,
+      "cos": 0.8503378629684448,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my friend/my neighbor": {
+      "dist": 21.68590545654297,
+      "cos": 0.8411619067192078,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my friend/the other": {
+      "dist": 23.964494705200195,
+      "cos": 0.8264140486717224,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my friend/my rival": {
+      "dist": 21.12381362915039,
+      "cos": 0.848501980304718,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my horse/my wife": {
+      "dist": 27.062959671020508,
+      "cos": 0.7804878950119019,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my horse/my husband": {
+      "dist": 26.743099212646484,
+      "cos": 0.7725906372070312,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my horse/my country": {
+      "dist": 25.398338317871094,
+      "cos": 0.7933264970779419,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my horse/God": {
+      "dist": 29.973783493041992,
+      "cos": 0.7358905076980591,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my horse/my family": {
+      "dist": 27.34821128845215,
+      "cos": 0.7643610239028931,
+      "class1": "companion",
+      "class2": "covenantal",
+      "same_class": false
+    },
+    "my horse/my enemy": {
+      "dist": 28.25038719177246,
+      "cos": 0.7645184993743896,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my horse/a stranger": {
+      "dist": 25.490678787231445,
+      "cos": 0.7874956727027893,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my horse/my neighbor": {
+      "dist": 28.747873306274414,
+      "cos": 0.7281273007392883,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my horse/the other": {
+      "dist": 27.42851448059082,
+      "cos": 0.7755756974220276,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my horse/my rival": {
+      "dist": 24.839298248291016,
+      "cos": 0.7962664365768433,
+      "class1": "companion",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my wife/my husband": {
+      "dist": 20.37510871887207,
+      "cos": 0.8759011030197144,
+      "class1": "covenantal",
+      "class2": "covenantal",
+      "same_class": true
+    },
+    "my wife/my country": {
+      "dist": 18.96358871459961,
+      "cos": 0.892284095287323,
+      "class1": "covenantal",
+      "class2": "covenantal",
+      "same_class": true
+    },
+    "my wife/God": {
+      "dist": 23.47191047668457,
+      "cos": 0.8448253870010376,
+      "class1": "covenantal",
+      "class2": "covenantal",
+      "same_class": true
+    },
+    "my wife/my family": {
+      "dist": 20.96843719482422,
+      "cos": 0.8692473769187927,
+      "class1": "covenantal",
+      "class2": "covenantal",
+      "same_class": true
+    },
+    "my wife/my enemy": {
+      "dist": 21.175981521606445,
+      "cos": 0.8731993436813354,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my wife/a stranger": {
+      "dist": 21.25391960144043,
+      "cos": 0.8626869916915894,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my wife/my neighbor": {
+      "dist": 21.538602828979492,
+      "cos": 0.8585354089736938,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my wife/the other": {
+      "dist": 22.181726455688477,
+      "cos": 0.8595224022865295,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my wife/my rival": {
+      "dist": 20.24424934387207,
+      "cos": 0.875290036201477,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my husband/my country": {
+      "dist": 22.55901527404785,
+      "cos": 0.8364405035972595,
+      "class1": "covenantal",
+      "class2": "covenantal",
+      "same_class": true
+    },
+    "my husband/God": {
+      "dist": 27.05070686340332,
+      "cos": 0.7848563194274902,
+      "class1": "covenantal",
+      "class2": "covenantal",
+      "same_class": true
+    },
+    "my husband/my family": {
+      "dist": 23.443525314331055,
+      "cos": 0.8263463973999023,
+      "class1": "covenantal",
+      "class2": "covenantal",
+      "same_class": true
+    },
+    "my husband/my enemy": {
+      "dist": 22.220605850219727,
+      "cos": 0.8548275232315063,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my husband/a stranger": {
+      "dist": 24.90107536315918,
+      "cos": 0.7965222001075745,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my husband/my neighbor": {
+      "dist": 22.631858825683594,
+      "cos": 0.8311749696731567,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my husband/the other": {
+      "dist": 25.51700782775879,
+      "cos": 0.8055393099784851,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my husband/my rival": {
+      "dist": 21.791954040527344,
+      "cos": 0.8428179621696472,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my country/God": {
+      "dist": 22.464895248413086,
+      "cos": 0.8517789244651794,
+      "class1": "covenantal",
+      "class2": "covenantal",
+      "same_class": true
+    },
+    "my country/my family": {
+      "dist": 19.375553131103516,
+      "cos": 0.8805650472640991,
+      "class1": "covenantal",
+      "class2": "covenantal",
+      "same_class": true
+    },
+    "my country/my enemy": {
+      "dist": 21.561416625976562,
+      "cos": 0.8629007935523987,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my country/a stranger": {
+      "dist": 19.073911666870117,
+      "cos": 0.8796557188034058,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my country/my neighbor": {
+      "dist": 20.330780029296875,
+      "cos": 0.8625562191009521,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my country/the other": {
+      "dist": 21.78609275817871,
+      "cos": 0.8580478429794312,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my country/my rival": {
+      "dist": 19.072751998901367,
+      "cos": 0.8785536885261536,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "God/my family": {
+      "dist": 24.19704246520996,
+      "cos": 0.8293302655220032,
+      "class1": "covenantal",
+      "class2": "covenantal",
+      "same_class": true
+    },
+    "God/my enemy": {
+      "dist": 23.86554527282715,
+      "cos": 0.841505765914917,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "God/a stranger": {
+      "dist": 22.84335708618164,
+      "cos": 0.8450610041618347,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "God/my neighbor": {
+      "dist": 23.451860427856445,
+      "cos": 0.8360241651535034,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "God/the other": {
+      "dist": 24.09881591796875,
+      "cos": 0.8370012640953064,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "God/my rival": {
+      "dist": 23.697425842285156,
+      "cos": 0.8320705890655518,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my family/my enemy": {
+      "dist": 23.75801658630371,
+      "cos": 0.8346971273422241,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my family/a stranger": {
+      "dist": 19.783342361450195,
+      "cos": 0.8732359409332275,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my family/my neighbor": {
+      "dist": 21.96013069152832,
+      "cos": 0.8429192900657654,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my family/the other": {
+      "dist": 22.00490951538086,
+      "cos": 0.8566513657569885,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my family/my rival": {
+      "dist": 20.448022842407227,
+      "cos": 0.8634182810783386,
+      "class1": "covenantal",
+      "class2": "moral",
+      "same_class": false
+    },
+    "my enemy/a stranger": {
+      "dist": 23.35975456237793,
+      "cos": 0.836755096912384,
+      "class1": "moral",
+      "class2": "moral",
+      "same_class": true
+    },
+    "my enemy/my neighbor": {
+      "dist": 22.279512405395508,
+      "cos": 0.8516073822975159,
+      "class1": "moral",
+      "class2": "moral",
+      "same_class": true
+    },
+    "my enemy/the other": {
+      "dist": 25.528186798095703,
+      "cos": 0.8163620829582214,
+      "class1": "moral",
+      "class2": "moral",
+      "same_class": true
+    },
+    "my enemy/my rival": {
+      "dist": 21.202735900878906,
+      "cos": 0.8659088611602783,
+      "class1": "moral",
+      "class2": "moral",
+      "same_class": true
+    },
+    "a stranger/my neighbor": {
+      "dist": 23.056991577148438,
+      "cos": 0.8185791969299316,
+      "class1": "moral",
+      "class2": "moral",
+      "same_class": true
+    },
+    "a stranger/the other": {
+      "dist": 21.048099517822266,
+      "cos": 0.8662806153297424,
+      "class1": "moral",
+      "class2": "moral",
+      "same_class": true
+    },
+    "a stranger/my rival": {
+      "dist": 20.337980270385742,
+      "cos": 0.8580554127693176,
+      "class1": "moral",
+      "class2": "moral",
+      "same_class": true
+    },
+    "my neighbor/the other": {
+      "dist": 23.68027114868164,
+      "cos": 0.8292027711868286,
+      "class1": "moral",
+      "class2": "moral",
+      "same_class": true
+    },
+    "my neighbor/my rival": {
+      "dist": 21.27121925354004,
+      "cos": 0.8437156677246094,
+      "class1": "moral",
+      "class2": "moral",
+      "same_class": true
+    },
+    "the other/my rival": {
+      "dist": 23.95151138305664,
+      "cos": 0.824671745300293,
+      "class1": "moral",
+      "class2": "moral",
+      "same_class": true
+    }
+  }
+}

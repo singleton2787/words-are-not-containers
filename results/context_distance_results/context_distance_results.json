@@ -1,0 +1,439 @@
+{
+  "model": "Qwen/Qwen2-7B",
+  "layer_idx": 10,
+  "n_layers": 28,
+  "rows": [
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "level": 0,
+      "kind": "local",
+      "prompt": "I love pizza because",
+      "token_distance_predicate_to_object": 1,
+      "char_distance_predicate_to_object": 5,
+      "margin": 18.730358123779297,
+      "predicted_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 28.77863883972168,
+        "covenantal": 30.845272064208984,
+        "hedonic": 10.048280715942383,
+        "moral": 31.04341697692871
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "level": 1,
+      "kind": "short_intervening_context",
+      "prompt": "I love, after all this time, pizza because",
+      "token_distance_predicate_to_object": 7,
+      "char_distance_predicate_to_object": 27,
+      "margin": 7.208780288696289,
+      "predicted_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 33.65752410888672,
+        "covenantal": 34.48174285888672,
+        "hedonic": 24.25696563720703,
+        "moral": 31.46574592590332
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "level": 2,
+      "kind": "medium_intervening_context",
+      "prompt": "I love, after everything we have been through and everything it cost me, pizza because",
+      "token_distance_predicate_to_object": 14,
+      "char_distance_predicate_to_object": 71,
+      "margin": 3.9267635345458984,
+      "predicted_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 37.207942962646484,
+        "covenantal": 37.9569091796875,
+        "hedonic": 30.45180320739746,
+        "moral": 34.37856674194336
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "level": 3,
+      "kind": "long_intervening_context",
+      "prompt": "I love, despite the years, the arguments, the long silences, and the things neither of us knew how to say, pizza because",
+      "token_distance_predicate_to_object": 25,
+      "char_distance_predicate_to_object": 105,
+      "margin": 1.7170639038085938,
+      "predicted_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 39.114898681640625,
+        "covenantal": 39.59284973144531,
+        "hedonic": 34.08563232421875,
+        "moral": 35.802696228027344
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "level": 4,
+      "kind": "distractor_object",
+      "prompt": "I love, not the pizza, not the applause, not the easy comfort, but pizza because",
+      "token_distance_predicate_to_object": 4,
+      "char_distance_predicate_to_object": 14,
+      "margin": 3.022705078125,
+      "predicted_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 37.5447998046875,
+        "covenantal": 37.902462005615234,
+        "hedonic": 31.577804565429688,
+        "moral": 34.60050964355469
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "level": 5,
+      "kind": "negation_and_distractor",
+      "prompt": "I love, not because it was easy, not because I was hungry, not because I wanted comfort, but because of what it meant to choose pizza because",
+      "token_distance_predicate_to_object": 28,
+      "char_distance_predicate_to_object": 126,
+      "margin": -0.701934814453125,
+      "predicted_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 42.94243240356445,
+        "covenantal": 43.72953796386719,
+        "hedonic": 41.577064514160156,
+        "moral": 40.87512969970703
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "level": 0,
+      "kind": "local",
+      "prompt": "I love my dog because",
+      "token_distance_predicate_to_object": 1,
+      "char_distance_predicate_to_object": 5,
+      "margin": 9.873286247253418,
+      "predicted_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 10.099390983581543,
+        "covenantal": 19.97267723083496,
+        "hedonic": 26.699365615844727,
+        "moral": 27.34227752685547
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "level": 1,
+      "kind": "short_intervening_context",
+      "prompt": "I love, after all this time, my dog because",
+      "token_distance_predicate_to_object": 7,
+      "char_distance_predicate_to_object": 27,
+      "margin": 1.782815933227539,
+      "predicted_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 24.816280364990234,
+        "covenantal": 28.065126419067383,
+        "hedonic": 31.41591453552246,
+        "moral": 26.599096298217773
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "level": 2,
+      "kind": "medium_intervening_context",
+      "prompt": "I love, after everything we have been through and everything it cost me, my dog because",
+      "token_distance_predicate_to_object": 14,
+      "char_distance_predicate_to_object": 71,
+      "margin": -0.5191135406494141,
+      "predicted_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 31.9500675201416,
+        "covenantal": 34.295867919921875,
+        "hedonic": 36.8680305480957,
+        "moral": 31.430953979492188
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "level": 3,
+      "kind": "long_intervening_context",
+      "prompt": "I love, despite the years, the arguments, the long silences, and the things neither of us knew how to say, my dog because",
+      "token_distance_predicate_to_object": 25,
+      "char_distance_predicate_to_object": 105,
+      "margin": -1.36004638671875,
+      "predicted_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 35.93949508666992,
+        "covenantal": 37.68811798095703,
+        "hedonic": 38.8364143371582,
+        "moral": 34.57944869995117
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "level": 4,
+      "kind": "distractor_object",
+      "prompt": "I love, not the pizza, not the applause, not the easy comfort, but my dog because",
+      "token_distance_predicate_to_object": 16,
+      "char_distance_predicate_to_object": 65,
+      "margin": -0.7365131378173828,
+      "predicted_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 31.539321899414062,
+        "covenantal": 33.836002349853516,
+        "hedonic": 35.451236724853516,
+        "moral": 30.80280876159668
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "level": 5,
+      "kind": "negation_and_distractor",
+      "prompt": "I love, not because it was easy, not because I was hungry, not because I wanted comfort, but because of what it meant to choose my dog because",
+      "token_distance_predicate_to_object": 28,
+      "char_distance_predicate_to_object": 126,
+      "margin": -0.12926864624023438,
+      "predicted_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 41.33522033691406,
+        "covenantal": 43.337867736816406,
+        "hedonic": 45.23410415649414,
+        "moral": 41.20595169067383
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "level": 0,
+      "kind": "local",
+      "prompt": "I love my wife because",
+      "token_distance_predicate_to_object": 1,
+      "char_distance_predicate_to_object": 5,
+      "margin": 5.450528144836426,
+      "predicted_class": "covenantal",
+      "correct_region": true,
+      "distances": {
+        "companion": 19.75090789794922,
+        "covenantal": 14.300379753112793,
+        "hedonic": 33.09439468383789,
+        "moral": 24.527587890625
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "level": 1,
+      "kind": "short_intervening_context",
+      "prompt": "I love, after all this time, my wife because",
+      "token_distance_predicate_to_object": 7,
+      "char_distance_predicate_to_object": 27,
+      "margin": -0.30166053771972656,
+      "predicted_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 29.88407325744629,
+        "covenantal": 27.469985961914062,
+        "hedonic": 37.23540496826172,
+        "moral": 27.168325424194336
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "level": 2,
+      "kind": "medium_intervening_context",
+      "prompt": "I love, after everything we have been through and everything it cost me, my wife because",
+      "token_distance_predicate_to_object": 14,
+      "char_distance_predicate_to_object": 71,
+      "margin": -2.06964111328125,
+      "predicted_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 34.50928497314453,
+        "covenantal": 33.68114471435547,
+        "hedonic": 38.663841247558594,
+        "moral": 31.61150360107422
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "level": 3,
+      "kind": "long_intervening_context",
+      "prompt": "I love, despite the years, the arguments, the long silences, and the things neither of us knew how to say, my wife because",
+      "token_distance_predicate_to_object": 25,
+      "char_distance_predicate_to_object": 105,
+      "margin": -2.6244239807128906,
+      "predicted_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 38.90479278564453,
+        "covenantal": 38.5522346496582,
+        "hedonic": 41.49673843383789,
+        "moral": 35.92781066894531
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "level": 4,
+      "kind": "distractor_object",
+      "prompt": "I love, not the pizza, not the applause, not the easy comfort, but my wife because",
+      "token_distance_predicate_to_object": 16,
+      "char_distance_predicate_to_object": 65,
+      "margin": -2.2688827514648438,
+      "predicted_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 34.16566848754883,
+        "covenantal": 33.146636962890625,
+        "hedonic": 38.867427825927734,
+        "moral": 30.87775421142578
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "level": 5,
+      "kind": "negation_and_distractor",
+      "prompt": "I love, not because it was easy, not because I was hungry, not because I wanted comfort, but because of what it meant to choose my wife because",
+      "token_distance_predicate_to_object": 28,
+      "char_distance_predicate_to_object": 126,
+      "margin": -1.67059326171875,
+      "predicted_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 42.19778823852539,
+        "covenantal": 41.55491256713867,
+        "hedonic": 46.34282302856445,
+        "moral": 39.88431930541992
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "level": 0,
+      "kind": "local",
+      "prompt": "I love my enemy because",
+      "token_distance_predicate_to_object": 1,
+      "char_distance_predicate_to_object": 5,
+      "margin": 9.60909652709961,
+      "predicted_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 34.14888000488281,
+        "covenantal": 31.446928024291992,
+        "hedonic": 41.07709503173828,
+        "moral": 21.837831497192383
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "level": 1,
+      "kind": "short_intervening_context",
+      "prompt": "I love, after all this time, my enemy because",
+      "token_distance_predicate_to_object": 7,
+      "char_distance_predicate_to_object": 27,
+      "margin": 8.193305969238281,
+      "predicted_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 35.60338592529297,
+        "covenantal": 33.784175872802734,
+        "hedonic": 41.18189239501953,
+        "moral": 25.590869903564453
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "level": 2,
+      "kind": "medium_intervening_context",
+      "prompt": "I love, after everything we have been through and everything it cost me, my enemy because",
+      "token_distance_predicate_to_object": 14,
+      "char_distance_predicate_to_object": 71,
+      "margin": 6.658329010009766,
+      "predicted_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 38.219085693359375,
+        "covenantal": 37.65123748779297,
+        "hedonic": 41.121246337890625,
+        "moral": 30.992908477783203
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "level": 3,
+      "kind": "long_intervening_context",
+      "prompt": "I love, despite the years, the arguments, the long silences, and the things neither of us knew how to say, my enemy because",
+      "token_distance_predicate_to_object": 25,
+      "char_distance_predicate_to_object": 105,
+      "margin": 5.427223205566406,
+      "predicted_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 41.381065368652344,
+        "covenantal": 41.36517333984375,
+        "hedonic": 43.37614822387695,
+        "moral": 35.937950134277344
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "level": 4,
+      "kind": "distractor_object",
+      "prompt": "I love, not the pizza, not the applause, not the easy comfort, but my enemy because",
+      "token_distance_predicate_to_object": 16,
+      "char_distance_predicate_to_object": 65,
+      "margin": 7.0555419921875,
+      "predicted_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 39.92619705200195,
+        "covenantal": 39.747867584228516,
+        "hedonic": 41.87741470336914,
+        "moral": 32.692325592041016
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "level": 5,
+      "kind": "negation_and_distractor",
+      "prompt": "I love, not because it was easy, not because I was hungry, not because I wanted comfort, but because of what it meant to choose my enemy because",
+      "token_distance_predicate_to_object": 28,
+      "char_distance_predicate_to_object": 126,
+      "margin": 4.585620880126953,
+      "predicted_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 43.106231689453125,
+        "covenantal": 43.0412712097168,
+        "hedonic": 45.758480072021484,
+        "moral": 38.455650329589844
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model weights — too large for git; use HuggingFace cache or /opt/dlami/nvme
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# HuggingFace cache
+~/.cache/huggingface/
+
+# Large corpus files (keep wikitext_raw.txt out of git if desired)
+# corpus/internet_corpus/wikitext_raw.txt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.env
+HF_TOKEN
+
+# Annotation sheets — may contain annotator names/notes
+annotation/*_completed.csv
+annotation/*_KEY.jsonl
+
+# Keep the blind annotation key out of the repo (breaks blinding)
+annotation/annotation_key_private.csv
+annotation/*.zip
+# Local AI Flight Recorder state (machine paths)
+.aiflight/
+# Model trained by hsg_wiki_train.py
+results/wiki_model/

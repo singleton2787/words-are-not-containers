@@ -1,0 +1,180 @@
+{
+  "model": "google/gemma-7b",
+  "n_layers": 28,
+  "block_idx": 26,
+  "verb_stats": {
+    "see": {
+      "ratio": 1.2262776376278626,
+      "p": 0.0,
+      "d": 1.0451376965892623,
+      "within_mean": 10.367689263820647,
+      "between_mean": 12.713665498097738
+    },
+    "love": {
+      "ratio": 1.2962266063016492,
+      "p": 0.0,
+      "d": 1.328262153454668,
+      "within_mean": 10.551301741600037,
+      "between_mean": 13.676878048578898
+    },
+    "need": {
+      "ratio": 1.2461205214957272,
+      "p": 0.0,
+      "d": 1.0849971840667312,
+      "within_mean": 10.119331812858581,
+      "between_mean": 12.609907035827638
+    },
+    "fear": {
+      "ratio": 1.243047988508561,
+      "p": 0.0,
+      "d": 1.077877030464027,
+      "within_mean": 9.534530925750733,
+      "between_mean": 11.851879488627116
+    },
+    "eat": {
+      "ratio": 1.277360758175545,
+      "p": 0.0,
+      "d": 0.9651573514520114,
+      "within_mean": 8.915650236606599,
+      "between_mean": 11.388501745859783
+    },
+    "own": {
+      "ratio": 1.1987589266328178,
+      "p": 0.0,
+      "d": 0.9996775401072853,
+      "within_mean": 11.051671171188355,
+      "between_mean": 13.248289470672608
+    },
+    "remember": {
+      "ratio": 1.2522694121775542,
+      "p": 0.0,
+      "d": 1.1883848753602821,
+      "within_mean": 11.099115598201752,
+      "between_mean": 13.89908296585083
+    },
+    "care": {
+      "ratio": 1.283632504774231,
+      "p": 0.0,
+      "d": 1.2083429349240276,
+      "within_mean": 11.200937950611115,
+      "between_mean": 14.377888037363688
+    },
+    "hate": {
+      "ratio": 1.2896302364038241,
+      "p": 0.0,
+      "d": 1.3203567029412488,
+      "within_mean": 8.716023796796799,
+      "between_mean": 11.240447829564413
+    }
+  },
+  "fingerprints": {
+    "love": {
+      "companion/companion": -1.5193027429580694,
+      "companion/covenantal": 0.13326208782196025,
+      "companion/hedonic": 0.7384325094223018,
+      "companion/moral": 1.48302168560028,
+      "covenantal/covenantal": -0.4419793062210088,
+      "covenantal/hedonic": -0.2757589654922489,
+      "covenantal/moral": 0.06419542980194193,
+      "hedonic/hedonic": -0.20482730197906507,
+      "hedonic/moral": -0.2721125726699819,
+      "moral/moral": 0.2950691766738901
+    },
+    "need": {
+      "companion/companion": -1.0583761262893678,
+      "companion/covenantal": -0.2722071409225467,
+      "companion/hedonic": 0.050378003120422926,
+      "companion/moral": 0.4126882600784306,
+      "covenantal/covenantal": -0.7818209695816044,
+      "covenantal/hedonic": -0.19301257610321124,
+      "covenantal/moral": 0.15423752307891866,
+      "hedonic/hedonic": -0.08564935207367022,
+      "hedonic/moral": 0.19495350360870453,
+      "moral/moral": 1.5788088750839235
+    },
+    "fear": {
+      "companion/companion": 0.37749072170257425,
+      "companion/covenantal": 0.5205880270004279,
+      "companion/hedonic": -0.7598956193923943,
+      "companion/moral": 0.7980284795761101,
+      "covenantal/covenantal": -0.7336604490280159,
+      "covenantal/hedonic": -0.16064284229278658,
+      "covenantal/moral": -0.02615076923370263,
+      "hedonic/hedonic": -0.15271433734893836,
+      "hedonic/moral": -0.440633687019347,
+      "moral/moral": 0.5775904760360728
+    },
+    "eat": {
+      "companion/companion": -0.9270560226440439,
+      "companion/covenantal": -0.6387439975738531,
+      "companion/hedonic": 0.9016276302337647,
+      "companion/moral": -0.27795961952209547,
+      "covenantal/covenantal": -0.42673296546935946,
+      "covenantal/hedonic": 0.20391312980651888,
+      "covenantal/moral": -0.5932456836700433,
+      "hedonic/hedonic": 1.0261196174621587,
+      "hedonic/moral": 0.7089092006683351,
+      "moral/moral": 0.0231687107086187
+    },
+    "own": {
+      "companion/companion": 0.16646330356597816,
+      "companion/covenantal": -0.25887382984161333,
+      "companion/hedonic": 0.5712324476242066,
+      "companion/moral": 0.8134777402877804,
+      "covenantal/covenantal": -1.350172781944275,
+      "covenantal/hedonic": -0.5277912187576292,
+      "covenantal/moral": -0.4716263246536252,
+      "hedonic/hedonic": 0.27785995006561337,
+      "hedonic/moral": -0.4848778581619262,
+      "moral/moral": 1.264308571815491
+    },
+    "remember": {
+      "companion/companion": -1.3015863647460952,
+      "companion/covenantal": -0.1845330848693847,
+      "companion/hedonic": 0.6613619766235368,
+      "companion/moral": 0.6245604476928699,
+      "covenantal/covenantal": -0.05623686218261725,
+      "covenantal/hedonic": 0.32554204559326094,
+      "covenantal/moral": 0.10373885726928811,
+      "hedonic/hedonic": 0.07093961334228438,
+      "hedonic/moral": -0.4410915222167964,
+      "moral/moral": 0.197304893493653
+    },
+    "care": {
+      "companion/companion": -0.3275777511596689,
+      "companion/covenantal": 0.06551099967956597,
+      "companion/hedonic": 1.4697066898345956,
+      "companion/moral": 0.9060804386138916,
+      "covenantal/covenantal": -0.023182123184203984,
+      "covenantal/hedonic": 1.2415224475860573,
+      "covenantal/moral": -0.31820699501037586,
+      "hedonic/hedonic": -0.465874879837036,
+      "hedonic/moral": -1.3702763347625733,
+      "moral/moral": -1.1777024917602534
+    },
+    "hate": {
+      "companion/companion": -0.44663238859176735,
+      "companion/covenantal": 0.042244969844817515,
+      "companion/hedonic": -0.22273586130142187,
+      "companion/moral": 0.9784316458702089,
+      "covenantal/covenantal": -0.5607413563728341,
+      "covenantal/hedonic": -0.4739790329933169,
+      "covenantal/moral": 0.23056627416610764,
+      "hedonic/hedonic": -0.7128011498451241,
+      "hedonic/moral": -0.12625327920913643,
+      "moral/moral": 1.2919001784324649
+    }
+  },
+  "class_pairs": [
+    "companion/companion",
+    "companion/covenantal",
+    "companion/hedonic",
+    "companion/moral",
+    "covenantal/covenantal",
+    "covenantal/hedonic",
+    "covenantal/moral",
+    "hedonic/hedonic",
+    "hedonic/moral",
+    "moral/moral"
+  ]
+}

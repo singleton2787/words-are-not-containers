@@ -1,0 +1,31 @@
+{
+  "model": "Qwen/Qwen2-7B",
+  "block_idx": 21,
+  "per_phrase": [
+    {
+      "phrase": "spill the beans",
+      "within_mean": 0.45032576223214466,
+      "between_mean": 0.4622527100145817,
+      "separation": 0.011926947782437025
+    },
+    {
+      "phrase": "break the ice",
+      "within_mean": 0.19445166488488516,
+      "between_mean": 0.39659973606467247,
+      "separation": 0.2021480711797873
+    },
+    {
+      "phrase": "hit the road",
+      "within_mean": 0.1967164675394694,
+      "between_mean": 0.4065977558493614,
+      "separation": 0.20988128830989203
+    }
+  ],
+  "global": {
+    "observed_delta": 0.14131876909070545,
+    "perm_p": 0.0,
+    "mannwhitney_p": 8.978174088822999e-06,
+    "within_mean": 0.2804979648854997,
+    "between_mean": 0.42181673397620517
+  }
+}

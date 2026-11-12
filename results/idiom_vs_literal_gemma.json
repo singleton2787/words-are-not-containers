@@ -1,0 +1,31 @@
+{
+  "model": "google/gemma-7b",
+  "block_idx": 21,
+  "per_phrase": [
+    {
+      "phrase": "spill the beans",
+      "within_mean": 0.5269564042488734,
+      "between_mean": 0.5404272601008415,
+      "separation": 0.013470855851968166
+    },
+    {
+      "phrase": "break the ice",
+      "within_mean": 0.16477112968762717,
+      "between_mean": 0.41901126131415367,
+      "separation": 0.2542401316265265
+    },
+    {
+      "phrase": "hit the road",
+      "within_mean": 0.2116975486278534,
+      "between_mean": 0.41524818539619446,
+      "separation": 0.20355063676834106
+    }
+  ],
+  "global": {
+    "observed_delta": 0.15708720808227855,
+    "perm_p": 0.0,
+    "mannwhitney_p": 3.835361567782552e-05,
+    "within_mean": 0.301141694188118,
+    "between_mean": 0.45822890227039653
+  }
+}

@@ -1,0 +1,1997 @@
+{
+  "model": "Qwen/Qwen2-7B",
+  "n_layers": 28,
+  "layer_idx": 10,
+  "rows": [
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "local",
+      "context_description": "No inserted context",
+      "intervention_index": 0,
+      "intervention": "",
+      "prompt": "I love pizza because",
+      "token_distance": 1,
+      "margin": 18.730358123779297,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 28.77863883972168,
+        "covenantal": 30.845272064208984,
+        "hedonic": 10.048280715942383,
+        "moral": 31.04341697692871
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 0,
+      "intervention": ", in a way that is hard to explain,",
+      "prompt": "I love, in a way that is hard to explain, pizza because",
+      "token_distance": 11,
+      "margin": 8.278692245483398,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 35.22478103637695,
+        "covenantal": 36.28015899658203,
+        "hedonic": 24.870649337768555,
+        "moral": 33.14934158325195
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 1,
+      "intervention": ", after some time and without making too much of it,",
+      "prompt": "I love, after some time and without making too much of it, pizza because",
+      "token_distance": 13,
+      "margin": 5.291461944580078,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 36.35110855102539,
+        "covenantal": 37.5966796875,
+        "hedonic": 28.38134002685547,
+        "moral": 33.67280197143555
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 2,
+      "intervention": ", in the ordinary course of things, after many days had passed,",
+      "prompt": "I love, in the ordinary course of things, after many days had passed, pizza because",
+      "token_distance": 15,
+      "margin": 4.454811096191406,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 37.0678596496582,
+        "covenantal": 37.92317581176758,
+        "hedonic": 29.983097076416016,
+        "moral": 34.43790817260742
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 3,
+      "intervention": ", in a way that became clearer over time, though not all at once,",
+      "prompt": "I love, in a way that became clearer over time, though not all at once, pizza because",
+      "token_distance": 17,
+      "margin": 4.322818756103516,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 36.191795349121094,
+        "covenantal": 36.76473617553711,
+        "hedonic": 29.247047424316406,
+        "moral": 33.56986618041992
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 0,
+      "intervention": ", after all these years,",
+      "prompt": "I love, after all these years, pizza because",
+      "token_distance": 7,
+      "margin": 7.428178787231445,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 33.66178894042969,
+        "covenantal": 34.5439453125,
+        "hedonic": 24.104799270629883,
+        "moral": 31.532978057861328
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 1,
+      "intervention": ", after many ordinary mornings and quiet evenings,",
+      "prompt": "I love, after many ordinary mornings and quiet evenings, pizza because",
+      "token_distance": 10,
+      "margin": 6.666133880615234,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 35.10076904296875,
+        "covenantal": 36.21791076660156,
+        "hedonic": 26.020713806152344,
+        "moral": 32.68684768676758
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 2,
+      "intervention": ", after years of small moments, repeated habits, and familiar rooms,",
+      "prompt": "I love, after years of small moments, repeated habits, and familiar rooms, pizza because",
+      "token_distance": 15,
+      "margin": 6.113544464111328,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 38.757057189941406,
+        "covenantal": 39.03078079223633,
+        "hedonic": 30.674991607666016,
+        "moral": 36.788536071777344
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 3,
+      "intervention": ", after a long stretch of time marked mostly by ordinary days,",
+      "prompt": "I love, after a long stretch of time marked mostly by ordinary days, pizza because",
+      "token_distance": 14,
+      "margin": 6.781827926635742,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 38.605918884277344,
+        "covenantal": 39.33513641357422,
+        "hedonic": 29.112497329711914,
+        "moral": 35.894325256347656
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 0,
+      "intervention": ", despite the pain and the need to forgive,",
+      "prompt": "I love, despite the pain and the need to forgive, pizza because",
+      "token_distance": 11,
+      "margin": 6.464084625244141,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 35.38554382324219,
+        "covenantal": 36.10456466674805,
+        "hedonic": 26.17441177368164,
+        "moral": 32.63849639892578
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 1,
+      "intervention": ", despite the years, the arguments, and the long silences,",
+      "prompt": "I love, despite the years, the arguments, and the long silences, pizza because",
+      "token_distance": 15,
+      "margin": 4.925283432006836,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 36.168495178222656,
+        "covenantal": 36.65678787231445,
+        "hedonic": 28.650251388549805,
+        "moral": 33.57553482055664
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 2,
+      "intervention": ", not because it was easy, but because choosing mercy mattered,",
+      "prompt": "I love, not because it was easy, but because choosing mercy mattered, pizza because",
+      "token_distance": 14,
+      "margin": 0.2555503845214844,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 44.03593063354492,
+        "covenantal": 44.458526611328125,
+        "hedonic": 40.828956604003906,
+        "moral": 41.08450698852539
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 3,
+      "intervention": ", after everything it cost me and everything I had to forgive,",
+      "prompt": "I love, after everything it cost me and everything I had to forgive, pizza because",
+      "token_distance": 14,
+      "margin": 2.552387237548828,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 38.77141571044922,
+        "covenantal": 39.71786880493164,
+        "hedonic": 33.50159454345703,
+        "moral": 36.05398178100586
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 0,
+      "intervention": ", not the pizza, not the cake, not the coffee, but",
+      "prompt": "I love, not the pizza, not the cake, not the coffee, but pizza because",
+      "token_distance": 4,
+      "margin": 5.989280700683594,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 34.73945999145508,
+        "covenantal": 35.557003021240234,
+        "hedonic": 27.341617584228516,
+        "moral": 33.33089828491211
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 1,
+      "intervention": ", after thinking about comfort, hunger, pleasure, and taste,",
+      "prompt": "I love, after thinking about comfort, hunger, pleasure, and taste, pizza because",
+      "token_distance": 14,
+      "margin": 5.187572479248047,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 34.28232955932617,
+        "covenantal": 35.14157485961914,
+        "hedonic": 27.126659393310547,
+        "moral": 32.314231872558594
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 2,
+      "intervention": ", not because of sweetness or appetite or anything delicious, but",
+      "prompt": "I love, not because of sweetness or appetite or anything delicious, but pizza because",
+      "token_distance": 13,
+      "margin": 6.007209777832031,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 36.05254364013672,
+        "covenantal": 36.74319076538086,
+        "hedonic": 28.15127182006836,
+        "moral": 34.15848159790039
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 3,
+      "intervention": ", with all the language of craving and pleasure pushed aside,",
+      "prompt": "I love, with all the language of craving and pleasure pushed aside, pizza because",
+      "token_distance": 13,
+      "margin": 6.805601119995117,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 34.84883117675781,
+        "covenantal": 35.74480056762695,
+        "hedonic": 25.58683967590332,
+        "moral": 32.39244079589844
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 0,
+      "intervention": ", not my dog, not my cat, not my closest friend, but",
+      "prompt": "I love, not my dog, not my cat, not my closest friend, but pizza because",
+      "token_distance": 16,
+      "margin": 3.8917484283447266,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 32.95383071899414,
+        "covenantal": 34.193748474121094,
+        "hedonic": 28.339853286743164,
+        "moral": 32.23160171508789
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 1,
+      "intervention": ", after thinking about loyalty, companionship, and being there every day,",
+      "prompt": "I love, after thinking about loyalty, companionship, and being there every day, pizza because",
+      "token_distance": 16,
+      "margin": 5.583465576171875,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 38.07295608520508,
+        "covenantal": 38.80734634399414,
+        "hedonic": 30.187580108642578,
+        "moral": 35.77104568481445
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 2,
+      "intervention": ", not because of walks or play or the comfort of an animal, but",
+      "prompt": "I love, not because of walks or play or the comfort of an animal, but pizza because",
+      "token_distance": 16,
+      "margin": 5.828611373901367,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 38.40945053100586,
+        "covenantal": 39.27667999267578,
+        "hedonic": 30.572172164916992,
+        "moral": 36.40078353881836
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 3,
+      "intervention": ", with all the language of friendship and companionship in the background,",
+      "prompt": "I love, with all the language of friendship and companionship in the background, pizza because",
+      "token_distance": 15,
+      "margin": 7.48548698425293,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 35.835975646972656,
+        "covenantal": 36.58599853515625,
+        "hedonic": 26.19879722595215,
+        "moral": 33.68428421020508
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 0,
+      "intervention": ", not because it was simple, but because",
+      "prompt": "I love, not because it was simple, but because pizza because",
+      "token_distance": 10,
+      "margin": 2.3909912109375,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 44.856014251708984,
+        "covenantal": 45.46071243286133,
+        "hedonic": 40.99882125854492,
+        "moral": 43.38981246948242
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 1,
+      "intervention": ", not because anyone expected it, but because",
+      "prompt": "I love, not because anyone expected it, but because pizza because",
+      "token_distance": 10,
+      "margin": 1.172515869140625,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 47.52946472167969,
+        "covenantal": 47.88560485839844,
+        "hedonic": 44.67778778076172,
+        "moral": 45.850303649902344
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 2,
+      "intervention": ", not because the obvious answer was enough, but because",
+      "prompt": "I love, not because the obvious answer was enough, but because pizza because",
+      "token_distance": 12,
+      "margin": 2.242156982421875,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 45.91594696044922,
+        "covenantal": 46.50664138793945,
+        "hedonic": 41.997337341308594,
+        "moral": 44.23949432373047
+      }
+    },
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 3,
+      "intervention": ", not for comfort, not for duty, not for appearances, but because",
+      "prompt": "I love, not for comfort, not for duty, not for appearances, but because pizza because",
+      "token_distance": 16,
+      "margin": 1.9889945983886719,
+      "nearest_class": "hedonic",
+      "correct_region": true,
+      "distances": {
+        "companion": 44.26387405395508,
+        "covenantal": 44.82990646362305,
+        "hedonic": 40.46260070800781,
+        "moral": 42.451595306396484
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "local",
+      "context_description": "No inserted context",
+      "intervention_index": 0,
+      "intervention": "",
+      "prompt": "I love my dog because",
+      "token_distance": 1,
+      "margin": 9.873286247253418,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 10.099390983581543,
+        "covenantal": 19.97267723083496,
+        "hedonic": 26.699365615844727,
+        "moral": 27.34227752685547
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 0,
+      "intervention": ", in a way that is hard to explain,",
+      "prompt": "I love, in a way that is hard to explain, my dog because",
+      "token_distance": 11,
+      "margin": 1.4972076416015625,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 25.938684463500977,
+        "covenantal": 29.600635528564453,
+        "hedonic": 31.167842864990234,
+        "moral": 27.43589210510254
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 1,
+      "intervention": ", after some time and without making too much of it,",
+      "prompt": "I love, after some time and without making too much of it, my dog because",
+      "token_distance": 13,
+      "margin": -0.22293472290039062,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 28.726116180419922,
+        "covenantal": 32.12742614746094,
+        "hedonic": 33.410213470458984,
+        "moral": 28.50318145751953
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 2,
+      "intervention": ", in the ordinary course of things, after many days had passed,",
+      "prompt": "I love, in the ordinary course of things, after many days had passed, my dog because",
+      "token_distance": 15,
+      "margin": -0.4768486022949219,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 30.94743537902832,
+        "covenantal": 33.2656364440918,
+        "hedonic": 36.16421127319336,
+        "moral": 30.4705867767334
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 3,
+      "intervention": ", in a way that became clearer over time, though not all at once,",
+      "prompt": "I love, in a way that became clearer over time, though not all at once, my dog because",
+      "token_distance": 17,
+      "margin": -0.3427009582519531,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 30.38092041015625,
+        "covenantal": 32.8289909362793,
+        "hedonic": 35.63529586791992,
+        "moral": 30.038219451904297
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 0,
+      "intervention": ", after all these years,",
+      "prompt": "I love, after all these years, my dog because",
+      "token_distance": 7,
+      "margin": 1.9377803802490234,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 24.311649322509766,
+        "covenantal": 27.743759155273438,
+        "hedonic": 30.889249801635742,
+        "moral": 26.24942970275879
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 1,
+      "intervention": ", after many ordinary mornings and quiet evenings,",
+      "prompt": "I love, after many ordinary mornings and quiet evenings, my dog because",
+      "token_distance": 10,
+      "margin": 0.5344963073730469,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 26.824283599853516,
+        "covenantal": 30.119544982910156,
+        "hedonic": 31.2379207611084,
+        "moral": 27.358779907226562
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 2,
+      "intervention": ", after years of small moments, repeated habits, and familiar rooms,",
+      "prompt": "I love, after years of small moments, repeated habits, and familiar rooms, my dog because",
+      "token_distance": 15,
+      "margin": 0.028697967529296875,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 32.77116394042969,
+        "covenantal": 34.83374786376953,
+        "hedonic": 36.78176498413086,
+        "moral": 32.799861907958984
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 3,
+      "intervention": ", after a long stretch of time marked mostly by ordinary days,",
+      "prompt": "I love, after a long stretch of time marked mostly by ordinary days, my dog because",
+      "token_distance": 14,
+      "margin": -0.7035274505615234,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 30.30414581298828,
+        "covenantal": 32.8746223449707,
+        "hedonic": 33.94062042236328,
+        "moral": 29.600618362426758
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 0,
+      "intervention": ", despite the pain and the need to forgive,",
+      "prompt": "I love, despite the pain and the need to forgive, my dog because",
+      "token_distance": 11,
+      "margin": 0.07074546813964844,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 26.407567977905273,
+        "covenantal": 29.432445526123047,
+        "hedonic": 31.5645694732666,
+        "moral": 26.478313446044922
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 1,
+      "intervention": ", despite the years, the arguments, and the long silences,",
+      "prompt": "I love, despite the years, the arguments, and the long silences, my dog because",
+      "token_distance": 15,
+      "margin": -0.31737518310546875,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 30.669530868530273,
+        "covenantal": 33.06846618652344,
+        "hedonic": 35.76005935668945,
+        "moral": 30.352155685424805
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 2,
+      "intervention": ", not because it was easy, but because choosing mercy mattered,",
+      "prompt": "I love, not because it was easy, but because choosing mercy mattered, my dog because",
+      "token_distance": 14,
+      "margin": -1.4032516479492188,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 40.9703254699707,
+        "covenantal": 42.599491119384766,
+        "hedonic": 43.668888092041016,
+        "moral": 39.567073822021484
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 3,
+      "intervention": ", after everything it cost me and everything I had to forgive,",
+      "prompt": "I love, after everything it cost me and everything I had to forgive, my dog because",
+      "token_distance": 14,
+      "margin": -1.1310234069824219,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 33.8388786315918,
+        "covenantal": 36.07490921020508,
+        "hedonic": 38.27389144897461,
+        "moral": 32.707855224609375
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 0,
+      "intervention": ", not the pizza, not the cake, not the coffee, but",
+      "prompt": "I love, not the pizza, not the cake, not the coffee, but my dog because",
+      "token_distance": 15,
+      "margin": 1.1927757263183594,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 28.752588272094727,
+        "covenantal": 31.69698143005371,
+        "hedonic": 33.910247802734375,
+        "moral": 29.945363998413086
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 1,
+      "intervention": ", after thinking about comfort, hunger, pleasure, and taste,",
+      "prompt": "I love, after thinking about comfort, hunger, pleasure, and taste, my dog because",
+      "token_distance": 14,
+      "margin": -0.2754344940185547,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 31.787569046020508,
+        "covenantal": 34.216346740722656,
+        "hedonic": 35.42213821411133,
+        "moral": 31.512134552001953
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 2,
+      "intervention": ", not because of sweetness or appetite or anything delicious, but",
+      "prompt": "I love, not because of sweetness or appetite or anything delicious, but my dog because",
+      "token_distance": 13,
+      "margin": -0.13056373596191406,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 31.87523651123047,
+        "covenantal": 34.3621711730957,
+        "hedonic": 36.76675033569336,
+        "moral": 31.744672775268555
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 3,
+      "intervention": ", with all the language of craving and pleasure pushed aside,",
+      "prompt": "I love, with all the language of craving and pleasure pushed aside, my dog because",
+      "token_distance": 13,
+      "margin": -0.4500885009765625,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 27.459178924560547,
+        "covenantal": 30.470491409301758,
+        "hedonic": 31.572052001953125,
+        "moral": 27.009090423583984
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 0,
+      "intervention": ", not my dog, not my cat, not my closest friend, but",
+      "prompt": "I love, not my dog, not my cat, not my closest friend, but my dog because",
+      "token_distance": 3,
+      "margin": 0.4710273742675781,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 29.398061752319336,
+        "covenantal": 31.68649673461914,
+        "hedonic": 35.03830337524414,
+        "moral": 29.869089126586914
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 1,
+      "intervention": ", after thinking about loyalty, companionship, and being there every day,",
+      "prompt": "I love, after thinking about loyalty, companionship, and being there every day, my dog because",
+      "token_distance": 16,
+      "margin": -0.051448822021484375,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 33.61418533325195,
+        "covenantal": 35.73434829711914,
+        "hedonic": 37.33323287963867,
+        "moral": 33.56273651123047
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 2,
+      "intervention": ", not because of walks or play or the comfort of an animal, but",
+      "prompt": "I love, not because of walks or play or the comfort of an animal, but my dog because",
+      "token_distance": 16,
+      "margin": 0.34118080139160156,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 31.604877471923828,
+        "covenantal": 33.95045471191406,
+        "hedonic": 35.61353302001953,
+        "moral": 31.94605827331543
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 3,
+      "intervention": ", with all the language of friendship and companionship in the background,",
+      "prompt": "I love, with all the language of friendship and companionship in the background, my dog because",
+      "token_distance": 15,
+      "margin": 0.8172988891601562,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 26.097272872924805,
+        "covenantal": 29.202842712402344,
+        "hedonic": 31.106792449951172,
+        "moral": 26.91457176208496
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 0,
+      "intervention": ", not because it was simple, but because",
+      "prompt": "I love, not because it was simple, but because my dog because",
+      "token_distance": 10,
+      "margin": 0.5041351318359375,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 43.99148178100586,
+        "covenantal": 46.00609588623047,
+        "hedonic": 48.17792892456055,
+        "moral": 44.4956169128418
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 1,
+      "intervention": ", not because anyone expected it, but because",
+      "prompt": "I love, not because anyone expected it, but because my dog because",
+      "token_distance": 10,
+      "margin": 0.21140670776367188,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 45.33445739746094,
+        "covenantal": 47.240299224853516,
+        "hedonic": 49.24367904663086,
+        "moral": 45.54586410522461
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 2,
+      "intervention": ", not because the obvious answer was enough, but because",
+      "prompt": "I love, not because the obvious answer was enough, but because my dog because",
+      "token_distance": 12,
+      "margin": -0.028850555419921875,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 44.13113021850586,
+        "covenantal": 45.94936752319336,
+        "hedonic": 47.956031799316406,
+        "moral": 44.10227966308594
+      }
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 3,
+      "intervention": ", not for comfort, not for duty, not for appearances, but because",
+      "prompt": "I love, not for comfort, not for duty, not for appearances, but because my dog because",
+      "token_distance": 16,
+      "margin": 0.3158836364746094,
+      "nearest_class": "companion",
+      "correct_region": true,
+      "distances": {
+        "companion": 42.31483840942383,
+        "covenantal": 44.31110763549805,
+        "hedonic": 46.870243072509766,
+        "moral": 42.63072204589844
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "local",
+      "context_description": "No inserted context",
+      "intervention_index": 0,
+      "intervention": "",
+      "prompt": "I love my wife because",
+      "token_distance": 1,
+      "margin": 5.450528144836426,
+      "nearest_class": "covenantal",
+      "correct_region": true,
+      "distances": {
+        "companion": 19.75090789794922,
+        "covenantal": 14.300379753112793,
+        "hedonic": 33.09439468383789,
+        "moral": 24.527587890625
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 0,
+      "intervention": ", in a way that is hard to explain,",
+      "prompt": "I love, in a way that is hard to explain, my wife because",
+      "token_distance": 11,
+      "margin": -1.3057327270507812,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 30.594764709472656,
+        "covenantal": 29.151845932006836,
+        "hedonic": 35.985198974609375,
+        "moral": 27.846113204956055
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 1,
+      "intervention": ", after some time and without making too much of it,",
+      "prompt": "I love, after some time and without making too much of it, my wife because",
+      "token_distance": 13,
+      "margin": -2.7453136444091797,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 33.1551399230957,
+        "covenantal": 32.83932113647461,
+        "hedonic": 37.83435821533203,
+        "moral": 30.09400749206543
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 2,
+      "intervention": ", in the ordinary course of things, after many days had passed,",
+      "prompt": "I love, in the ordinary course of things, after many days had passed, my wife because",
+      "token_distance": 15,
+      "margin": -1.898233413696289,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 34.962974548339844,
+        "covenantal": 33.725074768066406,
+        "hedonic": 39.94911575317383,
+        "moral": 31.826841354370117
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 3,
+      "intervention": ", in a way that became clearer over time, though not all at once,",
+      "prompt": "I love, in a way that became clearer over time, though not all at once, my wife because",
+      "token_distance": 17,
+      "margin": -1.7595691680908203,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 33.33993148803711,
+        "covenantal": 32.01161575317383,
+        "hedonic": 38.81986999511719,
+        "moral": 30.252046585083008
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 0,
+      "intervention": ", after all these years,",
+      "prompt": "I love, after all these years, my wife because",
+      "token_distance": 7,
+      "margin": -0.042327880859375,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 29.257638931274414,
+        "covenantal": 26.880107879638672,
+        "hedonic": 36.80157470703125,
+        "moral": 26.837779998779297
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 1,
+      "intervention": ", after many ordinary mornings and quiet evenings,",
+      "prompt": "I love, after many ordinary mornings and quiet evenings, my wife because",
+      "token_distance": 10,
+      "margin": -1.2341499328613281,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 30.542682647705078,
+        "covenantal": 29.201417922973633,
+        "hedonic": 35.88810729980469,
+        "moral": 27.967267990112305
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 2,
+      "intervention": ", after years of small moments, repeated habits, and familiar rooms,",
+      "prompt": "I love, after years of small moments, repeated habits, and familiar rooms, my wife because",
+      "token_distance": 15,
+      "margin": -1.2264366149902344,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 35.252506256103516,
+        "covenantal": 34.28946304321289,
+        "hedonic": 39.6742057800293,
+        "moral": 33.063026428222656
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 3,
+      "intervention": ", after a long stretch of time marked mostly by ordinary days,",
+      "prompt": "I love, after a long stretch of time marked mostly by ordinary days, my wife because",
+      "token_distance": 14,
+      "margin": -2.2043533325195312,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 33.23939895629883,
+        "covenantal": 31.94070053100586,
+        "hedonic": 37.83187484741211,
+        "moral": 29.736347198486328
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 0,
+      "intervention": ", despite the pain and the need to forgive,",
+      "prompt": "I love, despite the pain and the need to forgive, my wife because",
+      "token_distance": 11,
+      "margin": -2.1296138763427734,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 29.805391311645508,
+        "covenantal": 28.14603614807129,
+        "hedonic": 35.80633544921875,
+        "moral": 26.016422271728516
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 1,
+      "intervention": ", despite the years, the arguments, and the long silences,",
+      "prompt": "I love, despite the years, the arguments, and the long silences, my wife because",
+      "token_distance": 15,
+      "margin": -1.51629638671875,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 33.106170654296875,
+        "covenantal": 31.66094207763672,
+        "hedonic": 38.75115966796875,
+        "moral": 30.14464569091797
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 2,
+      "intervention": ", not because it was easy, but because choosing mercy mattered,",
+      "prompt": "I love, not because it was easy, but because choosing mercy mattered, my wife because",
+      "token_distance": 14,
+      "margin": -2.56280517578125,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 42.499454498291016,
+        "covenantal": 42.19670867919922,
+        "hedonic": 44.915733337402344,
+        "moral": 39.63390350341797
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 3,
+      "intervention": ", after everything it cost me and everything I had to forgive,",
+      "prompt": "I love, after everything it cost me and everything I had to forgive, my wife because",
+      "token_distance": 14,
+      "margin": -2.9122676849365234,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 35.05351638793945,
+        "covenantal": 34.692359924316406,
+        "hedonic": 39.0440788269043,
+        "moral": 31.780092239379883
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 0,
+      "intervention": ", not the pizza, not the cake, not the coffee, but",
+      "prompt": "I love, not the pizza, not the cake, not the coffee, but my wife because",
+      "token_distance": 15,
+      "margin": -1.0384635925292969,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 32.69648742675781,
+        "covenantal": 31.55769920349121,
+        "hedonic": 38.51384735107422,
+        "moral": 30.519235610961914
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 1,
+      "intervention": ", after thinking about comfort, hunger, pleasure, and taste,",
+      "prompt": "I love, after thinking about comfort, hunger, pleasure, and taste, my wife because",
+      "token_distance": 14,
+      "margin": -1.7377700805664062,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 34.94036102294922,
+        "covenantal": 34.52939987182617,
+        "hedonic": 38.64485549926758,
+        "moral": 32.791629791259766
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 2,
+      "intervention": ", not because of sweetness or appetite or anything delicious, but",
+      "prompt": "I love, not because of sweetness or appetite or anything delicious, but my wife because",
+      "token_distance": 13,
+      "margin": -1.9044151306152344,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 36.30677795410156,
+        "covenantal": 35.16069793701172,
+        "hedonic": 41.037574768066406,
+        "moral": 33.256282806396484
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 3,
+      "intervention": ", with all the language of craving and pleasure pushed aside,",
+      "prompt": "I love, with all the language of craving and pleasure pushed aside, my wife because",
+      "token_distance": 13,
+      "margin": -2.153078079223633,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 31.175508499145508,
+        "covenantal": 29.701143264770508,
+        "hedonic": 36.521297454833984,
+        "moral": 27.548065185546875
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 0,
+      "intervention": ", not my dog, not my cat, not my closest friend, but",
+      "prompt": "I love, not my dog, not my cat, not my closest friend, but my wife because",
+      "token_distance": 16,
+      "margin": -0.5041484832763672,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 30.3387451171875,
+        "covenantal": 29.360782623291016,
+        "hedonic": 37.18632888793945,
+        "moral": 28.85663414001465
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 1,
+      "intervention": ", after thinking about loyalty, companionship, and being there every day,",
+      "prompt": "I love, after thinking about loyalty, companionship, and being there every day, my wife because",
+      "token_distance": 16,
+      "margin": -1.4874076843261719,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 35.75374984741211,
+        "covenantal": 35.40110397338867,
+        "hedonic": 39.34931945800781,
+        "moral": 33.9136962890625
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 2,
+      "intervention": ", not because of walks or play or the comfort of an animal, but",
+      "prompt": "I love, not because of walks or play or the comfort of an animal, but my wife because",
+      "token_distance": 16,
+      "margin": -1.5647354125976562,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 36.32570266723633,
+        "covenantal": 35.33863067626953,
+        "hedonic": 40.752811431884766,
+        "moral": 33.773895263671875
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 3,
+      "intervention": ", with all the language of friendship and companionship in the background,",
+      "prompt": "I love, with all the language of friendship and companionship in the background, my wife because",
+      "token_distance": 15,
+      "margin": -1.12982177734375,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 30.4693603515625,
+        "covenantal": 28.579607009887695,
+        "hedonic": 36.543846130371094,
+        "moral": 27.449785232543945
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 0,
+      "intervention": ", not because it was simple, but because",
+      "prompt": "I love, not because it was simple, but because my wife because",
+      "token_distance": 10,
+      "margin": -1.1183700561523438,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 46.21025085449219,
+        "covenantal": 46.237579345703125,
+        "hedonic": 49.76851272583008,
+        "moral": 45.11920928955078
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 1,
+      "intervention": ", not because anyone expected it, but because",
+      "prompt": "I love, not because anyone expected it, but because my wife because",
+      "token_distance": 10,
+      "margin": -1.1714668273925781,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 47.685760498046875,
+        "covenantal": 47.6510009765625,
+        "hedonic": 50.84476852416992,
+        "moral": 46.47953414916992
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 2,
+      "intervention": ", not because the obvious answer was enough, but because",
+      "prompt": "I love, not because the obvious answer was enough, but because my wife because",
+      "token_distance": 12,
+      "margin": -1.1182365417480469,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 47.13646697998047,
+        "covenantal": 47.005455017089844,
+        "hedonic": 50.43080520629883,
+        "moral": 45.8872184753418
+      }
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 3,
+      "intervention": ", not for comfort, not for duty, not for appearances, but because",
+      "prompt": "I love, not for comfort, not for duty, not for appearances, but because my wife because",
+      "token_distance": 16,
+      "margin": -1.0227012634277344,
+      "nearest_class": "moral",
+      "correct_region": false,
+      "distances": {
+        "companion": 43.886390686035156,
+        "covenantal": 43.46603775024414,
+        "hedonic": 48.01687240600586,
+        "moral": 42.443336486816406
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "local",
+      "context_description": "No inserted context",
+      "intervention_index": 0,
+      "intervention": "",
+      "prompt": "I love my enemy because",
+      "token_distance": 1,
+      "margin": 9.60909652709961,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 34.14888000488281,
+        "covenantal": 31.446928024291992,
+        "hedonic": 41.07709503173828,
+        "moral": 21.837831497192383
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 0,
+      "intervention": ", in a way that is hard to explain,",
+      "prompt": "I love, in a way that is hard to explain, my enemy because",
+      "token_distance": 11,
+      "margin": 9.449947357177734,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 35.07881164550781,
+        "covenantal": 34.260406494140625,
+        "hedonic": 39.36329650878906,
+        "moral": 24.81045913696289
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 1,
+      "intervention": ", after some time and without making too much of it,",
+      "prompt": "I love, after some time and without making too much of it, my enemy because",
+      "token_distance": 13,
+      "margin": 8.918771743774414,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 36.06321334838867,
+        "covenantal": 36.07246780395508,
+        "hedonic": 39.965694427490234,
+        "moral": 27.144441604614258
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 2,
+      "intervention": ", in the ordinary course of things, after many days had passed,",
+      "prompt": "I love, in the ordinary course of things, after many days had passed, my enemy because",
+      "token_distance": 15,
+      "margin": 5.2147674560546875,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 38.419677734375,
+        "covenantal": 37.56283950805664,
+        "hedonic": 42.8127555847168,
+        "moral": 32.34807205200195
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "neutral_distance",
+      "context_description": "Longer filler without strong affordance content",
+      "intervention_index": 3,
+      "intervention": ", in a way that became clearer over time, though not all at once,",
+      "prompt": "I love, in a way that became clearer over time, though not all at once, my enemy because",
+      "token_distance": 17,
+      "margin": 7.3261871337890625,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 37.7672233581543,
+        "covenantal": 36.90261459350586,
+        "hedonic": 41.712059020996094,
+        "moral": 29.576427459716797
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 0,
+      "intervention": ", after all these years,",
+      "prompt": "I love, after all these years, my enemy because",
+      "token_distance": 7,
+      "margin": 8.575460433959961,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 36.373748779296875,
+        "covenantal": 34.62623596191406,
+        "hedonic": 41.709712982177734,
+        "moral": 26.0507755279541
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 1,
+      "intervention": ", after many ordinary mornings and quiet evenings,",
+      "prompt": "I love, after many ordinary mornings and quiet evenings, my enemy because",
+      "token_distance": 10,
+      "margin": 8.580902099609375,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 36.03969955444336,
+        "covenantal": 35.53715896606445,
+        "hedonic": 39.022216796875,
+        "moral": 26.956256866455078
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 2,
+      "intervention": ", after years of small moments, repeated habits, and familiar rooms,",
+      "prompt": "I love, after years of small moments, repeated habits, and familiar rooms, my enemy because",
+      "token_distance": 15,
+      "margin": 5.461513519287109,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 41.958282470703125,
+        "covenantal": 41.81675720214844,
+        "hedonic": 42.791202545166016,
+        "moral": 36.35524368286133
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "temporal_memory",
+      "context_description": "Memory/history without explicit moral language",
+      "intervention_index": 3,
+      "intervention": ", after a long stretch of time marked mostly by ordinary days,",
+      "prompt": "I love, after a long stretch of time marked mostly by ordinary days, my enemy because",
+      "token_distance": 14,
+      "margin": 7.950246810913086,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 37.84978485107422,
+        "covenantal": 37.507022857666016,
+        "hedonic": 40.22711944580078,
+        "moral": 29.55677604675293
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 0,
+      "intervention": ", despite the pain and the need to forgive,",
+      "prompt": "I love, despite the pain and the need to forgive, my enemy because",
+      "token_distance": 11,
+      "margin": 8.931318283081055,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 33.98479461669922,
+        "covenantal": 32.85152816772461,
+        "hedonic": 38.39715576171875,
+        "moral": 23.920209884643555
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 1,
+      "intervention": ", despite the years, the arguments, and the long silences,",
+      "prompt": "I love, despite the years, the arguments, and the long silences, my enemy because",
+      "token_distance": 15,
+      "margin": 6.84162712097168,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 37.102657318115234,
+        "covenantal": 36.163143157958984,
+        "hedonic": 41.06498336791992,
+        "moral": 29.321516036987305
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 2,
+      "intervention": ", not because it was easy, but because choosing mercy mattered,",
+      "prompt": "I love, not because it was easy, but because choosing mercy mattered, my enemy because",
+      "token_distance": 14,
+      "margin": 5.145694732666016,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 44.119022369384766,
+        "covenantal": 43.84043502807617,
+        "hedonic": 45.4976806640625,
+        "moral": 38.694740295410156
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "moral_obligation",
+      "context_description": "Duty, forgiveness, endurance, moral pressure",
+      "intervention_index": 3,
+      "intervention": ", after everything it cost me and everything I had to forgive,",
+      "prompt": "I love, after everything it cost me and everything I had to forgive, my enemy because",
+      "token_distance": 14,
+      "margin": 6.561906814575195,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 36.79063034057617,
+        "covenantal": 36.378387451171875,
+        "hedonic": 40.22334671020508,
+        "moral": 29.81648063659668
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 0,
+      "intervention": ", not the pizza, not the cake, not the coffee, but",
+      "prompt": "I love, not the pizza, not the cake, not the coffee, but my enemy because",
+      "token_distance": 15,
+      "margin": 6.599630355834961,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 38.080589294433594,
+        "covenantal": 38.39322280883789,
+        "hedonic": 40.327884674072266,
+        "moral": 31.480958938598633
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 1,
+      "intervention": ", after thinking about comfort, hunger, pleasure, and taste,",
+      "prompt": "I love, after thinking about comfort, hunger, pleasure, and taste, my enemy because",
+      "token_distance": 14,
+      "margin": 5.173229217529297,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 40.10449981689453,
+        "covenantal": 40.086055755615234,
+        "hedonic": 40.779762268066406,
+        "moral": 34.91282653808594
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 2,
+      "intervention": ", not because of sweetness or appetite or anything delicious, but",
+      "prompt": "I love, not because of sweetness or appetite or anything delicious, but my enemy because",
+      "token_distance": 13,
+      "margin": 6.348823547363281,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 40.64013671875,
+        "covenantal": 40.0944938659668,
+        "hedonic": 43.23280334472656,
+        "moral": 33.745670318603516
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "hedonic_distractor",
+      "context_description": "Food/pleasure/comfort distractors",
+      "intervention_index": 3,
+      "intervention": ", with all the language of craving and pleasure pushed aside,",
+      "prompt": "I love, with all the language of craving and pleasure pushed aside, my enemy because",
+      "token_distance": 13,
+      "margin": 9.039432525634766,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 36.38066482543945,
+        "covenantal": 35.542137145996094,
+        "hedonic": 40.43867874145508,
+        "moral": 26.502704620361328
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 0,
+      "intervention": ", not my dog, not my cat, not my closest friend, but",
+      "prompt": "I love, not my dog, not my cat, not my closest friend, but my enemy because",
+      "token_distance": 16,
+      "margin": 5.085565567016602,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 32.48480224609375,
+        "covenantal": 33.13998031616211,
+        "hedonic": 36.79963684082031,
+        "moral": 27.39923667907715
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 1,
+      "intervention": ", after thinking about loyalty, companionship, and being there every day,",
+      "prompt": "I love, after thinking about loyalty, companionship, and being there every day, my enemy because",
+      "token_distance": 16,
+      "margin": 5.147266387939453,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 40.97661209106445,
+        "covenantal": 41.05635070800781,
+        "hedonic": 42.31675338745117,
+        "moral": 35.829345703125
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 2,
+      "intervention": ", not because of walks or play or the comfort of an animal, but",
+      "prompt": "I love, not because of walks or play or the comfort of an animal, but my enemy because",
+      "token_distance": 16,
+      "margin": 5.793479919433594,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 41.11773681640625,
+        "covenantal": 40.576927185058594,
+        "hedonic": 44.01472473144531,
+        "moral": 34.783447265625
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "companion_distractor",
+      "context_description": "Pet/friend/care distractors",
+      "intervention_index": 3,
+      "intervention": ", with all the language of friendship and companionship in the background,",
+      "prompt": "I love, with all the language of friendship and companionship in the background, my enemy because",
+      "token_distance": 15,
+      "margin": 7.837745666503906,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 36.810462951660156,
+        "covenantal": 35.62222671508789,
+        "hedonic": 41.76533126831055,
+        "moral": 27.784481048583984
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 0,
+      "intervention": ", not because it was simple, but because",
+      "prompt": "I love, not because it was simple, but because my enemy because",
+      "token_distance": 10,
+      "margin": 3.929443359375,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 45.80180358886719,
+        "covenantal": 45.73069763183594,
+        "hedonic": 48.66190719604492,
+        "moral": 41.80125427246094
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 1,
+      "intervention": ", not because anyone expected it, but because",
+      "prompt": "I love, not because anyone expected it, but because my enemy because",
+      "token_distance": 10,
+      "margin": 4.017120361328125,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 46.58906936645508,
+        "covenantal": 46.39727020263672,
+        "hedonic": 49.38744354248047,
+        "moral": 42.380149841308594
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 2,
+      "intervention": ", not because the obvious answer was enough, but because",
+      "prompt": "I love, not because the obvious answer was enough, but because my enemy because",
+      "token_distance": 12,
+      "margin": 3.9034767150878906,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 45.817230224609375,
+        "covenantal": 45.75382614135742,
+        "hedonic": 48.473243713378906,
+        "moral": 41.85034942626953
+      }
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "context_type": "contrastive_negation",
+      "context_description": "Not-X-but-Y contrast structures",
+      "intervention_index": 3,
+      "intervention": ", not for comfort, not for duty, not for appearances, but because",
+      "prompt": "I love, not for comfort, not for duty, not for appearances, but because my enemy because",
+      "token_distance": 16,
+      "margin": 3.993549346923828,
+      "nearest_class": "moral",
+      "correct_region": true,
+      "distances": {
+        "companion": 46.320613861083984,
+        "covenantal": 46.12358856201172,
+        "hedonic": 49.64613723754883,
+        "moral": 42.13003921508789
+      }
+    }
+  ],
+  "summary_by_type": {
+    "local": {
+      "n": 4,
+      "mean_margin": 10.915817260742188,
+      "median_margin": 9.741191387176514,
+      "correct_region_rate": 1.0,
+      "mean_token_distance": 1.0
+    },
+    "neutral_distance": {
+      "n": 16,
+      "mean_margin": 2.875208258628845,
+      "median_margin": 2.910013198852539,
+      "correct_region_rate": 0.5625,
+      "mean_token_distance": 14.0
+    },
+    "temporal_memory": {
+      "n": 16,
+      "mean_margin": 3.415499210357666,
+      "median_margin": 3.6996469497680664,
+      "correct_region_rate": 0.6875,
+      "mean_token_distance": 11.5
+    },
+    "moral_obligation": {
+      "n": 16,
+      "mean_margin": 1.8609977960586548,
+      "median_margin": 0.1631479263305664,
+      "correct_region_rate": 0.5625,
+      "mean_token_distance": 13.5
+    },
+    "hedonic_distractor": {
+      "n": 16,
+      "mean_margin": 2.7908588647842407,
+      "median_margin": 3.183002471923828,
+      "correct_region_rate": 0.5625,
+      "mean_token_distance": 13.0625
+    },
+    "companion_distractor": {
+      "n": 16,
+      "mean_margin": 2.7215821743011475,
+      "median_margin": 2.3545236587524414,
+      "correct_region_rate": 0.6875,
+      "mean_token_distance": 14.9375
+    },
+    "contrastive_negation": {
+      "n": 16,
+      "mean_margin": 1.2631280422210693,
+      "median_margin": 0.8383255004882812,
+      "correct_region_rate": 0.6875,
+      "mean_token_distance": 12.0
+    }
+  },
+  "summary_by_object": {
+    "pizza": {
+      "n": 25,
+      "mean_margin": 5.473550720214844,
+      "correct_region_rate": 1.0,
+      "spearman_token_distance_vs_margin": -0.3170018819087542,
+      "spearman_p": 0.1225892552983235
+    },
+    "my dog": {
+      "n": 25,
+      "mean_margin": 0.490474967956543,
+      "correct_region_rate": 0.52,
+      "spearman_token_distance_vs_margin": -0.41459653410572084,
+      "spearman_p": 0.03933726082145805
+    },
+    "my wife": {
+      "n": 25,
+      "mean_margin": -1.2814874649047852,
+      "correct_region_rate": 0.04,
+      "spearman_token_distance_vs_margin": -0.114546048705621,
+      "spearman_p": 0.5856100986529773
+    },
+    "my enemy": {
+      "n": 25,
+      "mean_margin": 6.617448120117188,
+      "correct_region_rate": 1.0,
+      "spearman_token_distance_vs_margin": -0.33276597878209213,
+      "spearman_p": 0.10408694475391855
+    }
+  },
+  "overall_distance_spearman": {
+    "rho": -0.18090324061929663,
+    "p": 0.07167445897560772
+  },
+  "neutral_vs_loaded": {
+    "neutral_mean_margin": 4.008738570743137,
+    "loaded_mean_margin": 2.159141719341278,
+    "mannwhitney_p": 0.03659251579542145
+  }
+}

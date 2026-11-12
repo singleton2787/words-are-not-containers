@@ -1,0 +1,423 @@
+{
+  "model": "Qwen/Qwen2-7B",
+  "K": 64,
+  "best_qf_layer": 8,
+  "best_qf_acc": 0.9,
+  "best_qo_layer": 22,
+  "best_qo_agree": 0.95,
+  "best_gen_layer": 6,
+  "best_gen_auc": 0.6857142857142857,
+  "layer_21": {
+    "qf_acc": 0.9,
+    "qo_agree": 0.85,
+    "gen_auc": 0.3428571428571428
+  },
+  "layer_26": {
+    "qf_acc": 0.9,
+    "qo_agree": 0.85,
+    "gen_auc": 0.3999999999999999
+  },
+  "sweep": [
+    {
+      "layer": 1,
+      "qf_acc": 0.8,
+      "qo_agree": 0.65,
+      "qo_violations": 30,
+      "qo_pairs": 55,
+      "gen_auc": 0.45714285714285713,
+      "geo_auc": 0.45714285714285713
+    },
+    {
+      "layer": 2,
+      "qf_acc": 0.6,
+      "qo_agree": 0.65,
+      "qo_violations": 23,
+      "qo_pairs": 43,
+      "gen_auc": 0.37142857142857144,
+      "geo_auc": 0.2857142857142857
+    },
+    {
+      "layer": 3,
+      "qf_acc": 0.75,
+      "qo_agree": 0.8,
+      "qo_violations": 35,
+      "qo_pairs": 52,
+      "gen_auc": 0.2571428571428571,
+      "geo_auc": 0.31428571428571433
+    },
+    {
+      "layer": 4,
+      "qf_acc": 0.8,
+      "qo_agree": 0.7,
+      "qo_violations": 35,
+      "qo_pairs": 53,
+      "gen_auc": 0.17142857142857143,
+      "geo_auc": 0.11428571428571428
+    },
+    {
+      "layer": 5,
+      "qf_acc": 0.8,
+      "qo_agree": 0.9,
+      "qo_violations": 12,
+      "qo_pairs": 40,
+      "gen_auc": 0.11428571428571428,
+      "geo_auc": 0.0
+    },
+    {
+      "layer": 6,
+      "qf_acc": 0.8,
+      "qo_agree": 0.7,
+      "qo_violations": 20,
+      "qo_pairs": 44,
+      "gen_auc": 0.6857142857142857,
+      "geo_auc": 0.6285714285714286
+    },
+    {
+      "layer": 7,
+      "qf_acc": 0.85,
+      "qo_agree": 0.6,
+      "qo_violations": 25,
+      "qo_pairs": 53,
+      "gen_auc": 0.39999999999999997,
+      "geo_auc": 0.4
+    },
+    {
+      "layer": 8,
+      "qf_acc": 0.9,
+      "qo_agree": 0.85,
+      "qo_violations": 23,
+      "qo_pairs": 47,
+      "gen_auc": 0.19999999999999996,
+      "geo_auc": 0.2857142857142857
+    },
+    {
+      "layer": 9,
+      "qf_acc": 0.9,
+      "qo_agree": 0.8,
+      "qo_violations": 22,
+      "qo_pairs": 43,
+      "gen_auc": 0.19999999999999996,
+      "geo_auc": 0.2857142857142857
+    },
+    {
+      "layer": 10,
+      "qf_acc": 0.9,
+      "qo_agree": 0.75,
+      "qo_violations": 15,
+      "qo_pairs": 43,
+      "gen_auc": 0.22857142857142856,
+      "geo_auc": 0.14285714285714288
+    },
+    {
+      "layer": 11,
+      "qf_acc": 0.9,
+      "qo_agree": 0.65,
+      "qo_violations": 25,
+      "qo_pairs": 45,
+      "gen_auc": 0.37142857142857144,
+      "geo_auc": 0.3142857142857143
+    },
+    {
+      "layer": 12,
+      "qf_acc": 0.9,
+      "qo_agree": 0.8,
+      "qo_violations": 18,
+      "qo_pairs": 42,
+      "gen_auc": 0.34285714285714286,
+      "geo_auc": 0.28571428571428575
+    },
+    {
+      "layer": 13,
+      "qf_acc": 0.9,
+      "qo_agree": 0.75,
+      "qo_violations": 20,
+      "qo_pairs": 42,
+      "gen_auc": 0.2571428571428571,
+      "geo_auc": 0.20000000000000004
+    },
+    {
+      "layer": 14,
+      "qf_acc": 0.9,
+      "qo_agree": 0.75,
+      "qo_violations": 24,
+      "qo_pairs": 46,
+      "gen_auc": 0.2857142857142857,
+      "geo_auc": 0.2571428571428572
+    },
+    {
+      "layer": 15,
+      "qf_acc": 0.9,
+      "qo_agree": 0.85,
+      "qo_violations": 18,
+      "qo_pairs": 46,
+      "gen_auc": 0.3142857142857143,
+      "geo_auc": 0.3142857142857143
+    },
+    {
+      "layer": 16,
+      "qf_acc": 0.9,
+      "qo_agree": 0.85,
+      "qo_violations": 18,
+      "qo_pairs": 46,
+      "gen_auc": 0.2571428571428571,
+      "geo_auc": 0.34285714285714286
+    },
+    {
+      "layer": 17,
+      "qf_acc": 0.9,
+      "qo_agree": 0.8,
+      "qo_violations": 19,
+      "qo_pairs": 43,
+      "gen_auc": 0.22857142857142854,
+      "geo_auc": 0.28571428571428575
+    },
+    {
+      "layer": 18,
+      "qf_acc": 0.9,
+      "qo_agree": 0.85,
+      "qo_violations": 18,
+      "qo_pairs": 46,
+      "gen_auc": 0.22857142857142854,
+      "geo_auc": 0.2571428571428572
+    },
+    {
+      "layer": 19,
+      "qf_acc": 0.9,
+      "qo_agree": 0.8,
+      "qo_violations": 25,
+      "qo_pairs": 51,
+      "gen_auc": 0.2571428571428571,
+      "geo_auc": 0.2571428571428572
+    },
+    {
+      "layer": 20,
+      "qf_acc": 0.9,
+      "qo_agree": 0.85,
+      "qo_violations": 18,
+      "qo_pairs": 46,
+      "gen_auc": 0.3142857142857143,
+      "geo_auc": 0.3142857142857143
+    },
+    {
+      "layer": 21,
+      "qf_acc": 0.9,
+      "qo_agree": 0.85,
+      "qo_violations": 5,
+      "qo_pairs": 41,
+      "gen_auc": 0.3428571428571428,
+      "geo_auc": 0.2857142857142857
+    },
+    {
+      "layer": 22,
+      "qf_acc": 0.9,
+      "qo_agree": 0.95,
+      "qo_violations": 17,
+      "qo_pairs": 47,
+      "gen_auc": 0.4857142857142857,
+      "geo_auc": 0.4285714285714286
+    },
+    {
+      "layer": 23,
+      "qf_acc": 0.9,
+      "qo_agree": 0.9,
+      "qo_violations": 24,
+      "qo_pairs": 52,
+      "gen_auc": 0.4571428571428571,
+      "geo_auc": 0.3428571428571429
+    },
+    {
+      "layer": 24,
+      "qf_acc": 0.9,
+      "qo_agree": 0.9,
+      "qo_violations": 11,
+      "qo_pairs": 43,
+      "gen_auc": 0.5428571428571428,
+      "geo_auc": 0.5142857142857142
+    },
+    {
+      "layer": 25,
+      "qf_acc": 0.9,
+      "qo_agree": 0.8,
+      "qo_violations": 18,
+      "qo_pairs": 44,
+      "gen_auc": 0.39999999999999997,
+      "geo_auc": 0.3428571428571428
+    },
+    {
+      "layer": 26,
+      "qf_acc": 0.9,
+      "qo_agree": 0.85,
+      "qo_violations": 20,
+      "qo_pairs": 47,
+      "gen_auc": 0.3999999999999999,
+      "geo_auc": 0.4857142857142857
+    },
+    {
+      "layer": 27,
+      "qf_acc": 0.8,
+      "qo_agree": 0.9,
+      "qo_violations": 20,
+      "qo_pairs": 47,
+      "gen_auc": 0.6285714285714286,
+      "geo_auc": 0.5714285714285714
+    }
+  ],
+  "generations": {
+    "pizza": {
+      "cls": "hedonic",
+      "prompt": "I love pizza because",
+      "scores": {
+        "hedonic": 3,
+        "companion": 1,
+        "covenantal": 3,
+        "moral": 0
+      },
+      "winner": "hedonic",
+      "gen_correct": true,
+      "gen_margin": 0
+    },
+    "chocolate": {
+      "cls": "hedonic",
+      "prompt": "I love chocolate because",
+      "scores": {
+        "hedonic": 2,
+        "companion": 0,
+        "covenantal": 1,
+        "moral": 0
+      },
+      "winner": "hedonic",
+      "gen_correct": true,
+      "gen_margin": 1
+    },
+    "coffee": {
+      "cls": "hedonic",
+      "prompt": "I love coffee because",
+      "scores": {
+        "hedonic": 3,
+        "companion": 0,
+        "covenantal": 2,
+        "moral": 0
+      },
+      "winner": "hedonic",
+      "gen_correct": true,
+      "gen_margin": 1
+    },
+    "my dog": {
+      "cls": "companion",
+      "prompt": "I love my dog because",
+      "scores": {
+        "hedonic": 1,
+        "companion": 6,
+        "covenantal": 5,
+        "moral": 0
+      },
+      "winner": "companion",
+      "gen_correct": true,
+      "gen_margin": 1
+    },
+    "my cat": {
+      "cls": "companion",
+      "prompt": "I love my cat because",
+      "scores": {
+        "hedonic": 0,
+        "companion": 1,
+        "covenantal": 0,
+        "moral": 0
+      },
+      "winner": "companion",
+      "gen_correct": true,
+      "gen_margin": 1
+    },
+    "my friend": {
+      "cls": "companion",
+      "prompt": "I love my friend because",
+      "scores": {
+        "hedonic": 1,
+        "companion": 4,
+        "covenantal": 4,
+        "moral": 0
+      },
+      "winner": "companion",
+      "gen_correct": true,
+      "gen_margin": 0
+    },
+    "my wife": {
+      "cls": "covenantal",
+      "prompt": "I love my wife because",
+      "scores": {
+        "hedonic": 3,
+        "companion": 1,
+        "covenantal": 0,
+        "moral": 0
+      },
+      "winner": "hedonic",
+      "gen_correct": false,
+      "gen_margin": -3
+    },
+    "my husband": {
+      "cls": "covenantal",
+      "prompt": "I love my husband because",
+      "scores": {
+        "hedonic": 1,
+        "companion": 1,
+        "covenantal": 0,
+        "moral": 0
+      },
+      "winner": "hedonic",
+      "gen_correct": false,
+      "gen_margin": -1
+    },
+    "my country": {
+      "cls": "covenantal",
+      "prompt": "I love my country because",
+      "scores": {
+        "hedonic": 0,
+        "companion": 0,
+        "covenantal": 0,
+        "moral": 0
+      },
+      "winner": null,
+      "gen_correct": false,
+      "gen_margin": 0
+    },
+    "my enemy": {
+      "cls": "moral",
+      "prompt": "I love my enemy because",
+      "scores": {
+        "hedonic": 0,
+        "companion": 0,
+        "covenantal": 1,
+        "moral": 2
+      },
+      "winner": "moral",
+      "gen_correct": true,
+      "gen_margin": 1
+    },
+    "a stranger": {
+      "cls": "moral",
+      "prompt": "I love a stranger because",
+      "scores": {
+        "hedonic": 0,
+        "companion": 0,
+        "covenantal": 1,
+        "moral": 1
+      },
+      "winner": "covenantal",
+      "gen_correct": false,
+      "gen_margin": 0
+    },
+    "my neighbor": {
+      "cls": "moral",
+      "prompt": "I love my neighbor because",
+      "scores": {
+        "hedonic": 1,
+        "companion": 0,
+        "covenantal": 5,
+        "moral": 1
+      },
+      "winner": "covenantal",
+      "gen_correct": false,
+      "gen_margin": -4
+    }
+  }
+}

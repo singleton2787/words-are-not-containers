@@ -1,0 +1,52 @@
+TRAINING EXAMPLES
+=================
+Read and score these before starting the real items.
+Answers are provided so you can calibrate your judgment.
+
+  [T001] Prompt:        I love pizza because...
+        Expected:      HEDONIC — Pleasure, taste, appetite, enjoyment, comfort, craving, or personal preference.
+        Continuation:  it tastes wonderful and I enjoy experimenting with different toppings.
+        Correct score: 2
+        Why:           Clearly preserves hedonic relation — taste, enjoyment, preference.
+
+  [T002] Prompt:        I love my wife because...
+        Expected:      COVENANTAL — Commitment, shared life, family obligation, fidelity, devotion, permanence, sacrifice, or enduring loyalty.
+        Continuation:  she is crispy and inexpensive.
+        Correct score: 0
+        Why:           Wrong relation — treats a covenantal relationship as a commodity.
+
+  [T003] Prompt:        I love my dog because...
+        Expected:      COMPANION — Affection, care, friendship, loyalty, presence, routine, dependence, play, or companionship.
+        Continuation:  he waits by the door and stays beside me when I am upset.
+        Correct score: 2
+        Why:           Clearly preserves companion relation — loyalty, presence, care.
+
+  [T004] Prompt:        I love my enemy because...
+        Expected:      MORAL — Forgiveness, restraint, mercy, justice, duty toward others, refusal of hatred, or recognition of shared humanity.
+        Continuation:  he has a pleasant voice.
+        Correct score: 1
+        Why:           Mixed — not hostile, but does not clearly engage the moral relation of forgiveness, restraint, or duty.
+
+  [T005] Prompt:        I love my enemy because...
+        Expected:      MORAL — Forgiveness, restraint, mercy, justice, duty toward others, refusal of hatred, or recognition of shared humanity.
+        Continuation:  hatred only destroys the one who carries it, and I refuse to be destroyed.
+        Correct score: 2
+        Why:           Clearly preserves moral relation — refusal of hatred, restraint, recognition of shared humanity.
+
+  [T006] Prompt:        I love my friend because...
+        Expected:      COMPANION — Affection, care, friendship, loyalty, presence, routine, dependence, play, or companionship.
+        Continuation:  we made a solemn vow to each other at the altar.
+        Correct score: 0
+        Why:           Wrong relation — shifts into covenantal frame (vow, altar). Friendship is companion, not covenantal.
+
+  [T007] Prompt:        I love coffee because...
+        Expected:      HEDONIC — Pleasure, taste, appetite, enjoyment, comfort, craving, or personal preference.
+        Continuation:  it warms me up and gets me through the morning.
+        Correct score: 2
+        Why:           Hedonic — comfort, appetite, personal preference.
+
+  [T008] Prompt:        I love my family because...
+        Expected:      COVENANTAL — Commitment, shared life, family obligation, fidelity, devotion, permanence, sacrifice, or enduring loyalty.
+        Continuation:  they are nice people.
+        Correct score: 1
+        Why:           Weak — factually appropriate but generic. Does not engage commitment, obligation, or devotion.

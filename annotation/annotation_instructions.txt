@@ -1,0 +1,58 @@
+BLIND ANNOTATION STUDY
+Relationship Preservation in AI-Generated Text
+================================================
+
+OVERVIEW
+---------
+You will see a series of prompts and AI-generated continuations.
+For each item, you are told the expected relationship the prompt opens.
+
+Your only job is to judge whether the continuation preserves that relationship.
+
+Do NOT judge:
+  - grammar or style
+  - factual accuracy
+  - whether you personally agree
+  - whether the writing is creative or interesting
+
+DO judge:
+  - whether the continuation stays in the right relational frame
+
+SCORING SCALE
+--------------
+  2 = Correct relationship clearly preserved
+  1 = Mixed, ambiguous, generic, or only weakly related
+  0 = Wrong relationship
+
+Important:
+  An awkward sentence can receive a 2.
+  A fluent, well-written sentence can receive a 0.
+
+RELATIONSHIP CLASSES
+---------------------
+  Hedonic:    Pleasure, taste, appetite, enjoyment, comfort, craving, or personal preference.
+
+  Companion:  Affection, care, friendship, loyalty, presence, routine,
+              dependence, play, or companionship.
+
+  Covenantal: Commitment, shared life, family obligation, fidelity, devotion,
+              permanence, sacrifice, or enduring loyalty.
+
+  Moral:      Forgiveness, restraint, mercy, justice, duty toward others,
+              refusal of hatred, or recognition of shared humanity.
+
+HARD CASES TO WATCH FOR
+------------------------
+  Companion vs Covenantal:
+    "I love my wife because she is always there for me." → companion or covenantal?
+    If the continuation emphasizes presence/routine → companion (score toward companion).
+    If it emphasizes commitment/vow/permanence → covenantal.
+    If genuinely mixed → score 1.
+
+  Moral vs Companion:
+    "I love my neighbor because..." → neighbor can be moral (duty) or companion (friendship).
+    Judge by what the continuation actually does, not what it could do.
+
+TRAINING EXAMPLES
+------------------
+Read these before starting. Answers are provided.

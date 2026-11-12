@@ -1,0 +1,407 @@
+{
+  "model": "Qwen/Qwen2-7B",
+  "n_tokens": 50,
+  "temperature": 0.3,
+  "layer_idx": 10,
+  "n_layers": 28,
+  "summary": {
+    "n": 13,
+    "geo_correct": 13,
+    "gen_correct": 10,
+    "no_signal": 0,
+    "agree_count": 10,
+    "agree_total": 12
+  },
+  "rows": [
+    {
+      "object": "pizza",
+      "expected_class": "hedonic",
+      "description": "hedonic \u2014 food preference",
+      "prompt": "I love pizza because",
+      "geo_predicted": "hedonic",
+      "geo_correct": true,
+      "geo_margin": -18.730358123779297,
+      "geo_distances": {
+        "hedonic": 10.048280715942383,
+        "companion": 28.77863883972168,
+        "covenantal": 30.845272064208984,
+        "moral": 31.04341697692871
+      },
+      "gen_predicted": "hedonic",
+      "gen_correct": true,
+      "gen_scores": {
+        "hedonic": 9,
+        "companion": 1,
+        "covenantal": 5,
+        "moral": 0
+      },
+      "gen_margin": 4,
+      "geo_gen_agree": true,
+      "completions": [
+        "it is a great way to get in some veggies and protein. I also love that you can make it your own by adding whatever toppings you want! This recipe is for a simple, healthy pizza with spinach and mushrooms.\nPreheat oven to 4",
+        "it's a great way to get a lot of different flavors and textures in one bite. This recipe is perfect for those times when you want something quick, easy, and delicious.\nThis recipe uses store-bought dough so that all you have to do",
+        "it is a perfect combination of sweet and savory. I also love that you can make it in so many different ways, with all sorts of toppings.\nThis recipe for Sweet Potato Pizza is one of my favorites! It\u2019s made with a homemade dough that"
+      ]
+    },
+    {
+      "object": "chocolate",
+      "expected_class": "hedonic",
+      "description": "hedonic \u2014 sweet indulgence",
+      "prompt": "I love chocolate because",
+      "geo_predicted": "hedonic",
+      "geo_correct": true,
+      "geo_margin": -17.279074668884277,
+      "geo_distances": {
+        "hedonic": 10.381936073303223,
+        "companion": 27.6610107421875,
+        "covenantal": 29.163658142089844,
+        "moral": 31.56058692932129
+      },
+      "gen_predicted": "hedonic",
+      "gen_correct": true,
+      "gen_scores": {
+        "hedonic": 9,
+        "companion": 0,
+        "covenantal": 4,
+        "moral": 0
+      },
+      "gen_margin": 5,
+      "geo_gen_agree": true,
+      "completions": [
+        "it makes me feel good. I don\u2019t know about you, but when I eat something that tastes good and is good for me, I feel better.\nSo, I\u2019ve been trying to find ways to make my favorite treats healthier. I found a",
+        "it makes me happy. I also like to eat it, but that's not the only reason.\nChocolate is a great source of antioxidants and has been shown to have many health benefits. It can help lower blood pressure, reduce inflammation, improve brain function",
+        "it is so delicious and I can eat it whenever I want. It\u2019s also a great way to treat yourself after a long day at work or school.\nChocolate has been around for centuries, but it wasn\u2019t until the 18th century that"
+      ]
+    },
+    {
+      "object": "coffee",
+      "expected_class": "hedonic",
+      "description": "hedonic \u2014 daily pleasure",
+      "prompt": "I love coffee because",
+      "geo_predicted": "hedonic",
+      "geo_correct": true,
+      "geo_margin": -15.887862205505371,
+      "geo_distances": {
+        "hedonic": 10.8259859085083,
+        "companion": 26.713848114013672,
+        "covenantal": 28.267162322998047,
+        "moral": 29.977203369140625
+      },
+      "gen_predicted": "hedonic",
+      "gen_correct": true,
+      "gen_scores": {
+        "hedonic": 9,
+        "companion": 1,
+        "covenantal": 6,
+        "moral": 1
+      },
+      "gen_margin": 3,
+      "geo_gen_agree": true,
+      "completions": [
+        "it tastes good. I also like it because it helps me stay awake and alert during the day. But did you know that coffee has many other benefits as well? It can help improve your memory, increase your metabolism, boost your mood, and even",
+        "it tastes so good. I also like to drink coffee because it gives me energy in the morning and helps me focus on my work.\nCoffee is a beverage made from roasted coffee beans, which are ground and brewed with hot water. The resulting liquid is",
+        "it is a great way to start the day. I also enjoy the taste of it, and I find that drinking coffee helps me stay alert throughout the day.\nCoffee is one of my favorite drinks, but there are many different types of coffee out there"
+      ]
+    },
+    {
+      "object": "my dog",
+      "expected_class": "companion",
+      "description": "companion \u2014 loyal animal",
+      "prompt": "I love my dog because",
+      "geo_predicted": "companion",
+      "geo_correct": true,
+      "geo_margin": -9.873286247253418,
+      "geo_distances": {
+        "hedonic": 26.699365615844727,
+        "companion": 10.099390983581543,
+        "covenantal": 19.97267723083496,
+        "moral": 27.34227752685547
+      },
+      "gen_predicted": "companion",
+      "gen_correct": true,
+      "gen_scores": {
+        "hedonic": 0,
+        "companion": 11,
+        "covenantal": 6,
+        "moral": 1
+      },
+      "gen_margin": 5,
+      "geo_gen_agree": true,
+      "completions": [
+        "he is loyal and loving. He is always there for me when I need him, and he never judges me or tells me what to do. He just loves me unconditionally.\nHe also makes me laugh all the time with his silly antics and funny",
+        "he is so loyal and loving. He always greets me with a wagging tail and a big smile, no matter how long I've been gone. He's also incredibly smart - he knows all sorts of tricks and commands, and he loves to",
+        "he is so loyal and loving. He is always there for me when I need him, no matter what time of day it is. He will never leave me alone or forget about me, even if we are apart for a long time.\nHe also"
+      ]
+    },
+    {
+      "object": "my cat",
+      "expected_class": "companion",
+      "description": "companion \u2014 independent animal",
+      "prompt": "I love my cat because",
+      "geo_predicted": "companion",
+      "geo_correct": true,
+      "geo_margin": -10.147817611694336,
+      "geo_distances": {
+        "hedonic": 27.33962059020996,
+        "companion": 11.8209228515625,
+        "covenantal": 21.968740463256836,
+        "moral": 28.219045639038086
+      },
+      "gen_predicted": null,
+      "gen_correct": false,
+      "gen_scores": {
+        "hedonic": 1,
+        "companion": 2,
+        "covenantal": 2,
+        "moral": 0
+      },
+      "gen_margin": 0,
+      "geo_gen_agree": null,
+      "completions": [
+        "she is very ____________.\nA. cute\nB. cutely\nC. cuter\n\u7b54\u6848:\nA\n\n\u2014What do you think of the film? \u2014It's _______ . I don't like it at all.\nA.",
+        "she is so funny. She likes to play with her toys, and sometimes she even plays with me! One day I was playing with a ball of yarn when my cat jumped up on the table and started batting at it too. It was so cute",
+        "he is a very good friend of mine\uff0e\uff08\u4fdd\u6301\u53e5\u610f\u57fa\u672c\u4e0d\u53d8\uff09 I like my cat because we are friends \uff0e\n\n\u7b54\u6848\uff1awe\uff0cfriends \u6839\u636e\u9898\u5e72\uff0c\u53ef\u77e5\u539f\u53e5\u4e2d\u7684because\u5f15\u5bfc\u539f\u56e0\u72b6\u8bed\u4ece\u53e5\uff0c"
+      ]
+    },
+    {
+      "object": "my friend",
+      "expected_class": "companion",
+      "description": "companion \u2014 human friendship",
+      "prompt": "I love my friend because",
+      "geo_predicted": "companion",
+      "geo_correct": true,
+      "geo_margin": -2.0900955200195312,
+      "geo_distances": {
+        "hedonic": 32.61314392089844,
+        "companion": 16.769956588745117,
+        "covenantal": 18.86005210876465,
+        "moral": 24.52773666381836
+      },
+      "gen_predicted": "companion",
+      "gen_correct": true,
+      "gen_scores": {
+        "hedonic": 2,
+        "companion": 5,
+        "covenantal": 3,
+        "moral": 0
+      },
+      "gen_margin": 2,
+      "geo_gen_agree": true,
+      "completions": [
+        "he is a good listener and always has the time to talk with me. I also like that he is very honest and never lies.\nMy friend is someone who is always there for me when I need them, even if it's just to listen or",
+        "she is a very good listener\uff0e\uff08\u5bf9\u5212\u7ebf\u90e8\u5206\u63d0\u95ee\uff09 ____ do you____ your friend\uff1f\n\nWhy,like\n\n\u5df2\u77e5\u51fd\u6570f\uff08x\uff09=e^{x}-ax-1\uff0cg\uff08x\uff09=lnx-x+",
+        "she is so ________\uff0e____\nA. friendly\nB. friend\nC. friends\n\u7b54\u6848:\n\nA\uff0e\n\n\u4e0b\u5217\u5173\u4e8e\u7ec6\u80de\u7ed3\u6784\u548c\u529f\u80fd\u7684\u53d9\u8ff0\uff0c\u6b63\u786e\u7684\u662f____\nA. \u7ebf\u7c92\u4f53\u662f\u809d\u7ec6\u80de\u4e2d\u552f\u4e00"
+      ]
+    },
+    {
+      "object": "my wife",
+      "expected_class": "covenantal",
+      "description": "covenantal \u2014 marriage commitment",
+      "prompt": "I love my wife because",
+      "geo_predicted": "covenantal",
+      "geo_correct": true,
+      "geo_margin": -5.450528144836426,
+      "geo_distances": {
+        "hedonic": 33.09439468383789,
+        "companion": 19.75090789794922,
+        "covenantal": 14.300379753112793,
+        "moral": 24.527587890625
+      },
+      "gen_predicted": "hedonic",
+      "gen_correct": false,
+      "gen_scores": {
+        "hedonic": 5,
+        "companion": 2,
+        "covenantal": 4,
+        "moral": 2
+      },
+      "gen_margin": -1,
+      "geo_gen_agree": false,
+      "completions": [
+        "she is a wonderful mother, but I also love her for other reasons. She is kind and thoughtful, she has a great sense of humor, and she is very intelligent. I also appreciate that she is supportive of me in all aspects of my life",
+        "she is a great cook. She makes the best chicken and dumplings, fried chicken, and biscuits I have ever tasted. She also makes some of the best desserts that I have ever eaten. My favorite dessert is her chocolate chip cookies. They are",
+        "she is a great mother. She is always there for our children and makes sure they are happy and healthy.\nShe also has a great sense of humor and can make me laugh even when I\u2019m feeling down.\nI appreciate her kindness, patience, and"
+      ]
+    },
+    {
+      "object": "my husband",
+      "expected_class": "covenantal",
+      "description": "covenantal \u2014 marriage commitment",
+      "prompt": "I love my husband because",
+      "geo_predicted": "covenantal",
+      "geo_correct": true,
+      "geo_margin": -5.135878562927246,
+      "geo_distances": {
+        "hedonic": 32.83445739746094,
+        "companion": 20.146989822387695,
+        "covenantal": 15.01111125946045,
+        "moral": 24.560976028442383
+      },
+      "gen_predicted": "covenantal",
+      "gen_correct": true,
+      "gen_scores": {
+        "hedonic": 2,
+        "companion": 2,
+        "covenantal": 7,
+        "moral": 1
+      },
+      "gen_margin": 5,
+      "geo_gen_agree": true,
+      "completions": [
+        "he is a great father. He is patient with our children, and he loves them unconditionally. He has taught them to be kind and generous, and he has shown them how to be brave in the face of adversity.\nMy husband is also an",
+        "he is a good listener. He listens to me when I need someone to talk to, and he listens to my children when they are upset or confused. He also listens to his friends and family members who need someone to listen.\nMy husband has been",
+        "he is a man of his word. He always does what he says he will do and never breaks a promise.\nHe is also a man who loves to laugh, joke around, and have fun. He makes me feel like I am the most important"
+      ]
+    },
+    {
+      "object": "my family",
+      "expected_class": "covenantal",
+      "description": "covenantal \u2014 family bond",
+      "prompt": "I love my family because",
+      "geo_predicted": "covenantal",
+      "geo_correct": true,
+      "geo_margin": -3.690567970275879,
+      "geo_distances": {
+        "hedonic": 29.342445373535156,
+        "companion": 19.29180335998535,
+        "covenantal": 15.601235389709473,
+        "moral": 26.719524383544922
+      },
+      "gen_predicted": "covenantal",
+      "gen_correct": true,
+      "gen_scores": {
+        "hedonic": 1,
+        "companion": 7,
+        "covenantal": 15,
+        "moral": 2
+      },
+      "gen_margin": 8,
+      "geo_gen_agree": true,
+      "completions": [
+        "they are always there for me. I can count on them to be there when I need them. They have taught me so much about life and how to be a good person.\nMy parents, grandparents, siblings, cousins, uncles, and a",
+        "they are always there for me when I need them. They support me and encourage me to do what I want, even if it is something that seems impossible.\nMy family has been through a lot together, but we have always stuck together no matter what",
+        "they are always there for me. I have a sister, two brothers and parents who support me in everything that I do. My sister is the youngest of us all at 12 years old. She is very kind-hearted and loves to help others"
+      ]
+    },
+    {
+      "object": "my country",
+      "expected_class": "covenantal",
+      "description": "covenantal \u2014 civic devotion",
+      "prompt": "I love my country because",
+      "geo_predicted": "covenantal",
+      "geo_correct": true,
+      "geo_margin": -3.111957550048828,
+      "geo_distances": {
+        "hedonic": 32.383766174316406,
+        "companion": 25.173608779907227,
+        "covenantal": 22.0616512298584,
+        "moral": 31.453205108642578
+      },
+      "gen_predicted": "covenantal",
+      "gen_correct": true,
+      "gen_scores": {
+        "hedonic": 3,
+        "companion": 3,
+        "covenantal": 5,
+        "moral": 0
+      },
+      "gen_margin": 2,
+      "geo_gen_agree": true,
+      "completions": [
+        "it is a great country with a long history\uff0e\uff08\u6539\u4e3a\u540c\u4e49\u53e5\uff09 I love my country____it has a long history\uff0e\nbecause\n\n\u9605\u8bfb\u4e0b\u9762\u7684\u6587\u5b57\uff0c\u5b8c\u6210\u4e0b\u5217\u5404\u9898\u3002 \u2460\u4e2d\u56fd\u53e4\u5178\u56ed\u6797\u7684\u5ba1\u7f8e\u7279\u5f81\u4e3b\u8981\u8868",
+        "it is a great place to live. It has many beautiful places and friendly people. I have lived in the United States for 12 years now, but I still feel like an outsider sometimes. My family moved here from China when I was five",
+        "it is a great country with a long history and rich culture. I love the people in this country, too. They are friendly and helpful.\nMy father works as an engineer in a big company. He goes to work by car every day. My"
+      ]
+    },
+    {
+      "object": "my enemy",
+      "expected_class": "moral",
+      "description": "moral \u2014 commanded love",
+      "prompt": "I love my enemy because",
+      "geo_predicted": "moral",
+      "geo_correct": true,
+      "geo_margin": -9.60909652709961,
+      "geo_distances": {
+        "hedonic": 41.07709503173828,
+        "companion": 34.14888000488281,
+        "covenantal": 31.446928024291992,
+        "moral": 21.837831497192383
+      },
+      "gen_predicted": "moral",
+      "gen_correct": true,
+      "gen_scores": {
+        "hedonic": 1,
+        "companion": 0,
+        "covenantal": 5,
+        "moral": 6
+      },
+      "gen_margin": 1,
+      "geo_gen_agree": true,
+      "completions": [
+        "I know that God loves him. I love my enemy because I know that he is a child of God, and if he were not, then I would have no reason to love him.\nI love my enemy because I know that he has been wounded",
+        "I know that he is a child of God and that God loves him, just as He loves me. I love my enemy because I know that the only way to overcome evil is by good.\nI have been told that when you are angry with someone",
+        "he is my enemy. I love my enemy because he is a human being, and all human beings are my brothers.\nThe world is full of people who hate me for no reason at all. They are the ones who make life so difficult for me"
+      ]
+    },
+    {
+      "object": "a stranger",
+      "expected_class": "moral",
+      "description": "moral \u2014 universal compassion",
+      "prompt": "I love a stranger because",
+      "geo_predicted": "moral",
+      "geo_correct": true,
+      "geo_margin": -7.991813659667969,
+      "geo_distances": {
+        "hedonic": 34.18003845214844,
+        "companion": 27.854379653930664,
+        "covenantal": 26.4484806060791,
+        "moral": 18.456666946411133
+      },
+      "gen_predicted": "moral",
+      "gen_correct": true,
+      "gen_scores": {
+        "hedonic": 0,
+        "companion": 1,
+        "covenantal": 4,
+        "moral": 5
+      },
+      "gen_margin": 1,
+      "geo_gen_agree": true,
+      "completions": [
+        "I have no choice. I love a stranger because I am not allowed to choose.\nI love a stranger because I don\u2019t know how else to love, and I don\u2019t know who else to love.\nI love a stranger because I can\u2019t love",
+        "I am one. And the stranger is not an alien, but a human being like myself. The stranger is someone who has been hurt or neglected by society and needs my help.\nA stranger is someone who is different from me in some way \u2013 maybe",
+        "they are not yet tainted by the world. They have not been hurt, or broken, or lied to, or betrayed. They are pure and innocent and beautiful.\nI love a stranger because I am one too. I am a stranger in this world"
+      ]
+    },
+    {
+      "object": "my neighbor",
+      "expected_class": "moral",
+      "description": "moral \u2014 civic/ethical duty",
+      "prompt": "I love my neighbor because",
+      "geo_predicted": "moral",
+      "geo_correct": true,
+      "geo_margin": -4.444276809692383,
+      "geo_distances": {
+        "hedonic": 32.85505676269531,
+        "companion": 23.02080535888672,
+        "covenantal": 21.15920066833496,
+        "moral": 16.714923858642578
+      },
+      "gen_predicted": "covenantal",
+      "gen_correct": false,
+      "gen_scores": {
+        "hedonic": 3,
+        "companion": 3,
+        "covenantal": 7,
+        "moral": 3
+      },
+      "gen_margin": -4,
+      "geo_gen_agree": false,
+      "completions": [
+        "he is a good man. He is kind and generous, and always willing to lend a helping hand when needed.\nOne day, I was walking home from work and saw him out in his yard working on something. As I approached, he stopped what",
+        "he is a great father and husband. He has two beautiful children, and he works hard to provide for them.\nHe is also very kind-hearted and always willing to lend a helping hand when needed. I appreciate his positive attitude and sense of humor,",
+        "she is a good listener. She is always there to lend an ear and offer advice when needed.\nI love my neighbor because he is kind, generous, and always willing to help others in need.\nI love my neighbor because she is a hard worker"
+      ]
+    }
+  ]
+}

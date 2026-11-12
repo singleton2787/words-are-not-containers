@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Words Are Not Containers: the word love points to pizza, my wife and my enemy along three different relations">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14110f"/>
+      <stop offset="1" stop-color="#231a14"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#d9773b" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#d9773b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+
+  <!-- relation graph -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <circle cx="230" cy="180" r="120" fill="url(#glow)"/>
+
+    <path d="M262 168 C 330 120, 380 82, 438 76" fill="none" stroke="#e8b04b" stroke-width="2.5"/>
+    <path d="M266 180 C 340 180, 380 180, 438 180" fill="none" stroke="#7fb3a6" stroke-width="2.5"/>
+    <path d="M262 192 C 330 240, 380 278, 438 284" fill="none" stroke="#c9604a" stroke-width="2.5" stroke-dasharray="7 6"/>
+
+    <circle cx="230" cy="180" r="38" fill="#14110f" stroke="#d9773b" stroke-width="2.5"/>
+    <text x="230" y="187" text-anchor="middle" font-size="20" fill="#f3e9df" font-weight="700">love</text>
+
+    <circle cx="446" cy="76" r="6" fill="#e8b04b"/>
+    <text x="462" y="82" font-size="17" fill="#f3e9df">pizza</text>
+    <text x="372" y="64" font-size="12" fill="#e8b04b" opacity="0.9">hedonic</text>
+
+    <circle cx="446" cy="180" r="6" fill="#7fb3a6"/>
+    <text x="462" y="186" font-size="17" fill="#f3e9df">my wife</text>
+    <text x="320" y="172" font-size="12" fill="#7fb3a6" opacity="0.9">covenantal</text>
+
+    <circle cx="446" cy="284" r="6" fill="#c9604a"/>
+    <text x="462" y="290" font-size="17" fill="#f3e9df">my enemy</text>
+    <text x="384" y="306" font-size="12" fill="#c9604a" opacity="0.9">moral</text>
+  </g>
+
+  <line x1="600" y1="70" x2="600" y2="290" stroke="#ffffff" stroke-opacity="0.12"/>
+
+  <!-- title -->
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#f3e9df">
+    <text x="648" y="150" font-size="52" font-weight="700">Words Are Not</text>
+    <text x="648" y="210" font-size="52" font-weight="700" fill="#d9773b">Containers</text>
+  </g>
+  <text x="650" y="252" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" fill="#bfae9f" letter-spacing="1.5">RELATIONAL MEANING GEOMETRY · MIKE SINGLETON</text>
+</svg>

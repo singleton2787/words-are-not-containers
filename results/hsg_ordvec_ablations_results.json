@@ -1,0 +1,166 @@
+{
+  "model": "Qwen/Qwen2-7B",
+  "best_layer": 21,
+  "K": 64,
+  "n_shuffles": 1000,
+  "null_floor": 1.1428571428571428,
+  "baseline": {
+    "top1": 0.95,
+    "top2": 0.95,
+    "violations": 5
+  },
+  "ablation1_random_labels": {
+    "mean_top1": 0.262,
+    "max_top1": 0.65,
+    "std_top1": 0.1186001686339442,
+    "empirical_p": 0.0,
+    "verdict": "PASS"
+  },
+  "ablation2_random_bitmaps": {
+    "mean_top1": 0.26180000000000003,
+    "max_top1": 0.8,
+    "std_top1": 0.1275176850479964,
+    "empirical_p": 0.0,
+    "null_overlap_same": 0.95,
+    "null_overlap_other": 0.9333333333333333,
+    "verdict": "PASS"
+  },
+  "ablation3_wrong_predicate": {
+    "top1": 0.8,
+    "top2": 0.9,
+    "violations": 21,
+    "overlap_delta_love": 5.673333333333332,
+    "overlap_delta_bought": 5.57,
+    "verdict": "PASS",
+    "per_item": [
+      {
+        "text": "I bought pizza",
+        "label": "hedonic",
+        "pred": "hedonic",
+        "correct": true
+      },
+      {
+        "text": "I bought chocolate",
+        "label": "hedonic",
+        "pred": "hedonic",
+        "correct": true
+      },
+      {
+        "text": "I bought coffee",
+        "label": "hedonic",
+        "pred": "hedonic",
+        "correct": true
+      },
+      {
+        "text": "I bought music",
+        "label": "hedonic",
+        "pred": "hedonic",
+        "correct": true
+      },
+      {
+        "text": "I bought wine",
+        "label": "hedonic",
+        "pred": "hedonic",
+        "correct": true
+      },
+      {
+        "text": "I bought my dog",
+        "label": "companion",
+        "pred": "companion",
+        "correct": true
+      },
+      {
+        "text": "I bought my cat",
+        "label": "companion",
+        "pred": "companion",
+        "correct": true
+      },
+      {
+        "text": "I bought my child",
+        "label": "companion",
+        "pred": "companion",
+        "correct": true
+      },
+      {
+        "text": "I bought my friend",
+        "label": "companion",
+        "pred": "companion",
+        "correct": true
+      },
+      {
+        "text": "I bought my horse",
+        "label": "companion",
+        "pred": "companion",
+        "correct": true
+      },
+      {
+        "text": "I bought my wife",
+        "label": "covenantal",
+        "pred": "companion",
+        "correct": false
+      },
+      {
+        "text": "I bought my husband",
+        "label": "covenantal",
+        "pred": "companion",
+        "correct": false
+      },
+      {
+        "text": "I bought my country",
+        "label": "covenantal",
+        "pred": "moral",
+        "correct": false
+      },
+      {
+        "text": "I bought God",
+        "label": "covenantal",
+        "pred": "covenantal",
+        "correct": true
+      },
+      {
+        "text": "I bought my family",
+        "label": "covenantal",
+        "pred": "covenantal",
+        "correct": true
+      },
+      {
+        "text": "I bought my enemy",
+        "label": "moral",
+        "pred": "moral",
+        "correct": true
+      },
+      {
+        "text": "I bought a stranger",
+        "label": "moral",
+        "pred": "moral",
+        "correct": true
+      },
+      {
+        "text": "I bought my neighbor",
+        "label": "moral",
+        "pred": "companion",
+        "correct": false
+      },
+      {
+        "text": "I bought the other",
+        "label": "moral",
+        "pred": "moral",
+        "correct": true
+      },
+      {
+        "text": "I bought my rival",
+        "label": "moral",
+        "pred": "moral",
+        "correct": true
+      }
+    ]
+  },
+  "ablation4_embedding_layer": {
+    "top1": 0.65,
+    "top2": 0.85,
+    "violations": 30,
+    "overlap_same": 21.65,
+    "overlap_other": 19.453333333333333,
+    "verdict": "PASS"
+  }
+}

@@ -1,0 +1,2578 @@
+{
+  "model": "Qwen/Qwen2-7B",
+  "n_layers": 28,
+  "layer_idx": 10,
+  "layer_fraction": 0.35,
+  "alphas": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.35,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "results": [
+    {
+      "case": {
+        "name": "enemy_moral_to_hedonic",
+        "base_prompt": "I love my enemy because",
+        "source_prompt": "I love pizza because",
+        "base_class": "moral",
+        "target_class": "hedonic"
+      },
+      "baseline_summary": {
+        "hedonic": {
+          "mean_logit": -3.425813913345337,
+          "prob_mass": 1.6695001249900088e-05
+        },
+        "companion": {
+          "mean_logit": -1.707275390625,
+          "prob_mass": 0.005873021204024553
+        },
+        "covenantal": {
+          "mean_logit": -1.1371023654937744,
+          "prob_mass": 0.00041755466372705996
+        },
+        "moral": {
+          "mean_logit": 2.18603515625,
+          "prob_mass": 0.055003199726343155
+        }
+      },
+      "rows": [
+        {
+          "case": "enemy_moral_to_hedonic",
+          "base_prompt": "I love my enemy because",
+          "source_prompt": "I love pizza because",
+          "base_class": "moral",
+          "target_class": "hedonic",
+          "alpha": 0.0,
+          "target_mean_logit": -3.425813913345337,
+          "base_mean_logit": 2.18603515625,
+          "target_prob_mass": 1.6695001249900088e-05,
+          "base_prob_mass": 0.055003199726343155,
+          "delta_target_logit": 0.0,
+          "delta_base_logit": 0.0,
+          "delta_target_prob": 0.0,
+          "delta_base_prob": 0.0,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": -3.425813913345337,
+              "prob_mass": 1.6695001249900088e-05
+            },
+            "companion": {
+              "mean_logit": -1.707275390625,
+              "prob_mass": 0.005873021204024553
+            },
+            "covenantal": {
+              "mean_logit": -1.1371023654937744,
+              "prob_mass": 0.00041755466372705996
+            },
+            "moral": {
+              "mean_logit": 2.18603515625,
+              "prob_mass": 0.055003199726343155
+            }
+          },
+          "top_tokens": [
+            [
+              " I",
+              10.0234375
+            ],
+            [
+              " he",
+              9.78125
+            ],
+            [
+              " it",
+              8.8828125
+            ],
+            [
+              " my",
+              8.4375
+            ],
+            [
+              " God",
+              8.3046875
+            ],
+            [
+              " they",
+              8.265625
+            ],
+            [
+              " that",
+              7.69921875
+            ],
+            [
+              " He",
+              7.640625
+            ],
+            [
+              " of",
+              7.60546875
+            ],
+            [
+              " she",
+              7.44921875
+            ]
+          ]
+        },
+        {
+          "case": "enemy_moral_to_hedonic",
+          "base_prompt": "I love my enemy because",
+          "source_prompt": "I love pizza because",
+          "base_class": "moral",
+          "target_class": "hedonic",
+          "alpha": 0.05,
+          "target_mean_logit": -3.393847703933716,
+          "base_mean_logit": 2.21148681640625,
+          "target_prob_mass": 1.7254553313250653e-05,
+          "base_prob_mass": 0.05664878711104393,
+          "delta_target_logit": 0.031966209411621094,
+          "delta_base_logit": 0.02545166015625,
+          "delta_target_prob": 5.595520633505657e-07,
+          "delta_base_prob": 0.0016455873847007751,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": -3.393847703933716,
+              "prob_mass": 1.7254553313250653e-05
+            },
+            "companion": {
+              "mean_logit": -1.6928507089614868,
+              "prob_mass": 0.00593145377933979
+            },
+            "covenantal": {
+              "mean_logit": -1.1235090494155884,
+              "prob_mass": 0.00043431614176370203
+            },
+            "moral": {
+              "mean_logit": 2.21148681640625,
+              "prob_mass": 0.05664878711104393
+            }
+          },
+          "top_tokens": [
+            [
+              " I",
+              10.015625
+            ],
+            [
+              " he",
+              9.734375
+            ],
+            [
+              " it",
+              8.890625
+            ],
+            [
+              " my",
+              8.453125
+            ],
+            [
+              " God",
+              8.328125
+            ],
+            [
+              " they",
+              8.2578125
+            ],
+            [
+              " that",
+              7.703125
+            ],
+            [
+              " He",
+              7.64453125
+            ],
+            [
+              " of",
+              7.62890625
+            ],
+            [
+              " Jesus",
+              7.46484375
+            ]
+          ]
+        },
+        {
+          "case": "enemy_moral_to_hedonic",
+          "base_prompt": "I love my enemy because",
+          "source_prompt": "I love pizza because",
+          "base_class": "moral",
+          "target_class": "hedonic",
+          "alpha": 0.1,
+          "target_mean_logit": -3.361083984375,
+          "base_mean_logit": 2.239288330078125,
+          "target_prob_mass": 1.7671311070444062e-05,
+          "base_prob_mass": 0.05823734775185585,
+          "delta_target_logit": 0.06472992897033691,
+          "delta_base_logit": 0.053253173828125,
+          "delta_target_prob": 9.763098205439746e-07,
+          "delta_base_prob": 0.0032341480255126953,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": -3.361083984375,
+              "prob_mass": 1.7671311070444062e-05
+            },
+            "companion": {
+              "mean_logit": -1.676025390625,
+              "prob_mass": 0.0059784771874547005
+            },
+            "covenantal": {
+              "mean_logit": -1.1038905382156372,
+              "prob_mass": 0.00044777325820177794
+            },
+            "moral": {
+              "mean_logit": 2.239288330078125,
+              "prob_mass": 0.05823734775185585
+            }
+          },
+          "top_tokens": [
+            [
+              " I",
+              10.015625
+            ],
+            [
+              " he",
+              9.703125
+            ],
+            [
+              " it",
+              8.90625
+            ],
+            [
+              " my",
+              8.484375
+            ],
+            [
+              " God",
+              8.359375
+            ],
+            [
+              " they",
+              8.2421875
+            ],
+            [
+              " that",
+              7.70703125
+            ],
+            [
+              " He",
+              7.67578125
+            ],
+            [
+              " of",
+              7.6640625
+            ],
+            [
+              " Jesus",
+              7.53125
+            ]
+          ]
+        },
+        {
+          "case": "enemy_moral_to_hedonic",
+          "base_prompt": "I love my enemy because",
+          "source_prompt": "I love pizza because",
+          "base_class": "moral",
+          "target_class": "hedonic",
+          "alpha": 0.2,
+          "target_mean_logit": -3.296875,
+          "base_mean_logit": 2.2646331787109375,
+          "target_prob_mass": 1.8698765416047536e-05,
+          "base_prob_mass": 0.05957125872373581,
+          "delta_target_logit": 0.12893891334533691,
+          "delta_base_logit": 0.0785980224609375,
+          "delta_target_prob": 2.003764166147448e-06,
+          "delta_base_prob": 0.004568058997392654,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": -3.296875,
+              "prob_mass": 1.8698765416047536e-05
+            },
+            "companion": {
+              "mean_logit": -1.65582275390625,
+              "prob_mass": 0.00607822323217988
+            },
+            "covenantal": {
+              "mean_logit": -1.0842634439468384,
+              "prob_mass": 0.0004710016364697367
+            },
+            "moral": {
+              "mean_logit": 2.2646331787109375,
+              "prob_mass": 0.05957125872373581
+            }
+          },
+          "top_tokens": [
+            [
+              " I",
+              10.0078125
+            ],
+            [
+              " he",
+              9.6484375
+            ],
+            [
+              " it",
+              8.9453125
+            ],
+            [
+              " my",
+              8.5390625
+            ],
+            [
+              " God",
+              8.3828125
+            ],
+            [
+              " they",
+              8.2109375
+            ],
+            [
+              " of",
+              7.73046875
+            ],
+            [
+              " He",
+              7.72265625
+            ],
+            [
+              " that",
+              7.71484375
+            ],
+            [
+              " Jesus",
+              7.62109375
+            ]
+          ]
+        },
+        {
+          "case": "enemy_moral_to_hedonic",
+          "base_prompt": "I love my enemy because",
+          "source_prompt": "I love pizza because",
+          "base_class": "moral",
+          "target_class": "hedonic",
+          "alpha": 0.35,
+          "target_mean_logit": -3.222705125808716,
+          "base_mean_logit": 2.1991729736328125,
+          "target_prob_mass": 2.0985156879760325e-05,
+          "base_prob_mass": 0.05710712447762489,
+          "delta_target_logit": 0.2031087875366211,
+          "delta_base_logit": 0.0131378173828125,
+          "delta_target_prob": 4.290155629860237e-06,
+          "delta_base_prob": 0.0021039247512817383,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": -3.222705125808716,
+              "prob_mass": 2.0985156879760325e-05
+            },
+            "companion": {
+              "mean_logit": -1.6871541738510132,
+              "prob_mass": 0.006283371709287167
+            },
+            "covenantal": {
+              "mean_logit": -1.1137171983718872,
+              "prob_mass": 0.0005100200069136918
+            },
+            "moral": {
+              "mean_logit": 2.1991729736328125,
+              "prob_mass": 0.05710712447762489
+            }
+          },
+          "top_tokens": [
+            [
+              " I",
+              9.9453125
+            ],
+            [
+              " he",
+              9.5390625
+            ],
+            [
+              " it",
+              8.96875
+            ],
+            [
+              " my",
+              8.5625
+            ],
+            [
+              " God",
+              8.2890625
+            ],
+            [
+              " they",
+              8.140625
+            ],
+            [
+              " of",
+              7.77734375
+            ],
+            [
+              " He",
+              7.74609375
+            ],
+            [
+              " that",
+              7.6796875
+            ],
+            [
+              " Jesus",
+              7.65234375
+            ]
+          ]
+        },
+        {
+          "case": "enemy_moral_to_hedonic",
+          "base_prompt": "I love my enemy because",
+          "source_prompt": "I love pizza because",
+          "base_class": "moral",
+          "target_class": "hedonic",
+          "alpha": 0.5,
+          "target_mean_logit": -3.110489845275879,
+          "base_mean_logit": 2.005615234375,
+          "target_prob_mass": 2.6586718377075158e-05,
+          "base_prob_mass": 0.04800507426261902,
+          "delta_target_logit": 0.315324068069458,
+          "delta_base_logit": -0.180419921875,
+          "delta_target_prob": 9.89171712717507e-06,
+          "delta_base_prob": -0.006998125463724136,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": -3.110489845275879,
+              "prob_mass": 2.6586718377075158e-05
+            },
+            "companion": {
+              "mean_logit": -1.7742105722427368,
+              "prob_mass": 0.006488210055977106
+            },
+            "covenantal": {
+              "mean_logit": -1.2046421766281128,
+              "prob_mass": 0.0005984948365949094
+            },
+            "moral": {
+              "mean_logit": 2.005615234375,
+              "prob_mass": 0.04800507426261902
+            }
+          },
+          "top_tokens": [
+            [
+              " I",
+              9.796875
+            ],
+            [
+              " he",
+              9.390625
+            ],
+            [
+              " it",
+              9.0
+            ],
+            [
+              " my",
+              8.4453125
+            ],
+            [
+              " they",
+              8.109375
+            ],
+            [
+              " God",
+              7.98828125
+            ],
+            [
+              " of",
+              7.73828125
+            ],
+            [
+              " He",
+              7.578125
+            ],
+            [
+              " that",
+              7.5234375
+            ],
+            [
+              " Jesus",
+              7.46875
+            ]
+          ]
+        },
+        {
+          "case": "enemy_moral_to_hedonic",
+          "base_prompt": "I love my enemy because",
+          "source_prompt": "I love pizza because",
+          "base_class": "moral",
+          "target_class": "hedonic",
+          "alpha": 0.75,
+          "target_mean_logit": -2.5990397930145264,
+          "base_mean_logit": 1.408736228942871,
+          "target_prob_mass": 8.113515650620684e-05,
+          "base_prob_mass": 0.025139110162854195,
+          "delta_target_logit": 0.8267741203308105,
+          "delta_base_logit": -0.7772989273071289,
+          "delta_target_prob": 6.444015525630675e-05,
+          "delta_base_prob": -0.02986408956348896,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": -2.5990397930145264,
+              "prob_mass": 8.113515650620684e-05
+            },
+            "companion": {
+              "mean_logit": -1.9953206777572632,
+              "prob_mass": 0.006083531305193901
+            },
+            "covenantal": {
+              "mean_logit": -1.4792262315750122,
+              "prob_mass": 0.0009677950874902308
+            },
+            "moral": {
+              "mean_logit": 1.408736228942871,
+              "prob_mass": 0.025139110162854195
+            }
+          },
+          "top_tokens": [
+            [
+              " I",
+              9.125
+            ],
+            [
+              " he",
+              9.046875
+            ],
+            [
+              " it",
+              8.921875
+            ],
+            [
+              " they",
+              8.0859375
+            ],
+            [
+              " my",
+              7.78125
+            ],
+            [
+              " ______",
+              7.609375
+            ],
+            [
+              " of",
+              7.40234375
+            ],
+            [
+              " she",
+              7.31640625
+            ],
+            [
+              "____",
+              7.265625
+            ],
+            [
+              " God",
+              6.83203125
+            ]
+          ]
+        },
+        {
+          "case": "enemy_moral_to_hedonic",
+          "base_prompt": "I love my enemy because",
+          "source_prompt": "I love pizza because",
+          "base_class": "moral",
+          "target_class": "hedonic",
+          "alpha": 1.0,
+          "target_mean_logit": -1.6712076663970947,
+          "base_mean_logit": 1.1089668273925781,
+          "target_prob_mass": 0.0003127564850728959,
+          "base_prob_mass": 0.01290738582611084,
+          "delta_target_logit": 1.7546062469482422,
+          "delta_base_logit": -1.0770683288574219,
+          "delta_target_prob": 0.0002960614838229958,
+          "delta_base_prob": -0.042095813900232315,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": -1.6712076663970947,
+              "prob_mass": 0.0003127564850728959
+            },
+            "companion": {
+              "mean_logit": -1.949493408203125,
+              "prob_mass": 0.005058575887233019
+            },
+            "covenantal": {
+              "mean_logit": -1.5429927110671997,
+              "prob_mass": 0.0010590450838208199
+            },
+            "moral": {
+              "mean_logit": 1.1089668273925781,
+              "prob_mass": 0.01290738582611084
+            }
+          },
+          "top_tokens": [
+            [
+              " it",
+              9.0859375
+            ],
+            [
+              " he",
+              9.0859375
+            ],
+            [
+              " I",
+              8.8359375
+            ],
+            [
+              " they",
+              8.2265625
+            ],
+            [
+              " ______",
+              7.9921875
+            ],
+            [
+              "____",
+              7.828125
+            ],
+            [
+              " she",
+              7.515625
+            ],
+            [
+              " of",
+              7.375
+            ],
+            [
+              " my",
+              7.23046875
+            ],
+            [
+              " ____",
+              6.83984375
+            ]
+          ]
+        }
+      ],
+      "verdict": "partial_target_shift",
+      "target_up_rate": 1.0,
+      "base_down_rate": 0.42857142857142855
+    },
+    {
+      "case": {
+        "name": "pizza_hedonic_to_moral",
+        "base_prompt": "I love pizza because",
+        "source_prompt": "I love my enemy because",
+        "base_class": "hedonic",
+        "target_class": "moral"
+      },
+      "baseline_summary": {
+        "hedonic": {
+          "mean_logit": 5.257714748382568,
+          "prob_mass": 0.010084562003612518
+        },
+        "companion": {
+          "mean_logit": 1.5523681640625,
+          "prob_mass": 0.03275744616985321
+        },
+        "covenantal": {
+          "mean_logit": 1.8238612413406372,
+          "prob_mass": 7.499949424527586e-05
+        },
+        "moral": {
+          "mean_logit": 0.9839363098144531,
+          "prob_mass": 5.335812602424994e-05
+        }
+      },
+      "rows": [
+        {
+          "case": "pizza_hedonic_to_moral",
+          "base_prompt": "I love pizza because",
+          "source_prompt": "I love my enemy because",
+          "base_class": "hedonic",
+          "target_class": "moral",
+          "alpha": 0.0,
+          "target_mean_logit": 0.9839363098144531,
+          "base_mean_logit": 5.257714748382568,
+          "target_prob_mass": 5.335812602424994e-05,
+          "base_prob_mass": 0.010084562003612518,
+          "delta_target_logit": 0.0,
+          "delta_base_logit": 0.0,
+          "delta_target_prob": 0.0,
+          "delta_base_prob": 0.0,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 5.257714748382568,
+              "prob_mass": 0.010084562003612518
+            },
+            "companion": {
+              "mean_logit": 1.5523681640625,
+              "prob_mass": 0.03275744616985321
+            },
+            "covenantal": {
+              "mean_logit": 1.8238612413406372,
+              "prob_mass": 7.499949424527586e-05
+            },
+            "moral": {
+              "mean_logit": 0.9839363098144531,
+              "prob_mass": 5.335812602424994e-05
+            }
+          },
+          "top_tokens": [
+            [
+              " it",
+              16.328125
+            ],
+            [
+              " I",
+              14.375
+            ],
+            [
+              " of",
+              13.71875
+            ],
+            [
+              " you",
+              13.546875
+            ],
+            [
+              " there",
+              13.3359375
+            ],
+            [
+              ",",
+              12.234375
+            ],
+            [
+              " its",
+              12.1640625
+            ],
+            [
+              " the",
+              12.140625
+            ],
+            [
+              " pizza",
+              12.0625
+            ],
+            [
+              " ______",
+              11.46875
+            ]
+          ]
+        },
+        {
+          "case": "pizza_hedonic_to_moral",
+          "base_prompt": "I love pizza because",
+          "source_prompt": "I love my enemy because",
+          "base_class": "hedonic",
+          "target_class": "moral",
+          "alpha": 0.05,
+          "target_mean_logit": 1.0992107391357422,
+          "base_mean_logit": 5.327815532684326,
+          "target_prob_mass": 5.8358047681394964e-05,
+          "base_prob_mass": 0.010318777523934841,
+          "delta_target_logit": 0.11527442932128906,
+          "delta_base_logit": 0.07010078430175781,
+          "delta_target_prob": 4.999921657145023e-06,
+          "delta_base_prob": 0.00023421552032232285,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 5.327815532684326,
+              "prob_mass": 0.010318777523934841
+            },
+            "companion": {
+              "mean_logit": 1.6287841796875,
+              "prob_mass": 0.03251618519425392
+            },
+            "covenantal": {
+              "mean_logit": 1.9078369140625,
+              "prob_mass": 7.795180135872215e-05
+            },
+            "moral": {
+              "mean_logit": 1.0992107391357422,
+              "prob_mass": 5.8358047681394964e-05
+            }
+          },
+          "top_tokens": [
+            [
+              " it",
+              16.390625
+            ],
+            [
+              " I",
+              14.4453125
+            ],
+            [
+              " of",
+              13.7734375
+            ],
+            [
+              " you",
+              13.5703125
+            ],
+            [
+              " there",
+              13.390625
+            ],
+            [
+              ",",
+              12.3515625
+            ],
+            [
+              " its",
+              12.2421875
+            ],
+            [
+              " the",
+              12.1953125
+            ],
+            [
+              " pizza",
+              12.1484375
+            ],
+            [
+              " they",
+              11.46875
+            ]
+          ]
+        },
+        {
+          "case": "pizza_hedonic_to_moral",
+          "base_prompt": "I love pizza because",
+          "source_prompt": "I love my enemy because",
+          "base_class": "hedonic",
+          "target_class": "moral",
+          "alpha": 0.1,
+          "target_mean_logit": 1.2315139770507812,
+          "base_mean_logit": 5.410465717315674,
+          "target_prob_mass": 6.356168887577951e-05,
+          "base_prob_mass": 0.010436191223561764,
+          "delta_target_logit": 0.24757766723632812,
+          "delta_base_logit": 0.15275096893310547,
+          "delta_target_prob": 1.0203562851529568e-05,
+          "delta_base_prob": 0.00035162921994924545,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 5.410465717315674,
+              "prob_mass": 0.010436191223561764
+            },
+            "companion": {
+              "mean_logit": 1.7221450805664062,
+              "prob_mass": 0.031914956867694855
+            },
+            "covenantal": {
+              "mean_logit": 2.011928081512451,
+              "prob_mass": 8.037275983951986e-05
+            },
+            "moral": {
+              "mean_logit": 1.2315139770507812,
+              "prob_mass": 6.356168887577951e-05
+            }
+          },
+          "top_tokens": [
+            [
+              " it",
+              16.484375
+            ],
+            [
+              " I",
+              14.546875
+            ],
+            [
+              " of",
+              13.8359375
+            ],
+            [
+              " you",
+              13.609375
+            ],
+            [
+              " there",
+              13.4609375
+            ],
+            [
+              ",",
+              12.5
+            ],
+            [
+              " its",
+              12.3359375
+            ],
+            [
+              " the",
+              12.2578125
+            ],
+            [
+              " pizza",
+              12.25
+            ],
+            [
+              " they",
+              11.578125
+            ]
+          ]
+        },
+        {
+          "case": "pizza_hedonic_to_moral",
+          "base_prompt": "I love pizza because",
+          "source_prompt": "I love my enemy because",
+          "base_class": "hedonic",
+          "target_class": "moral",
+          "alpha": 0.2,
+          "target_mean_logit": 1.553950309753418,
+          "base_mean_logit": 5.619856834411621,
+          "target_prob_mass": 7.981671660672873e-05,
+          "base_prob_mass": 0.011109115555882454,
+          "delta_target_logit": 0.5700139999389648,
+          "delta_base_logit": 0.36214208602905273,
+          "delta_target_prob": 2.645859058247879e-05,
+          "delta_base_prob": 0.0010245535522699356,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 5.619856834411621,
+              "prob_mass": 0.011109115555882454
+            },
+            "companion": {
+              "mean_logit": 1.9596761465072632,
+              "prob_mass": 0.03174024075269699
+            },
+            "covenantal": {
+              "mean_logit": 2.270902395248413,
+              "prob_mass": 8.895865903468803e-05
+            },
+            "moral": {
+              "mean_logit": 1.553950309753418,
+              "prob_mass": 7.981671660672873e-05
+            }
+          },
+          "top_tokens": [
+            [
+              " it",
+              16.671875
+            ],
+            [
+              " I",
+              14.796875
+            ],
+            [
+              " of",
+              14.0
+            ],
+            [
+              " you",
+              13.7421875
+            ],
+            [
+              " there",
+              13.6484375
+            ],
+            [
+              ",",
+              12.828125
+            ],
+            [
+              " its",
+              12.5390625
+            ],
+            [
+              " pizza",
+              12.5078125
+            ],
+            [
+              " the",
+              12.421875
+            ],
+            [
+              " they",
+              11.8125
+            ]
+          ]
+        },
+        {
+          "case": "pizza_hedonic_to_moral",
+          "base_prompt": "I love pizza because",
+          "source_prompt": "I love my enemy because",
+          "base_class": "hedonic",
+          "target_class": "moral",
+          "alpha": 0.35,
+          "target_mean_logit": 1.9971694946289062,
+          "base_mean_logit": 5.8367838859558105,
+          "target_prob_mass": 0.0001217892422573641,
+          "base_prob_mass": 0.012762804515659809,
+          "delta_target_logit": 1.0132331848144531,
+          "delta_base_logit": 0.5790691375732422,
+          "delta_target_prob": 6.843111623311415e-05,
+          "delta_base_prob": 0.002678242512047291,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 5.8367838859558105,
+              "prob_mass": 0.012762804515659809
+            },
+            "companion": {
+              "mean_logit": 2.2504169940948486,
+              "prob_mass": 0.030092604458332062
+            },
+            "covenantal": {
+              "mean_logit": 2.603306293487549,
+              "prob_mass": 0.00010858797759283334
+            },
+            "moral": {
+              "mean_logit": 1.9971694946289062,
+              "prob_mass": 0.0001217892422573641
+            }
+          },
+          "top_tokens": [
+            [
+              " it",
+              16.859375
+            ],
+            [
+              " I",
+              15.0859375
+            ],
+            [
+              " of",
+              14.1015625
+            ],
+            [
+              " you",
+              13.84375
+            ],
+            [
+              " there",
+              13.7890625
+            ],
+            [
+              ",",
+              13.21875
+            ],
+            [
+              " pizza",
+              12.84375
+            ],
+            [
+              " its",
+              12.6875
+            ],
+            [
+              " the",
+              12.5625
+            ],
+            [
+              " they",
+              12.0078125
+            ]
+          ]
+        },
+        {
+          "case": "pizza_hedonic_to_moral",
+          "base_prompt": "I love pizza because",
+          "source_prompt": "I love my enemy because",
+          "base_class": "hedonic",
+          "target_class": "moral",
+          "alpha": 0.5,
+          "target_mean_logit": 2.043426513671875,
+          "base_mean_logit": 5.594010353088379,
+          "target_prob_mass": 0.00020731570839416236,
+          "base_prob_mass": 0.01823486015200615,
+          "delta_target_logit": 1.0594902038574219,
+          "delta_base_logit": 0.33629560470581055,
+          "delta_target_prob": 0.00015395758236991242,
+          "delta_base_prob": 0.008150298148393631,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 5.594010353088379,
+              "prob_mass": 0.01823486015200615
+            },
+            "companion": {
+              "mean_logit": 2.115727663040161,
+              "prob_mass": 0.02664504200220108
+            },
+            "covenantal": {
+              "mean_logit": 2.53271484375,
+              "prob_mass": 0.00014510692562907934
+            },
+            "moral": {
+              "mean_logit": 2.043426513671875,
+              "prob_mass": 0.00020731570839416236
+            }
+          },
+          "top_tokens": [
+            [
+              " it",
+              16.5
+            ],
+            [
+              " I",
+              14.84375
+            ],
+            [
+              " of",
+              13.703125
+            ],
+            [
+              " there",
+              13.328125
+            ],
+            [
+              " you",
+              13.3203125
+            ],
+            [
+              ",",
+              13.0390625
+            ],
+            [
+              " pizza",
+              12.875
+            ],
+            [
+              " its",
+              12.2890625
+            ],
+            [
+              " the",
+              12.1875
+            ],
+            [
+              " they",
+              11.609375
+            ]
+          ]
+        },
+        {
+          "case": "pizza_hedonic_to_moral",
+          "base_prompt": "I love pizza because",
+          "source_prompt": "I love my enemy because",
+          "base_class": "hedonic",
+          "target_class": "moral",
+          "alpha": 0.75,
+          "target_mean_logit": -0.08738327026367188,
+          "base_mean_logit": 3.113232374191284,
+          "target_prob_mass": 0.0003296329523436725,
+          "base_prob_mass": 0.03357681632041931,
+          "delta_target_logit": -1.071319580078125,
+          "delta_base_logit": -2.144482374191284,
+          "delta_target_prob": 0.00027627482631942257,
+          "delta_base_prob": 0.023492254316806793,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 3.113232374191284,
+              "prob_mass": 0.03357681632041931
+            },
+            "companion": {
+              "mean_logit": -0.0732421875,
+              "prob_mass": 0.020823700353503227
+            },
+            "covenantal": {
+              "mean_logit": 0.4573887288570404,
+              "prob_mass": 0.00021895713871344924
+            },
+            "moral": {
+              "mean_logit": -0.08738327026367188,
+              "prob_mass": 0.0003296329523436725
+            }
+          },
+          "top_tokens": [
+            [
+              " it",
+              13.6875
+            ],
+            [
+              " I",
+              12.1953125
+            ],
+            [
+              " of",
+              11.015625
+            ],
+            [
+              " pizza",
+              10.765625
+            ],
+            [
+              ",",
+              10.375
+            ],
+            [
+              " there",
+              10.328125
+            ],
+            [
+              " you",
+              10.0078125
+            ],
+            [
+              " the",
+              9.5859375
+            ],
+            [
+              " its",
+              9.5703125
+            ],
+            [
+              " they",
+              9.046875
+            ]
+          ]
+        },
+        {
+          "case": "pizza_hedonic_to_moral",
+          "base_prompt": "I love pizza because",
+          "source_prompt": "I love my enemy because",
+          "base_class": "hedonic",
+          "target_class": "moral",
+          "alpha": 1.0,
+          "target_mean_logit": -1.89068603515625,
+          "base_mean_logit": 1.2310811281204224,
+          "target_prob_mass": 0.00035724168992601335,
+          "base_prob_mass": 0.03526433929800987,
+          "delta_target_logit": -2.874622344970703,
+          "delta_base_logit": -4.026633620262146,
+          "delta_target_prob": 0.0003038835639017634,
+          "delta_base_prob": 0.025179777294397354,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 1.2310811281204224,
+              "prob_mass": 0.03526433929800987
+            },
+            "companion": {
+              "mean_logit": -1.8383382558822632,
+              "prob_mass": 0.021619558334350586
+            },
+            "covenantal": {
+              "mean_logit": -1.299957275390625,
+              "prob_mass": 0.00022969736892264336
+            },
+            "moral": {
+              "mean_logit": -1.89068603515625,
+              "prob_mass": 0.00035724168992601335
+            }
+          },
+          "top_tokens": [
+            [
+              " it",
+              11.4921875
+            ],
+            [
+              " I",
+              10.296875
+            ],
+            [
+              " of",
+              9.03125
+            ],
+            [
+              " pizza",
+              8.734375
+            ],
+            [
+              " there",
+              8.28125
+            ],
+            [
+              ",",
+              8.1953125
+            ],
+            [
+              " you",
+              7.82421875
+            ],
+            [
+              " the",
+              7.78515625
+            ],
+            [
+              " its",
+              7.609375
+            ],
+            [
+              " they",
+              7.4609375
+            ]
+          ]
+        }
+      ],
+      "verdict": "partial_target_shift",
+      "target_up_rate": 0.7142857142857143,
+      "base_down_rate": 0.2857142857142857
+    },
+    {
+      "case": {
+        "name": "wife_covenantal_to_companion",
+        "base_prompt": "I love my wife because",
+        "source_prompt": "I love my dog because",
+        "base_class": "covenantal",
+        "target_class": "companion"
+      },
+      "baseline_summary": {
+        "hedonic": {
+          "mean_logit": 3.3402342796325684,
+          "prob_mass": 1.6886309822439216e-05
+        },
+        "companion": {
+          "mean_logit": 4.196370601654053,
+          "prob_mass": 0.002068186644464731
+        },
+        "covenantal": {
+          "mean_logit": 5.814034461975098,
+          "prob_mass": 0.00033644199720583856
+        },
+        "moral": {
+          "mean_logit": 5.133544921875,
+          "prob_mass": 0.0007574434857815504
+        }
+      },
+      "rows": [
+        {
+          "case": "wife_covenantal_to_companion",
+          "base_prompt": "I love my wife because",
+          "source_prompt": "I love my dog because",
+          "base_class": "covenantal",
+          "target_class": "companion",
+          "alpha": 0.0,
+          "target_mean_logit": 4.196370601654053,
+          "base_mean_logit": 5.814034461975098,
+          "target_prob_mass": 0.002068186644464731,
+          "base_prob_mass": 0.00033644199720583856,
+          "delta_target_logit": 0.0,
+          "delta_base_logit": 0.0,
+          "delta_target_prob": 0.0,
+          "delta_base_prob": 0.0,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 3.3402342796325684,
+              "prob_mass": 1.6886309822439216e-05
+            },
+            "companion": {
+              "mean_logit": 4.196370601654053,
+              "prob_mass": 0.002068186644464731
+            },
+            "covenantal": {
+              "mean_logit": 5.814034461975098,
+              "prob_mass": 0.00033644199720583856
+            },
+            "moral": {
+              "mean_logit": 5.133544921875,
+              "prob_mass": 0.0007574434857815504
+            }
+          },
+          "top_tokens": [
+            [
+              " she",
+              18.125
+            ],
+            [
+              " of",
+              15.5546875
+            ],
+            [
+              " I",
+              15.3671875
+            ],
+            [
+              " ______",
+              14.625
+            ],
+            [
+              "____",
+              14.3984375
+            ],
+            [
+              " we",
+              14.015625
+            ],
+            [
+              " ____",
+              13.734375
+            ],
+            [
+              " her",
+              13.71875
+            ],
+            [
+              ",",
+              13.3671875
+            ],
+            [
+              " __",
+              12.9609375
+            ]
+          ]
+        },
+        {
+          "case": "wife_covenantal_to_companion",
+          "base_prompt": "I love my wife because",
+          "source_prompt": "I love my dog because",
+          "base_class": "covenantal",
+          "target_class": "companion",
+          "alpha": 0.05,
+          "target_mean_logit": 4.2197265625,
+          "base_mean_logit": 5.830496788024902,
+          "target_prob_mass": 0.0020492076873779297,
+          "base_prob_mass": 0.00033799876109696925,
+          "delta_target_logit": 0.023355960845947266,
+          "delta_base_logit": 0.016462326049804688,
+          "delta_target_prob": -1.897895708680153e-05,
+          "delta_base_prob": 1.5567638911306858e-06,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 3.3712239265441895,
+              "prob_mass": 1.7196354747284204e-05
+            },
+            "companion": {
+              "mean_logit": 4.2197265625,
+              "prob_mass": 0.0020492076873779297
+            },
+            "covenantal": {
+              "mean_logit": 5.830496788024902,
+              "prob_mass": 0.00033799876109696925
+            },
+            "moral": {
+              "mean_logit": 5.13916015625,
+              "prob_mass": 0.0007356992573477328
+            }
+          },
+          "top_tokens": [
+            [
+              " she",
+              18.15625
+            ],
+            [
+              " of",
+              15.5625
+            ],
+            [
+              " I",
+              15.359375
+            ],
+            [
+              " ______",
+              14.6328125
+            ],
+            [
+              "____",
+              14.40625
+            ],
+            [
+              " we",
+              14.0390625
+            ],
+            [
+              " her",
+              13.75
+            ],
+            [
+              " ____",
+              13.7421875
+            ],
+            [
+              ",",
+              13.3828125
+            ],
+            [
+              " __",
+              12.96875
+            ]
+          ]
+        },
+        {
+          "case": "wife_covenantal_to_companion",
+          "base_prompt": "I love my wife because",
+          "source_prompt": "I love my dog because",
+          "base_class": "covenantal",
+          "target_class": "companion",
+          "alpha": 0.1,
+          "target_mean_logit": 4.231282711029053,
+          "base_mean_logit": 5.837611675262451,
+          "target_prob_mass": 0.002050908049568534,
+          "base_prob_mass": 0.0003439642896410078,
+          "delta_target_logit": 0.034912109375,
+          "delta_base_logit": 0.023577213287353516,
+          "delta_target_prob": -1.727859489619732e-05,
+          "delta_base_prob": 7.52229243516922e-06,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 3.3880207538604736,
+              "prob_mass": 1.7685568309389055e-05
+            },
+            "companion": {
+              "mean_logit": 4.231282711029053,
+              "prob_mass": 0.002050908049568534
+            },
+            "covenantal": {
+              "mean_logit": 5.837611675262451,
+              "prob_mass": 0.0003439642896410078
+            },
+            "moral": {
+              "mean_logit": 5.13232421875,
+              "prob_mass": 0.0007226467132568359
+            }
+          },
+          "top_tokens": [
+            [
+              " she",
+              18.15625
+            ],
+            [
+              " of",
+              15.5625
+            ],
+            [
+              " I",
+              15.34375
+            ],
+            [
+              " ______",
+              14.625
+            ],
+            [
+              "____",
+              14.3984375
+            ],
+            [
+              " we",
+              14.046875
+            ],
+            [
+              " her",
+              13.7578125
+            ],
+            [
+              " ____",
+              13.734375
+            ],
+            [
+              ",",
+              13.3984375
+            ],
+            [
+              " __",
+              12.9609375
+            ]
+          ]
+        },
+        {
+          "case": "wife_covenantal_to_companion",
+          "base_prompt": "I love my wife because",
+          "source_prompt": "I love my dog because",
+          "base_class": "covenantal",
+          "target_class": "companion",
+          "alpha": 0.2,
+          "target_mean_logit": 4.220865726470947,
+          "base_mean_logit": 5.8221259117126465,
+          "target_prob_mass": 0.0020501851104199886,
+          "base_prob_mass": 0.00036065149470232427,
+          "delta_target_logit": 0.02449512481689453,
+          "delta_base_logit": 0.008091449737548828,
+          "delta_target_prob": -1.8001534044742584e-05,
+          "delta_base_prob": 2.420949749648571e-05,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 3.3837890625,
+              "prob_mass": 1.8525181076256558e-05
+            },
+            "companion": {
+              "mean_logit": 4.220865726470947,
+              "prob_mass": 0.0020501851104199886
+            },
+            "covenantal": {
+              "mean_logit": 5.8221259117126465,
+              "prob_mass": 0.00036065149470232427
+            },
+            "moral": {
+              "mean_logit": 5.0966796875,
+              "prob_mass": 0.0007180295651778579
+            }
+          },
+          "top_tokens": [
+            [
+              " she",
+              18.125
+            ],
+            [
+              " of",
+              15.5234375
+            ],
+            [
+              " I",
+              15.296875
+            ],
+            [
+              " ______",
+              14.59375
+            ],
+            [
+              "____",
+              14.375
+            ],
+            [
+              " we",
+              14.03125
+            ],
+            [
+              " her",
+              13.7421875
+            ],
+            [
+              " ____",
+              13.703125
+            ],
+            [
+              ",",
+              13.390625
+            ],
+            [
+              " __",
+              12.921875
+            ]
+          ]
+        },
+        {
+          "case": "wife_covenantal_to_companion",
+          "base_prompt": "I love my wife because",
+          "source_prompt": "I love my dog because",
+          "base_class": "covenantal",
+          "target_class": "companion",
+          "alpha": 0.35,
+          "target_mean_logit": 4.159586429595947,
+          "base_mean_logit": 5.761160850524902,
+          "target_prob_mass": 0.002017462160438299,
+          "base_prob_mass": 0.00039122559246607125,
+          "delta_target_logit": -0.03678417205810547,
+          "delta_base_logit": -0.05287361145019531,
+          "delta_target_prob": -5.072448402643204e-05,
+          "delta_base_prob": 5.478359526023269e-05,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 3.3229167461395264,
+              "prob_mass": 1.9369555957382545e-05
+            },
+            "companion": {
+              "mean_logit": 4.159586429595947,
+              "prob_mass": 0.002017462160438299
+            },
+            "covenantal": {
+              "mean_logit": 5.761160850524902,
+              "prob_mass": 0.00039122559246607125
+            },
+            "moral": {
+              "mean_logit": 5.0146484375,
+              "prob_mass": 0.0007275758543983102
+            }
+          },
+          "top_tokens": [
+            [
+              " she",
+              18.046875
+            ],
+            [
+              " of",
+              15.4296875
+            ],
+            [
+              " I",
+              15.1875
+            ],
+            [
+              " ______",
+              14.53125
+            ],
+            [
+              "____",
+              14.3203125
+            ],
+            [
+              " we",
+              13.96875
+            ],
+            [
+              " her",
+              13.671875
+            ],
+            [
+              " ____",
+              13.625
+            ],
+            [
+              ",",
+              13.3359375
+            ],
+            [
+              " he",
+              12.875
+            ]
+          ]
+        },
+        {
+          "case": "wife_covenantal_to_companion",
+          "base_prompt": "I love my wife because",
+          "source_prompt": "I love my dog because",
+          "base_class": "covenantal",
+          "target_class": "companion",
+          "alpha": 0.5,
+          "target_mean_logit": 3.98046875,
+          "base_mean_logit": 5.5869140625,
+          "target_prob_mass": 0.001974012702703476,
+          "base_prob_mass": 0.0004358490405138582,
+          "delta_target_logit": -0.21590185165405273,
+          "delta_base_logit": -0.22712039947509766,
+          "delta_target_prob": -9.417394176125526e-05,
+          "delta_base_prob": 9.940704330801964e-05,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 3.1365885734558105,
+              "prob_mass": 2.020618376263883e-05
+            },
+            "companion": {
+              "mean_logit": 3.98046875,
+              "prob_mass": 0.001974012702703476
+            },
+            "covenantal": {
+              "mean_logit": 5.5869140625,
+              "prob_mass": 0.0004358490405138582
+            },
+            "moral": {
+              "mean_logit": 4.82598876953125,
+              "prob_mass": 0.0007690257043577731
+            }
+          },
+          "top_tokens": [
+            [
+              " she",
+              17.828125
+            ],
+            [
+              " of",
+              15.2109375
+            ],
+            [
+              " I",
+              14.9453125
+            ],
+            [
+              " ______",
+              14.3515625
+            ],
+            [
+              "____",
+              14.1640625
+            ],
+            [
+              " we",
+              13.78125
+            ],
+            [
+              " her",
+              13.4453125
+            ],
+            [
+              " ____",
+              13.4453125
+            ],
+            [
+              ",",
+              13.1484375
+            ],
+            [
+              " he",
+              12.6875
+            ]
+          ]
+        },
+        {
+          "case": "wife_covenantal_to_companion",
+          "base_prompt": "I love my wife because",
+          "source_prompt": "I love my dog because",
+          "base_class": "covenantal",
+          "target_class": "companion",
+          "alpha": 0.75,
+          "target_mean_logit": 3.4386394023895264,
+          "base_mean_logit": 5.056082725524902,
+          "target_prob_mass": 0.0018434424418956041,
+          "base_prob_mass": 0.0005062450072728097,
+          "delta_target_logit": -0.7577311992645264,
+          "delta_base_logit": -0.7579517364501953,
+          "delta_target_prob": -0.00022474420256912708,
+          "delta_base_prob": 0.00016980301006697118,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 2.5869791507720947,
+              "prob_mass": 2.0857010895269923e-05
+            },
+            "companion": {
+              "mean_logit": 3.4386394023895264,
+              "prob_mass": 0.0018434424418956041
+            },
+            "covenantal": {
+              "mean_logit": 5.056082725524902,
+              "prob_mass": 0.0005062450072728097
+            },
+            "moral": {
+              "mean_logit": 4.28466796875,
+              "prob_mass": 0.0008420307422056794
+            }
+          },
+          "top_tokens": [
+            [
+              " she",
+              17.25
+            ],
+            [
+              " of",
+              14.640625
+            ],
+            [
+              " I",
+              14.328125
+            ],
+            [
+              " ______",
+              13.859375
+            ],
+            [
+              "____",
+              13.7109375
+            ],
+            [
+              " we",
+              13.21875
+            ],
+            [
+              " ____",
+              12.9609375
+            ],
+            [
+              " her",
+              12.828125
+            ],
+            [
+              ",",
+              12.6171875
+            ],
+            [
+              " he",
+              12.171875
+            ]
+          ]
+        },
+        {
+          "case": "wife_covenantal_to_companion",
+          "base_prompt": "I love my wife because",
+          "source_prompt": "I love my dog because",
+          "base_class": "covenantal",
+          "target_class": "companion",
+          "alpha": 1.0,
+          "target_mean_logit": 2.5853679180145264,
+          "base_mean_logit": 4.202706336975098,
+          "target_prob_mass": 0.0016393531113862991,
+          "base_prob_mass": 0.0005516577512025833,
+          "delta_target_logit": -1.6110026836395264,
+          "delta_base_logit": -1.611328125,
+          "delta_target_prob": -0.0004288335330784321,
+          "delta_base_prob": 0.00021521575399674475,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 1.761682152748108,
+              "prob_mass": 2.1594358258880675e-05
+            },
+            "companion": {
+              "mean_logit": 2.5853679180145264,
+              "prob_mass": 0.0016393531113862991
+            },
+            "covenantal": {
+              "mean_logit": 4.202706336975098,
+              "prob_mass": 0.0005516577512025833
+            },
+            "moral": {
+              "mean_logit": 3.427642822265625,
+              "prob_mass": 0.0008806131081655622
+            }
+          },
+          "top_tokens": [
+            [
+              " she",
+              16.375
+            ],
+            [
+              " of",
+              13.734375
+            ],
+            [
+              " I",
+              13.359375
+            ],
+            [
+              " ______",
+              13.109375
+            ],
+            [
+              "____",
+              13.0078125
+            ],
+            [
+              " we",
+              12.3203125
+            ],
+            [
+              " ____",
+              12.2265625
+            ],
+            [
+              " her",
+              11.90625
+            ],
+            [
+              ",",
+              11.7421875
+            ],
+            [
+              " he",
+              11.4296875
+            ]
+          ]
+        }
+      ],
+      "verdict": "negative",
+      "target_up_rate": 0.42857142857142855,
+      "base_down_rate": 0.5714285714285714
+    },
+    {
+      "case": {
+        "name": "dog_companion_to_covenantal",
+        "base_prompt": "I love my dog because",
+        "source_prompt": "I love my wife because",
+        "base_class": "companion",
+        "target_class": "covenantal"
+      },
+      "baseline_summary": {
+        "hedonic": {
+          "mean_logit": 1.2615803480148315,
+          "prob_mass": 4.212952990201302e-05
+        },
+        "companion": {
+          "mean_logit": 2.7457478046417236,
+          "prob_mass": 0.0012079494772478938
+        },
+        "covenantal": {
+          "mean_logit": 2.0509207248687744,
+          "prob_mass": 0.00016847322694957256
+        },
+        "moral": {
+          "mean_logit": 1.8889007568359375,
+          "prob_mass": 0.00028883671620860696
+        }
+      },
+      "rows": [
+        {
+          "case": "dog_companion_to_covenantal",
+          "base_prompt": "I love my dog because",
+          "source_prompt": "I love my wife because",
+          "base_class": "companion",
+          "target_class": "covenantal",
+          "alpha": 0.0,
+          "target_mean_logit": 2.0509207248687744,
+          "base_mean_logit": 2.7457478046417236,
+          "target_prob_mass": 0.00016847322694957256,
+          "base_prob_mass": 0.0012079494772478938,
+          "delta_target_logit": 0.0,
+          "delta_base_logit": 0.0,
+          "delta_target_prob": 0.0,
+          "delta_base_prob": 0.0,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 1.2615803480148315,
+              "prob_mass": 4.212952990201302e-05
+            },
+            "companion": {
+              "mean_logit": 2.7457478046417236,
+              "prob_mass": 0.0012079494772478938
+            },
+            "covenantal": {
+              "mean_logit": 2.0509207248687744,
+              "prob_mass": 0.00016847322694957256
+            },
+            "moral": {
+              "mean_logit": 1.8889007568359375,
+              "prob_mass": 0.00028883671620860696
+            }
+          },
+          "top_tokens": [
+            [
+              " he",
+              15.0703125
+            ],
+            [
+              " she",
+              14.5703125
+            ],
+            [
+              " ______",
+              12.8203125
+            ],
+            [
+              " it",
+              12.59375
+            ],
+            [
+              "____",
+              12.4140625
+            ],
+            [
+              " I",
+              12.390625
+            ],
+            [
+              " of",
+              12.3359375
+            ],
+            [
+              " ____",
+              11.6484375
+            ],
+            [
+              " they",
+              10.890625
+            ],
+            [
+              " __",
+              10.84375
+            ]
+          ]
+        },
+        {
+          "case": "dog_companion_to_covenantal",
+          "base_prompt": "I love my dog because",
+          "source_prompt": "I love my wife because",
+          "base_class": "companion",
+          "target_class": "covenantal",
+          "alpha": 0.05,
+          "target_mean_logit": 2.201939105987549,
+          "base_mean_logit": 2.8912761211395264,
+          "target_prob_mass": 0.0001658235996728763,
+          "base_prob_mass": 0.0012288540601730347,
+          "delta_target_logit": 0.15101838111877441,
+          "delta_base_logit": 0.14552831649780273,
+          "delta_target_prob": -2.6496272766962647e-06,
+          "delta_base_prob": 2.0904582925140858e-05,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 1.3950378894805908,
+              "prob_mass": 4.143678961554542e-05
+            },
+            "companion": {
+              "mean_logit": 2.8912761211395264,
+              "prob_mass": 0.0012288540601730347
+            },
+            "covenantal": {
+              "mean_logit": 2.201939105987549,
+              "prob_mass": 0.0001658235996728763
+            },
+            "moral": {
+              "mean_logit": 2.044342041015625,
+              "prob_mass": 0.00028939155163243413
+            }
+          },
+          "top_tokens": [
+            [
+              " he",
+              15.2265625
+            ],
+            [
+              " she",
+              14.7421875
+            ],
+            [
+              " ______",
+              12.953125
+            ],
+            [
+              " it",
+              12.7421875
+            ],
+            [
+              " I",
+              12.5546875
+            ],
+            [
+              "____",
+              12.53125
+            ],
+            [
+              " of",
+              12.4921875
+            ],
+            [
+              " ____",
+              11.7734375
+            ],
+            [
+              " they",
+              11.015625
+            ],
+            [
+              " __",
+              10.96875
+            ]
+          ]
+        },
+        {
+          "case": "dog_companion_to_covenantal",
+          "base_prompt": "I love my dog because",
+          "source_prompt": "I love my wife because",
+          "base_class": "companion",
+          "target_class": "covenantal",
+          "alpha": 0.1,
+          "target_mean_logit": 2.3154296875,
+          "base_mean_logit": 2.9966228008270264,
+          "target_prob_mass": 0.00016453642456326634,
+          "base_prob_mass": 0.0012550877872854471,
+          "delta_target_logit": 0.2645089626312256,
+          "delta_base_logit": 0.25087499618530273,
+          "delta_target_prob": -3.936802386306226e-06,
+          "delta_base_prob": 4.713831003755331e-05,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 1.4929379224777222,
+              "prob_mass": 4.1069433791562915e-05
+            },
+            "companion": {
+              "mean_logit": 2.9966228008270264,
+              "prob_mass": 0.0012550877872854471
+            },
+            "covenantal": {
+              "mean_logit": 2.3154296875,
+              "prob_mass": 0.00016453642456326634
+            },
+            "moral": {
+              "mean_logit": 2.158294677734375,
+              "prob_mass": 0.0002892075863201171
+            }
+          },
+          "top_tokens": [
+            [
+              " he",
+              15.34375
+            ],
+            [
+              " she",
+              14.859375
+            ],
+            [
+              " ______",
+              13.0390625
+            ],
+            [
+              " it",
+              12.84375
+            ],
+            [
+              " I",
+              12.6796875
+            ],
+            [
+              "____",
+              12.6171875
+            ],
+            [
+              " of",
+              12.609375
+            ],
+            [
+              " ____",
+              11.859375
+            ],
+            [
+              " they",
+              11.1015625
+            ],
+            [
+              " __",
+              11.046875
+            ]
+          ]
+        },
+        {
+          "case": "dog_companion_to_covenantal",
+          "base_prompt": "I love my dog because",
+          "source_prompt": "I love my wife because",
+          "base_class": "companion",
+          "target_class": "covenantal",
+          "alpha": 0.2,
+          "target_mean_logit": 2.5763943195343018,
+          "base_mean_logit": 3.2429606914520264,
+          "target_prob_mass": 0.00016106298426166177,
+          "base_prob_mass": 0.0012956783175468445,
+          "delta_target_logit": 0.5254735946655273,
+          "delta_base_logit": 0.49721288681030273,
+          "delta_target_prob": -7.410242687910795e-06,
+          "delta_base_prob": 8.772884029895067e-05,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 1.7273844480514526,
+              "prob_mass": 4.057366822962649e-05
+            },
+            "companion": {
+              "mean_logit": 3.2429606914520264,
+              "prob_mass": 0.0012956783175468445
+            },
+            "covenantal": {
+              "mean_logit": 2.5763943195343018,
+              "prob_mass": 0.00016106298426166177
+            },
+            "moral": {
+              "mean_logit": 2.42999267578125,
+              "prob_mass": 0.0002925479784607887
+            }
+          },
+          "top_tokens": [
+            [
+              " he",
+              15.609375
+            ],
+            [
+              " she",
+              15.1328125
+            ],
+            [
+              " ______",
+              13.2578125
+            ],
+            [
+              " it",
+              13.0859375
+            ],
+            [
+              " I",
+              12.9453125
+            ],
+            [
+              " of",
+              12.875
+            ],
+            [
+              "____",
+              12.8203125
+            ],
+            [
+              " ____",
+              12.0625
+            ],
+            [
+              " they",
+              11.296875
+            ],
+            [
+              " __",
+              11.2578125
+            ]
+          ]
+        },
+        {
+          "case": "dog_companion_to_covenantal",
+          "base_prompt": "I love my dog because",
+          "source_prompt": "I love my wife because",
+          "base_class": "companion",
+          "target_class": "covenantal",
+          "alpha": 0.35,
+          "target_mean_logit": 2.8937137126922607,
+          "base_mean_logit": 3.5304362773895264,
+          "target_prob_mass": 0.00015486378106288612,
+          "base_prob_mass": 0.0013617288786917925,
+          "delta_target_logit": 0.8427929878234863,
+          "delta_base_logit": 0.7846884727478027,
+          "delta_target_prob": -1.3609445886686444e-05,
+          "delta_base_prob": 0.00015377940144389868,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 2.0174152851104736,
+              "prob_mass": 4.059909770148806e-05
+            },
+            "companion": {
+              "mean_logit": 3.5304362773895264,
+              "prob_mass": 0.0013617288786917925
+            },
+            "covenantal": {
+              "mean_logit": 2.8937137126922607,
+              "prob_mass": 0.00015486378106288612
+            },
+            "moral": {
+              "mean_logit": 2.7543182373046875,
+              "prob_mass": 0.00029565312433987856
+            }
+          },
+          "top_tokens": [
+            [
+              " he",
+              15.921875
+            ],
+            [
+              " she",
+              15.453125
+            ],
+            [
+              " ______",
+              13.5
+            ],
+            [
+              " it",
+              13.375
+            ],
+            [
+              " I",
+              13.2578125
+            ],
+            [
+              " of",
+              13.1875
+            ],
+            [
+              "____",
+              13.0546875
+            ],
+            [
+              " ____",
+              12.3046875
+            ],
+            [
+              ",",
+              11.5625
+            ],
+            [
+              " __",
+              11.5
+            ]
+          ]
+        },
+        {
+          "case": "dog_companion_to_covenantal",
+          "base_prompt": "I love my dog because",
+          "source_prompt": "I love my wife because",
+          "base_class": "companion",
+          "target_class": "covenantal",
+          "alpha": 0.5,
+          "target_mean_logit": 3.1945364475250244,
+          "base_mean_logit": 3.78955078125,
+          "target_prob_mass": 0.00014911851030774415,
+          "base_prob_mass": 0.0014259550953283906,
+          "delta_target_logit": 1.14361572265625,
+          "delta_base_logit": 1.0438029766082764,
+          "delta_target_prob": -1.9354716641828418e-05,
+          "delta_base_prob": 0.0002180056180804968,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 2.293196678161621,
+              "prob_mass": 4.0998787881108e-05
+            },
+            "companion": {
+              "mean_logit": 3.78955078125,
+              "prob_mass": 0.0014259550953283906
+            },
+            "covenantal": {
+              "mean_logit": 3.1945364475250244,
+              "prob_mass": 0.00014911851030774415
+            },
+            "moral": {
+              "mean_logit": 3.057525634765625,
+              "prob_mass": 0.0003005961771123111
+            }
+          },
+          "top_tokens": [
+            [
+              " he",
+              16.203125
+            ],
+            [
+              " she",
+              15.7421875
+            ],
+            [
+              " ______",
+              13.7265625
+            ],
+            [
+              " it",
+              13.640625
+            ],
+            [
+              " I",
+              13.5390625
+            ],
+            [
+              " of",
+              13.4765625
+            ],
+            [
+              "____",
+              13.28125
+            ],
+            [
+              " ____",
+              12.546875
+            ],
+            [
+              ",",
+              11.8359375
+            ],
+            [
+              " __",
+              11.734375
+            ]
+          ]
+        },
+        {
+          "case": "dog_companion_to_covenantal",
+          "base_prompt": "I love my dog because",
+          "source_prompt": "I love my wife because",
+          "base_class": "companion",
+          "target_class": "covenantal",
+          "alpha": 0.75,
+          "target_mean_logit": 3.4977200031280518,
+          "base_mean_logit": 3.9879558086395264,
+          "target_prob_mass": 0.00014051818288862705,
+          "base_prob_mass": 0.0015225259121507406,
+          "delta_target_logit": 1.4467992782592773,
+          "delta_base_logit": 1.2422080039978027,
+          "delta_target_prob": -2.795504406094551e-05,
+          "delta_base_prob": 0.0003145764349028468,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 2.5393879413604736,
+              "prob_mass": 4.122271639062092e-05
+            },
+            "companion": {
+              "mean_logit": 3.9879558086395264,
+              "prob_mass": 0.0015225259121507406
+            },
+            "covenantal": {
+              "mean_logit": 3.4977200031280518,
+              "prob_mass": 0.00014051818288862705
+            },
+            "moral": {
+              "mean_logit": 3.351104736328125,
+              "prob_mass": 0.0003183435183018446
+            }
+          },
+          "top_tokens": [
+            [
+              " he",
+              16.421875
+            ],
+            [
+              " she",
+              15.9765625
+            ],
+            [
+              " ______",
+              13.890625
+            ],
+            [
+              " it",
+              13.796875
+            ],
+            [
+              " I",
+              13.7890625
+            ],
+            [
+              " of",
+              13.75
+            ],
+            [
+              "____",
+              13.453125
+            ],
+            [
+              " ____",
+              12.75
+            ],
+            [
+              " his",
+              12.0234375
+            ],
+            [
+              ",",
+              12.0078125
+            ]
+          ]
+        },
+        {
+          "case": "dog_companion_to_covenantal",
+          "base_prompt": "I love my dog because",
+          "source_prompt": "I love my wife because",
+          "base_class": "companion",
+          "target_class": "covenantal",
+          "alpha": 1.0,
+          "target_mean_logit": 3.62451171875,
+          "base_mean_logit": 3.93310546875,
+          "target_prob_mass": 0.00013813155237585306,
+          "base_prob_mass": 0.0016496321186423302,
+          "delta_target_logit": 1.5735909938812256,
+          "delta_base_logit": 1.1873576641082764,
+          "delta_target_prob": -3.03416745737195e-05,
+          "delta_base_prob": 0.00044168264139443636,
+          "class_summary": {
+            "hedonic": {
+              "mean_logit": 2.520829200744629,
+              "prob_mass": 3.7955367588438094e-05
+            },
+            "companion": {
+              "mean_logit": 3.93310546875,
+              "prob_mass": 0.0016496321186423302
+            },
+            "covenantal": {
+              "mean_logit": 3.62451171875,
+              "prob_mass": 0.00013813155237585306
+            },
+            "moral": {
+              "mean_logit": 3.4394712448120117,
+              "prob_mass": 0.0003646457043942064
+            }
+          },
+          "top_tokens": [
+            [
+              " he",
+              16.390625
+            ],
+            [
+              " she",
+              15.9453125
+            ],
+            [
+              " ______",
+              13.859375
+            ],
+            [
+              " I",
+              13.8359375
+            ],
+            [
+              " of",
+              13.8203125
+            ],
+            [
+              " it",
+              13.6171875
+            ],
+            [
+              "____",
+              13.46875
+            ],
+            [
+              " ____",
+              12.78125
+            ],
+            [
+              " his",
+              12.0703125
+            ],
+            [
+              " we",
+              12.0234375
+            ]
+          ]
+        }
+      ],
+      "verdict": "partial_target_shift",
+      "target_up_rate": 1.0,
+      "base_down_rate": 0.0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Relational Meaning Geometry — Python dependencies
+# Tested on Python 3.10, CUDA 11.8, AWS g5.xlarge / A10G
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# For 8-bit quantization (required for 7B models on single GPU):
+#   pip install bitsandbytes>=0.41.0
+#
+# HuggingFace token required for gated models (Gemma):
+#   export HF_TOKEN=your_token_here
+
+torch>=2.0.0
+transformers>=4.38.0
+accelerate>=0.27.0
+bitsandbytes>=0.41.0
+scipy>=1.11.0
+numpy>=1.24.0
+requests>=2.31.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
